@@ -1,0 +1,118 @@
+{
+  "method": "fd_ids_noniid",
+  "scenario": "10_clients_gru",
+  "rounds": 10,
+  "evaluation_scope": "server_only",
+  "entries": [
+    {
+      "round": 1,
+      "model_scope": "server",
+      "client_id": null,
+      "path": "checkpoints/round_001/server.pt",
+      "state_hash": "2434e98ebdf0e41795cdc522c286bbdf6a41f0c0b9efc5c210ca4bb0391b4a78",
+      "state_type": "global_classifier",
+      "classification_status": "applicable",
+      "evaluation_metric_lookup": "metrics/evaluation_metrics.csv#round=1&model_scope=server",
+      "optimizer_state_persistence": "optimizer_recreated_for_each_local_update"
+    },
+    {
+      "round": 2,
+      "model_scope": "server",
+      "client_id": null,
+      "path": "checkpoints/round_002/server.pt",
+      "state_hash": "b313151ac1b5b6c16b186b8503af2bb8022d42c27cc0f62a09dc68d8a495a90f",
+      "state_type": "global_classifier",
+      "classification_status": "applicable",
+      "evaluation_metric_lookup": "metrics/evaluation_metrics.csv#round=2&model_scope=server",
+      "optimizer_state_persistence": "optimizer_recreated_for_each_local_update"
+    },
+    {
+      "round": 3,
+      "model_scope": "server",
+      "client_id": null,
+      "path": "checkpoints/round_003/server.pt",
+      "state_hash": "415075a97d4ab1d0a891d63a2df1f32a62f7f083cba76d12a8986c0fb2cc37ee",
+      "state_type": "global_classifier",
+      "classification_status": "applicable",
+      "evaluation_metric_lookup": "metrics/evaluation_metrics.csv#round=3&model_scope=server",
+      "optimizer_state_persistence": "optimizer_recreated_for_each_local_update"
+    },
+    {
+      "round": 4,
+      "model_scope": "server",
+      "client_id": null,
+      "path": "checkpoints/round_004/server.pt",
+      "state_hash": "00a77e7f2b814753fd93c84ca175d2a821ea69d46842a88b28e2271c22e89d8d",
+      "state_type": "global_classifier",
+      "classification_status": "applicable",
+      "evaluation_metric_lookup": "metrics/evaluation_metrics.csv#round=4&model_scope=server",
+      "optimizer_state_persistence": "optimizer_recreated_for_each_local_update"
+    },
+    {
+      "round": 5,
+      "model_scope": "server",
+      "client_id": null,
+      "path": "checkpoints/round_005/server.pt",
+      "state_hash": "d25293f52a82a90231a9ab6cf35b2840588f9e45e95f45781704e4689b2fef5a",
+      "state_type": "global_classifier",
+      "classification_status": "applicable",
+      "evaluation_metric_lookup": "metrics/evaluation_metrics.csv#round=5&model_scope=server",
+      "optimizer_state_persistence": "optimizer_recreated_for_each_local_update"
+    },
+    {
+      "round": 6,
+      "model_scope": "server",
+      "client_id": null,
+      "path": "checkpoints/round_006/server.pt",
+      "state_hash": "6b3772e1230196d1ed65166e50fbdc1caa2f3ae49280a2c0237b7d8b6a3e1225",
+      "state_type": "global_classifier",
+      "classification_status": "applicable",
+      "evaluation_metric_lookup": "metrics/evaluation_metrics.csv#round=6&model_scope=server",
+      "optimizer_state_persistence": "optimizer_recreated_for_each_local_update"
+    },
+    {
+      "round": 7,
+      "model_scope": "server",
+      "client_id": null,
+      "path": "checkpoints/round_007/server.pt",
+      "state_hash": "0348afcbc1ce8151e9f7e1fe3d1d8c77d1427e8c1f4b0a955c08ade2d3cb7c49",
+      "state_type": "global_classifier",
+      "classification_status": "applicable",
+      "evaluation_metric_lookup": "metrics/evaluation_metrics.csv#round=7&model_scope=server",
+      "optimizer_state_persistence": "optimizer_recreated_for_each_local_update"
+    },
+    {
+      "round": 8,
+      "model_scope": "server",
+      "client_id": null,
+      "path": "checkpoints/round_008/server.pt",
+      "state_hash": "e30157a2b34fd1a53c50850ca41376a0fd16e107735278025ae490da285e31dd",
+      "state_type": "global_classifier",
+      "classification_status": "applicable",
+      "evaluation_metric_lookup": "metrics/evaluation_metrics.csv#round=8&model_scope=server",
+      "optimizer_state_persistence": "optimizer_recreated_for_each_local_update"
+    },
+    {
+      "round": 9,
+      "model_scope": "server",
+      "client_id": null,
+      "path": "checkpoints/round_009/server.pt",
+      "state_hash": "e32d252ba8ad29713d5a281a657ff22a61700f32faa23079ecdb525c6e3977c3",
+      "state_type": "global_classifier",
+      "classification_status": "applicable",
+      "evaluation_metric_lookup": "metrics/evaluation_metrics.csv#round=9&model_scope=server",
+      "optimizer_state_persistence": "optimizer_recreated_for_each_local_update"
+    },
+    {
+      "round": 10,
+      "model_scope": "server",
+      "client_id": null,
+      "path": "checkpoints/round_010/server.pt",
+      "state_hash": "1ee2755ef66bba5913f6e55f2700fbf8e0d8b914001c9d9ae3e17f66378bcbd0",
+      "state_type": "global_classifier",
+      "classification_status": "applicable",
+      "evaluation_metric_lookup": "metrics/evaluation_metrics.csv#round=10&model_scope=server",
+      "optimizer_state_persistence": "optimizer_recreated_for_each_local_update"
+    }
+  ]
+}

@@ -1,0 +1,502 @@
+[
+  {
+    "round": 1,
+    "server": "checkpoints/round_001/server.pt",
+    "server_state_type": "fedcaps_feature_selection_stack_not_a_classifier",
+    "server_classification_status": "not_applicable",
+    "server_state_hashes": {
+      "encoder": "8ad8a460735ceb41d384556f6b56f109d708f9ec754e236156f2cf3094abd069",
+      "decoder": "fb407c5f212b74b344d3ccf17f881e2fdb1e8df6427f93ade28e93485b1d82c0",
+      "actor": "f84984f2c86d3c7e103634557782e526409dfa03937fd16b3d1527dacb0fa315",
+      "critic": "43f072517b4c69369c93294f5529eb4f11d5b1e398038985c6edc75edde6fba6",
+      "reward_critic": "b9fa06c5652faad1283411d17d5bbb5aca27a4c9657a38b2ebd1c0a202928e64"
+    },
+    "clients": {
+      "1": "checkpoints/round_001/client_01.pt",
+      "2": "checkpoints/round_001/client_02.pt",
+      "3": "checkpoints/round_001/client_03.pt",
+      "4": "checkpoints/round_001/client_04.pt",
+      "5": "checkpoints/round_001/client_05.pt",
+      "6": "checkpoints/round_001/client_06.pt",
+      "7": "checkpoints/round_001/client_07.pt",
+      "8": "checkpoints/round_001/client_08.pt",
+      "9": "checkpoints/round_001/client_09.pt",
+      "10": "checkpoints/round_001/client_10.pt"
+    },
+    "client_state_hashes": {
+      "1": "6565bd882ac13e3d5b64015c3ac3e26b902ddcb4b15ec6784cfa1ab1dec35c89",
+      "2": "d46b26ffc9bbd2bd729d72a99d00ee44932144790ae07bac617b2710b13cfc02",
+      "3": "48ec4c1c1bbf7168d1835efe65803b27244153aa95be8499d047a0ded006f2b6",
+      "4": "4086704cd05ff10503f9c7b1cc54774b3797079538c31487b36f70f93511ae28",
+      "5": "015dd14022fc7b201d35a51ee7d616616da444b9c81fdebf201bce303f4db67f",
+      "6": "58e32cd3dbace2db0093bb7a8b56606cdd9f57b6a9c211e292dfb112e0aeb31b",
+      "7": "96741f2d2c9cd4839b2b4228db97c0a4771cb4dc496fd7e9b540210429eee351",
+      "8": "557a7b6e91d662d107988880a98151681a7f39d92be573af0dd85a07ca83d44d",
+      "9": "79e7e9449f9a84bcc615deb8aa64ae9a47453d4ea20faf45fa27c5aa7b3f622a",
+      "10": "61f0a98a7005c7a8389a1137bee7260aa0160b918b4e784c66df5038cc0f9e3c"
+    },
+    "client_metric_lookups": {
+      "1": "metrics/evaluation_metrics.csv#round=1&model_scope=client&client_id=1",
+      "2": "metrics/evaluation_metrics.csv#round=1&model_scope=client&client_id=2",
+      "3": "metrics/evaluation_metrics.csv#round=1&model_scope=client&client_id=3",
+      "4": "metrics/evaluation_metrics.csv#round=1&model_scope=client&client_id=4",
+      "5": "metrics/evaluation_metrics.csv#round=1&model_scope=client&client_id=5",
+      "6": "metrics/evaluation_metrics.csv#round=1&model_scope=client&client_id=6",
+      "7": "metrics/evaluation_metrics.csv#round=1&model_scope=client&client_id=7",
+      "8": "metrics/evaluation_metrics.csv#round=1&model_scope=client&client_id=8",
+      "9": "metrics/evaluation_metrics.csv#round=1&model_scope=client&client_id=9",
+      "10": "metrics/evaluation_metrics.csv#round=1&model_scope=client&client_id=10"
+    },
+    "optimizer_state_persistence": "optimizer_recreated_for_each_local_epoch"
+  },
+  {
+    "round": 2,
+    "server": "checkpoints/round_002/server.pt",
+    "server_state_type": "fedcaps_feature_selection_stack_not_a_classifier",
+    "server_classification_status": "not_applicable",
+    "server_state_hashes": {
+      "encoder": "8ad8a460735ceb41d384556f6b56f109d708f9ec754e236156f2cf3094abd069",
+      "decoder": "fb407c5f212b74b344d3ccf17f881e2fdb1e8df6427f93ade28e93485b1d82c0",
+      "actor": "f84984f2c86d3c7e103634557782e526409dfa03937fd16b3d1527dacb0fa315",
+      "critic": "43f072517b4c69369c93294f5529eb4f11d5b1e398038985c6edc75edde6fba6",
+      "reward_critic": "b9fa06c5652faad1283411d17d5bbb5aca27a4c9657a38b2ebd1c0a202928e64"
+    },
+    "clients": {
+      "1": "checkpoints/round_002/client_01.pt",
+      "2": "checkpoints/round_002/client_02.pt",
+      "3": "checkpoints/round_002/client_03.pt",
+      "4": "checkpoints/round_002/client_04.pt",
+      "5": "checkpoints/round_002/client_05.pt",
+      "6": "checkpoints/round_002/client_06.pt",
+      "7": "checkpoints/round_002/client_07.pt",
+      "8": "checkpoints/round_002/client_08.pt",
+      "9": "checkpoints/round_002/client_09.pt",
+      "10": "checkpoints/round_002/client_10.pt"
+    },
+    "client_state_hashes": {
+      "1": "984d425c0ed59c5eca0ab8587943e4d6be669aa6235af2454adadf76879a4619",
+      "2": "6d116bdfe7207dd7df47c734ad8c300c5b4f7a6339e3f38ba436cb2561ada6de",
+      "3": "cc3da9d3ce62be313cca00e5ba8ad69d4dc745baef9b1a9725e7f6c168f94e4b",
+      "4": "fadc54cbfa68511f69629665ce5de03ca18c0e9763ef646e0baef1e83d608025",
+      "5": "b610cc276b1169993fd73a847409be62ace1134e9862237156aaf3905213c644",
+      "6": "6594d24c821d0f7bf1706ef02937e9f4e85916302357a73465c35bf50c86bd68",
+      "7": "0115e7922d418511ef09dec4a41647807b4220be4590200f0496140458536cd4",
+      "8": "eb2158fb2136680de0dcfc15463f98c4e6cdc797673259c7860fa5253d35778b",
+      "9": "98721c4c8956eb5f1e3c18f5eca29db6790025140fd3c4ca712b0044d814f60f",
+      "10": "0a963326e20765190b7ed080be5a2a6a0c274d3e709e64ad5184833d9a0a0647"
+    },
+    "client_metric_lookups": {
+      "1": "metrics/evaluation_metrics.csv#round=2&model_scope=client&client_id=1",
+      "2": "metrics/evaluation_metrics.csv#round=2&model_scope=client&client_id=2",
+      "3": "metrics/evaluation_metrics.csv#round=2&model_scope=client&client_id=3",
+      "4": "metrics/evaluation_metrics.csv#round=2&model_scope=client&client_id=4",
+      "5": "metrics/evaluation_metrics.csv#round=2&model_scope=client&client_id=5",
+      "6": "metrics/evaluation_metrics.csv#round=2&model_scope=client&client_id=6",
+      "7": "metrics/evaluation_metrics.csv#round=2&model_scope=client&client_id=7",
+      "8": "metrics/evaluation_metrics.csv#round=2&model_scope=client&client_id=8",
+      "9": "metrics/evaluation_metrics.csv#round=2&model_scope=client&client_id=9",
+      "10": "metrics/evaluation_metrics.csv#round=2&model_scope=client&client_id=10"
+    },
+    "optimizer_state_persistence": "optimizer_recreated_for_each_local_epoch"
+  },
+  {
+    "round": 3,
+    "server": "checkpoints/round_003/server.pt",
+    "server_state_type": "fedcaps_feature_selection_stack_not_a_classifier",
+    "server_classification_status": "not_applicable",
+    "server_state_hashes": {
+      "encoder": "8ad8a460735ceb41d384556f6b56f109d708f9ec754e236156f2cf3094abd069",
+      "decoder": "fb407c5f212b74b344d3ccf17f881e2fdb1e8df6427f93ade28e93485b1d82c0",
+      "actor": "f84984f2c86d3c7e103634557782e526409dfa03937fd16b3d1527dacb0fa315",
+      "critic": "43f072517b4c69369c93294f5529eb4f11d5b1e398038985c6edc75edde6fba6",
+      "reward_critic": "b9fa06c5652faad1283411d17d5bbb5aca27a4c9657a38b2ebd1c0a202928e64"
+    },
+    "clients": {
+      "1": "checkpoints/round_003/client_01.pt",
+      "2": "checkpoints/round_003/client_02.pt",
+      "3": "checkpoints/round_003/client_03.pt",
+      "4": "checkpoints/round_003/client_04.pt",
+      "5": "checkpoints/round_003/client_05.pt",
+      "6": "checkpoints/round_003/client_06.pt",
+      "7": "checkpoints/round_003/client_07.pt",
+      "8": "checkpoints/round_003/client_08.pt",
+      "9": "checkpoints/round_003/client_09.pt",
+      "10": "checkpoints/round_003/client_10.pt"
+    },
+    "client_state_hashes": {
+      "1": "a7eb7676b6506c162b894bcd310e267f9adc9193aeb276e565eb32cf64a86965",
+      "2": "335aab7d3a30cce912dd830e2e1c29c9663c8c22b84992b09f98944c11b420a4",
+      "3": "28d7fb804e03d0c18e22d15566a898125b3d8aaa2de825ce1d3caaa0d528fec5",
+      "4": "446265f41ae340fdabc5aebf905ae308305ecaaa1094b230e9a0f8369db62361",
+      "5": "b7923a4293e272c911aa6ba3643ccf9cb976afdc6b1a36dae112a13cd4346285",
+      "6": "3d848ba74f84ebc7c4918519a6e58afe097ee3cc7f2e4c7bc890af289519faf7",
+      "7": "a918f4142d1f0fb4a2643138395f6f8e34678f241e92bf613be995f8c7bf7a4a",
+      "8": "359bf6716b81427cf8f02013326aef87f12b82044dfe4cf771f4c2e512447ab4",
+      "9": "67c5fda948d965481d7566caa1c5028e5d3daf69d4576e39a1ceb2638c8e43d3",
+      "10": "88676e59c3f13b61120017fc92746d72c622c5ec10604839784b3845b600844a"
+    },
+    "client_metric_lookups": {
+      "1": "metrics/evaluation_metrics.csv#round=3&model_scope=client&client_id=1",
+      "2": "metrics/evaluation_metrics.csv#round=3&model_scope=client&client_id=2",
+      "3": "metrics/evaluation_metrics.csv#round=3&model_scope=client&client_id=3",
+      "4": "metrics/evaluation_metrics.csv#round=3&model_scope=client&client_id=4",
+      "5": "metrics/evaluation_metrics.csv#round=3&model_scope=client&client_id=5",
+      "6": "metrics/evaluation_metrics.csv#round=3&model_scope=client&client_id=6",
+      "7": "metrics/evaluation_metrics.csv#round=3&model_scope=client&client_id=7",
+      "8": "metrics/evaluation_metrics.csv#round=3&model_scope=client&client_id=8",
+      "9": "metrics/evaluation_metrics.csv#round=3&model_scope=client&client_id=9",
+      "10": "metrics/evaluation_metrics.csv#round=3&model_scope=client&client_id=10"
+    },
+    "optimizer_state_persistence": "optimizer_recreated_for_each_local_epoch"
+  },
+  {
+    "round": 4,
+    "server": "checkpoints/round_004/server.pt",
+    "server_state_type": "fedcaps_feature_selection_stack_not_a_classifier",
+    "server_classification_status": "not_applicable",
+    "server_state_hashes": {
+      "encoder": "8ad8a460735ceb41d384556f6b56f109d708f9ec754e236156f2cf3094abd069",
+      "decoder": "fb407c5f212b74b344d3ccf17f881e2fdb1e8df6427f93ade28e93485b1d82c0",
+      "actor": "f84984f2c86d3c7e103634557782e526409dfa03937fd16b3d1527dacb0fa315",
+      "critic": "43f072517b4c69369c93294f5529eb4f11d5b1e398038985c6edc75edde6fba6",
+      "reward_critic": "b9fa06c5652faad1283411d17d5bbb5aca27a4c9657a38b2ebd1c0a202928e64"
+    },
+    "clients": {
+      "1": "checkpoints/round_004/client_01.pt",
+      "2": "checkpoints/round_004/client_02.pt",
+      "3": "checkpoints/round_004/client_03.pt",
+      "4": "checkpoints/round_004/client_04.pt",
+      "5": "checkpoints/round_004/client_05.pt",
+      "6": "checkpoints/round_004/client_06.pt",
+      "7": "checkpoints/round_004/client_07.pt",
+      "8": "checkpoints/round_004/client_08.pt",
+      "9": "checkpoints/round_004/client_09.pt",
+      "10": "checkpoints/round_004/client_10.pt"
+    },
+    "client_state_hashes": {
+      "1": "03043fd26f0f140316d16f01a069163f8e868f5df2b4f75ff0c79b1c96051146",
+      "2": "a4ae1662fec1f10823c55c19a89a9edf87b3227f692556c621e3f6ce01c5a29e",
+      "3": "6f97045e683117b74d98475e182c577febfb11dd3084851cd75922ef171e34be",
+      "4": "4eb42c508613acf9ba7310f729b9550e288436de46446b189c126fd2fd2cd984",
+      "5": "76253b86ad159c7b698dc6db7619e922c7bbfdd677873820d91e524196bad814",
+      "6": "cec7d556b7fc46ee6b1e5c7f56cc1f353d2bde023f471da71e8072e1ab32c109",
+      "7": "aa7249da7c0c38ffccd9b3bf9bf9492076d24963f45f3339830f2c2019a86734",
+      "8": "c6c706fd6d27f9b9c9745e5ae36f7842e0928ede85d714a34773f74cb7b7f64f",
+      "9": "5e79ac57b8d6a30a1f82b7d80bd4cedc7767f332ff9412dad2c487668c88288f",
+      "10": "feba650454ac5b5f4cb5e91163afe89ce9282e9a38fcf0aa7cfccfc8bf840220"
+    },
+    "client_metric_lookups": {
+      "1": "metrics/evaluation_metrics.csv#round=4&model_scope=client&client_id=1",
+      "2": "metrics/evaluation_metrics.csv#round=4&model_scope=client&client_id=2",
+      "3": "metrics/evaluation_metrics.csv#round=4&model_scope=client&client_id=3",
+      "4": "metrics/evaluation_metrics.csv#round=4&model_scope=client&client_id=4",
+      "5": "metrics/evaluation_metrics.csv#round=4&model_scope=client&client_id=5",
+      "6": "metrics/evaluation_metrics.csv#round=4&model_scope=client&client_id=6",
+      "7": "metrics/evaluation_metrics.csv#round=4&model_scope=client&client_id=7",
+      "8": "metrics/evaluation_metrics.csv#round=4&model_scope=client&client_id=8",
+      "9": "metrics/evaluation_metrics.csv#round=4&model_scope=client&client_id=9",
+      "10": "metrics/evaluation_metrics.csv#round=4&model_scope=client&client_id=10"
+    },
+    "optimizer_state_persistence": "optimizer_recreated_for_each_local_epoch"
+  },
+  {
+    "round": 5,
+    "server": "checkpoints/round_005/server.pt",
+    "server_state_type": "fedcaps_feature_selection_stack_not_a_classifier",
+    "server_classification_status": "not_applicable",
+    "server_state_hashes": {
+      "encoder": "8ad8a460735ceb41d384556f6b56f109d708f9ec754e236156f2cf3094abd069",
+      "decoder": "fb407c5f212b74b344d3ccf17f881e2fdb1e8df6427f93ade28e93485b1d82c0",
+      "actor": "f84984f2c86d3c7e103634557782e526409dfa03937fd16b3d1527dacb0fa315",
+      "critic": "43f072517b4c69369c93294f5529eb4f11d5b1e398038985c6edc75edde6fba6",
+      "reward_critic": "b9fa06c5652faad1283411d17d5bbb5aca27a4c9657a38b2ebd1c0a202928e64"
+    },
+    "clients": {
+      "1": "checkpoints/round_005/client_01.pt",
+      "2": "checkpoints/round_005/client_02.pt",
+      "3": "checkpoints/round_005/client_03.pt",
+      "4": "checkpoints/round_005/client_04.pt",
+      "5": "checkpoints/round_005/client_05.pt",
+      "6": "checkpoints/round_005/client_06.pt",
+      "7": "checkpoints/round_005/client_07.pt",
+      "8": "checkpoints/round_005/client_08.pt",
+      "9": "checkpoints/round_005/client_09.pt",
+      "10": "checkpoints/round_005/client_10.pt"
+    },
+    "client_state_hashes": {
+      "1": "c70ddfbe11fa9d6f516db1583ea08b080754bb650a99bc63e56fcfa3577c18bf",
+      "2": "251e0dd1d4c4f4495e8aad634e8de9a6f8e2321e3ae9be3d6147c9c90d0ed5a9",
+      "3": "52e998136f89a5bc3c50fcfa0ac7a2a9f1a14f87d4d4d057b08eec5bf570d38d",
+      "4": "377014f04199ab98a906e620b93493742994e72a094a31d1574d3b921c074396",
+      "5": "e1a8848d74a84d07e69a97e4990c997fa09f862abb3c457a5540f00b22322944",
+      "6": "da9b06601a7700fe734aa99ebfdd41b45334e883d8bced834099818d3c62b31f",
+      "7": "694a5a539ac902fa6a9b5af0bc75c9155a7acfa33e121ecf4ce417aaa593181a",
+      "8": "0c8a76b2a5c2db12e5987595c5bd33b7133887a01a9eae698de6e4023be20821",
+      "9": "28e547dacc3d9eb3de8660b9fd58620cf4985f2002f511dc2476e6980851d98d",
+      "10": "297e04f713b5bc0021b222efcab1c6d85e1351821263286f34acfe899b2276ca"
+    },
+    "client_metric_lookups": {
+      "1": "metrics/evaluation_metrics.csv#round=5&model_scope=client&client_id=1",
+      "2": "metrics/evaluation_metrics.csv#round=5&model_scope=client&client_id=2",
+      "3": "metrics/evaluation_metrics.csv#round=5&model_scope=client&client_id=3",
+      "4": "metrics/evaluation_metrics.csv#round=5&model_scope=client&client_id=4",
+      "5": "metrics/evaluation_metrics.csv#round=5&model_scope=client&client_id=5",
+      "6": "metrics/evaluation_metrics.csv#round=5&model_scope=client&client_id=6",
+      "7": "metrics/evaluation_metrics.csv#round=5&model_scope=client&client_id=7",
+      "8": "metrics/evaluation_metrics.csv#round=5&model_scope=client&client_id=8",
+      "9": "metrics/evaluation_metrics.csv#round=5&model_scope=client&client_id=9",
+      "10": "metrics/evaluation_metrics.csv#round=5&model_scope=client&client_id=10"
+    },
+    "optimizer_state_persistence": "optimizer_recreated_for_each_local_epoch"
+  },
+  {
+    "round": 6,
+    "server": "checkpoints/round_006/server.pt",
+    "server_state_type": "fedcaps_feature_selection_stack_not_a_classifier",
+    "server_classification_status": "not_applicable",
+    "server_state_hashes": {
+      "encoder": "8ad8a460735ceb41d384556f6b56f109d708f9ec754e236156f2cf3094abd069",
+      "decoder": "fb407c5f212b74b344d3ccf17f881e2fdb1e8df6427f93ade28e93485b1d82c0",
+      "actor": "f84984f2c86d3c7e103634557782e526409dfa03937fd16b3d1527dacb0fa315",
+      "critic": "43f072517b4c69369c93294f5529eb4f11d5b1e398038985c6edc75edde6fba6",
+      "reward_critic": "b9fa06c5652faad1283411d17d5bbb5aca27a4c9657a38b2ebd1c0a202928e64"
+    },
+    "clients": {
+      "1": "checkpoints/round_006/client_01.pt",
+      "2": "checkpoints/round_006/client_02.pt",
+      "3": "checkpoints/round_006/client_03.pt",
+      "4": "checkpoints/round_006/client_04.pt",
+      "5": "checkpoints/round_006/client_05.pt",
+      "6": "checkpoints/round_006/client_06.pt",
+      "7": "checkpoints/round_006/client_07.pt",
+      "8": "checkpoints/round_006/client_08.pt",
+      "9": "checkpoints/round_006/client_09.pt",
+      "10": "checkpoints/round_006/client_10.pt"
+    },
+    "client_state_hashes": {
+      "1": "c2ba38d3f4fbf634f5d9e2934c8f3c5fb2a8be46395eb54a4a54d6ea82631892",
+      "2": "01e5303b9ce0d8aa319e2c7e53dda487450965be0b8014afebaa6c370720e2d0",
+      "3": "1e82b62ef17b46105b58f8547fdd544578a0aa9c457afa74c30bc204d03ff69f",
+      "4": "3e2837005082ac095db5fcab8c81aa583edd38c20c2f890333518f043b3d288f",
+      "5": "f13458be8a23ad21b60d0093e64e9a1f48f8cc53369a5f928ff29ab57877438d",
+      "6": "3422c25093af1b1c177c750cf48601893d144569e3da83e5c2f7cf716e7b632f",
+      "7": "3344c371fc3b2903b7e8981b61f721fbed5f1f01917be16a4e2dddd693a35a21",
+      "8": "189b8212676b6eac075d8b65a80d539d4046866c18378eb0233e94c44b9a6d18",
+      "9": "5dc51e960045ff8102b6510077b4220e0462fc1152b89c6115731212d9bc118d",
+      "10": "4f653c591e1198cf39953254a0d37b30fcac98b0367fde8c8581bbcd6b04d2f7"
+    },
+    "client_metric_lookups": {
+      "1": "metrics/evaluation_metrics.csv#round=6&model_scope=client&client_id=1",
+      "2": "metrics/evaluation_metrics.csv#round=6&model_scope=client&client_id=2",
+      "3": "metrics/evaluation_metrics.csv#round=6&model_scope=client&client_id=3",
+      "4": "metrics/evaluation_metrics.csv#round=6&model_scope=client&client_id=4",
+      "5": "metrics/evaluation_metrics.csv#round=6&model_scope=client&client_id=5",
+      "6": "metrics/evaluation_metrics.csv#round=6&model_scope=client&client_id=6",
+      "7": "metrics/evaluation_metrics.csv#round=6&model_scope=client&client_id=7",
+      "8": "metrics/evaluation_metrics.csv#round=6&model_scope=client&client_id=8",
+      "9": "metrics/evaluation_metrics.csv#round=6&model_scope=client&client_id=9",
+      "10": "metrics/evaluation_metrics.csv#round=6&model_scope=client&client_id=10"
+    },
+    "optimizer_state_persistence": "optimizer_recreated_for_each_local_epoch"
+  },
+  {
+    "round": 7,
+    "server": "checkpoints/round_007/server.pt",
+    "server_state_type": "fedcaps_feature_selection_stack_not_a_classifier",
+    "server_classification_status": "not_applicable",
+    "server_state_hashes": {
+      "encoder": "8ad8a460735ceb41d384556f6b56f109d708f9ec754e236156f2cf3094abd069",
+      "decoder": "fb407c5f212b74b344d3ccf17f881e2fdb1e8df6427f93ade28e93485b1d82c0",
+      "actor": "f84984f2c86d3c7e103634557782e526409dfa03937fd16b3d1527dacb0fa315",
+      "critic": "43f072517b4c69369c93294f5529eb4f11d5b1e398038985c6edc75edde6fba6",
+      "reward_critic": "b9fa06c5652faad1283411d17d5bbb5aca27a4c9657a38b2ebd1c0a202928e64"
+    },
+    "clients": {
+      "1": "checkpoints/round_007/client_01.pt",
+      "2": "checkpoints/round_007/client_02.pt",
+      "3": "checkpoints/round_007/client_03.pt",
+      "4": "checkpoints/round_007/client_04.pt",
+      "5": "checkpoints/round_007/client_05.pt",
+      "6": "checkpoints/round_007/client_06.pt",
+      "7": "checkpoints/round_007/client_07.pt",
+      "8": "checkpoints/round_007/client_08.pt",
+      "9": "checkpoints/round_007/client_09.pt",
+      "10": "checkpoints/round_007/client_10.pt"
+    },
+    "client_state_hashes": {
+      "1": "3f2e961563b0badcdc6bc082714c3eb34a343e948eceaeaec6e713806f767c0a",
+      "2": "241e71358212b320d9207cfe85738d13e0d7a8e9c5f714a1aab0b4348641ae5e",
+      "3": "7b57b5dd0a91765a3a304acd9a42e724ea38b0d564c4f74d332e573b3162028c",
+      "4": "e14849a6b8d23b49bff0f5f6fb936861c0075d5e0f44731a828fafd9c7a90e8d",
+      "5": "4b71c9a4ddc94d1a50e8c18168a9c12d7b93755e308725271f0883048d83cde0",
+      "6": "6738377208f2d866f3b9e38a2a7f4cb65cc9ba8434db3e925862b64b10207ded",
+      "7": "169c3e9070590826d1b65d629642ef12a84826d459a6f678d0b3c58d4bcfe610",
+      "8": "a9c144f7d26f47c1efb29240122533c1f049dcb6466a8cad8ac0edd5afb1a08b",
+      "9": "38754d3c7c34cddf954bedcfbbf74de13a21cdf8aeca9100c17eed5dc90d106f",
+      "10": "90d669058df76be949cbc60ee99e9dc7fc7451352af829f725788d7dcf02ad94"
+    },
+    "client_metric_lookups": {
+      "1": "metrics/evaluation_metrics.csv#round=7&model_scope=client&client_id=1",
+      "2": "metrics/evaluation_metrics.csv#round=7&model_scope=client&client_id=2",
+      "3": "metrics/evaluation_metrics.csv#round=7&model_scope=client&client_id=3",
+      "4": "metrics/evaluation_metrics.csv#round=7&model_scope=client&client_id=4",
+      "5": "metrics/evaluation_metrics.csv#round=7&model_scope=client&client_id=5",
+      "6": "metrics/evaluation_metrics.csv#round=7&model_scope=client&client_id=6",
+      "7": "metrics/evaluation_metrics.csv#round=7&model_scope=client&client_id=7",
+      "8": "metrics/evaluation_metrics.csv#round=7&model_scope=client&client_id=8",
+      "9": "metrics/evaluation_metrics.csv#round=7&model_scope=client&client_id=9",
+      "10": "metrics/evaluation_metrics.csv#round=7&model_scope=client&client_id=10"
+    },
+    "optimizer_state_persistence": "optimizer_recreated_for_each_local_epoch"
+  },
+  {
+    "round": 8,
+    "server": "checkpoints/round_008/server.pt",
+    "server_state_type": "fedcaps_feature_selection_stack_not_a_classifier",
+    "server_classification_status": "not_applicable",
+    "server_state_hashes": {
+      "encoder": "8ad8a460735ceb41d384556f6b56f109d708f9ec754e236156f2cf3094abd069",
+      "decoder": "fb407c5f212b74b344d3ccf17f881e2fdb1e8df6427f93ade28e93485b1d82c0",
+      "actor": "f84984f2c86d3c7e103634557782e526409dfa03937fd16b3d1527dacb0fa315",
+      "critic": "43f072517b4c69369c93294f5529eb4f11d5b1e398038985c6edc75edde6fba6",
+      "reward_critic": "b9fa06c5652faad1283411d17d5bbb5aca27a4c9657a38b2ebd1c0a202928e64"
+    },
+    "clients": {
+      "1": "checkpoints/round_008/client_01.pt",
+      "2": "checkpoints/round_008/client_02.pt",
+      "3": "checkpoints/round_008/client_03.pt",
+      "4": "checkpoints/round_008/client_04.pt",
+      "5": "checkpoints/round_008/client_05.pt",
+      "6": "checkpoints/round_008/client_06.pt",
+      "7": "checkpoints/round_008/client_07.pt",
+      "8": "checkpoints/round_008/client_08.pt",
+      "9": "checkpoints/round_008/client_09.pt",
+      "10": "checkpoints/round_008/client_10.pt"
+    },
+    "client_state_hashes": {
+      "1": "517b0a23430ecd6a79696560e6f0c55e14c59b8669debb54e5b04ec034f68786",
+      "2": "bded3c704efb217272bb70d5ef6d06715f403b6727eac4d80ba90f7bd4db99e8",
+      "3": "33101a599155416dd02d9aa9051a4079ae61913f287f1027e230b417a0ff2ab4",
+      "4": "1a1158355a1045e0a0f202c0beb5f3cded8b9ee3352c03aadd3029078bab19c3",
+      "5": "a8266ea65e38c1f500f52d5d06b94dc53c87f0c5cda8e3ff5e0956ae1e0dafd5",
+      "6": "04a1da9287c3ab00a43b78a65ebce67e0d7f20c051dcb7b17ce918c9523280ca",
+      "7": "2dbd875eacdf634c541d926dae8cc7b042e0b22834822f9372d18f1f2c6bc2ed",
+      "8": "37cf50129764b6f428fd4c91ce8f46ad9cb239c68fe0bafc9e87e8162ef64bd9",
+      "9": "660302298bac44b9e9fd190624dc841955e41963038f44efbf63a59052f9e339",
+      "10": "658935b311c33301c15115ddbbe5e442ca1599e27bacb0ca013045fc0305998f"
+    },
+    "client_metric_lookups": {
+      "1": "metrics/evaluation_metrics.csv#round=8&model_scope=client&client_id=1",
+      "2": "metrics/evaluation_metrics.csv#round=8&model_scope=client&client_id=2",
+      "3": "metrics/evaluation_metrics.csv#round=8&model_scope=client&client_id=3",
+      "4": "metrics/evaluation_metrics.csv#round=8&model_scope=client&client_id=4",
+      "5": "metrics/evaluation_metrics.csv#round=8&model_scope=client&client_id=5",
+      "6": "metrics/evaluation_metrics.csv#round=8&model_scope=client&client_id=6",
+      "7": "metrics/evaluation_metrics.csv#round=8&model_scope=client&client_id=7",
+      "8": "metrics/evaluation_metrics.csv#round=8&model_scope=client&client_id=8",
+      "9": "metrics/evaluation_metrics.csv#round=8&model_scope=client&client_id=9",
+      "10": "metrics/evaluation_metrics.csv#round=8&model_scope=client&client_id=10"
+    },
+    "optimizer_state_persistence": "optimizer_recreated_for_each_local_epoch"
+  },
+  {
+    "round": 9,
+    "server": "checkpoints/round_009/server.pt",
+    "server_state_type": "fedcaps_feature_selection_stack_not_a_classifier",
+    "server_classification_status": "not_applicable",
+    "server_state_hashes": {
+      "encoder": "8ad8a460735ceb41d384556f6b56f109d708f9ec754e236156f2cf3094abd069",
+      "decoder": "fb407c5f212b74b344d3ccf17f881e2fdb1e8df6427f93ade28e93485b1d82c0",
+      "actor": "f84984f2c86d3c7e103634557782e526409dfa03937fd16b3d1527dacb0fa315",
+      "critic": "43f072517b4c69369c93294f5529eb4f11d5b1e398038985c6edc75edde6fba6",
+      "reward_critic": "b9fa06c5652faad1283411d17d5bbb5aca27a4c9657a38b2ebd1c0a202928e64"
+    },
+    "clients": {
+      "1": "checkpoints/round_009/client_01.pt",
+      "2": "checkpoints/round_009/client_02.pt",
+      "3": "checkpoints/round_009/client_03.pt",
+      "4": "checkpoints/round_009/client_04.pt",
+      "5": "checkpoints/round_009/client_05.pt",
+      "6": "checkpoints/round_009/client_06.pt",
+      "7": "checkpoints/round_009/client_07.pt",
+      "8": "checkpoints/round_009/client_08.pt",
+      "9": "checkpoints/round_009/client_09.pt",
+      "10": "checkpoints/round_009/client_10.pt"
+    },
+    "client_state_hashes": {
+      "1": "2b6e64a63a4ccbd8a6674fc0655a44d12d313540f883b27fcd6c347ffbc0338a",
+      "2": "4a9b6657c78dcb7db954f2d818dbffeb95e35e75cea7aa16669eeafc1048b441",
+      "3": "4409d2d900f358de9da844aeb4784a3d31ea93e860ee4fb8a29aee840e40c279",
+      "4": "6d2e441823374490aee57c12d49457a989625d4409a11611ab7fab0b505c7173",
+      "5": "d704973829001882518c242b8457d0371df7455a010ddd14a341225815ddb883",
+      "6": "57862f3f03bdf0394c202ec70fe0d0f60349882dbbcb87aea8a8a18be962b7d4",
+      "7": "791d4b2a0fe9512973a7f3981be15aac2e9fa3edc8ac5bcfc2ac237cbea33a07",
+      "8": "89864667fd42281eb934bbbb76b2da49e44eb9df6d24829a2b171ecc54cebb80",
+      "9": "dd489d350a9d898e5ab91644fe278e9790115171c3459809198a0772e1bdf11e",
+      "10": "1bf83487960b05e05ba885ec1706698188e6a466e644659d1fdc97f4fc814e89"
+    },
+    "client_metric_lookups": {
+      "1": "metrics/evaluation_metrics.csv#round=9&model_scope=client&client_id=1",
+      "2": "metrics/evaluation_metrics.csv#round=9&model_scope=client&client_id=2",
+      "3": "metrics/evaluation_metrics.csv#round=9&model_scope=client&client_id=3",
+      "4": "metrics/evaluation_metrics.csv#round=9&model_scope=client&client_id=4",
+      "5": "metrics/evaluation_metrics.csv#round=9&model_scope=client&client_id=5",
+      "6": "metrics/evaluation_metrics.csv#round=9&model_scope=client&client_id=6",
+      "7": "metrics/evaluation_metrics.csv#round=9&model_scope=client&client_id=7",
+      "8": "metrics/evaluation_metrics.csv#round=9&model_scope=client&client_id=8",
+      "9": "metrics/evaluation_metrics.csv#round=9&model_scope=client&client_id=9",
+      "10": "metrics/evaluation_metrics.csv#round=9&model_scope=client&client_id=10"
+    },
+    "optimizer_state_persistence": "optimizer_recreated_for_each_local_epoch"
+  },
+  {
+    "round": 10,
+    "server": "checkpoints/round_010/server.pt",
+    "server_state_type": "fedcaps_feature_selection_stack_not_a_classifier",
+    "server_classification_status": "not_applicable",
+    "server_state_hashes": {
+      "encoder": "8ad8a460735ceb41d384556f6b56f109d708f9ec754e236156f2cf3094abd069",
+      "decoder": "fb407c5f212b74b344d3ccf17f881e2fdb1e8df6427f93ade28e93485b1d82c0",
+      "actor": "f84984f2c86d3c7e103634557782e526409dfa03937fd16b3d1527dacb0fa315",
+      "critic": "43f072517b4c69369c93294f5529eb4f11d5b1e398038985c6edc75edde6fba6",
+      "reward_critic": "b9fa06c5652faad1283411d17d5bbb5aca27a4c9657a38b2ebd1c0a202928e64"
+    },
+    "clients": {
+      "1": "checkpoints/round_010/client_01.pt",
+      "2": "checkpoints/round_010/client_02.pt",
+      "3": "checkpoints/round_010/client_03.pt",
+      "4": "checkpoints/round_010/client_04.pt",
+      "5": "checkpoints/round_010/client_05.pt",
+      "6": "checkpoints/round_010/client_06.pt",
+      "7": "checkpoints/round_010/client_07.pt",
+      "8": "checkpoints/round_010/client_08.pt",
+      "9": "checkpoints/round_010/client_09.pt",
+      "10": "checkpoints/round_010/client_10.pt"
+    },
+    "client_state_hashes": {
+      "1": "abbe0577a8f408eab4631f32837868180a0e46c4f0adb745a0df7bb307117e10",
+      "2": "afb96df694a33a395cf09201109509b45a142704e638b450be97c207c61fff10",
+      "3": "6ca667cf6e2d3ba651880e6f0594f6239af6b18a814b3fe3cd49f64abf82ae92",
+      "4": "93f2d0de6bddcfaa6d079c6a7ae2e3bd98903e656cc17c6d818efd44c1a7148a",
+      "5": "2553a89e0f575aa60e1035ad78e70cf727b6b3fd93df31763b0fb7d4b2b5cbae",
+      "6": "5cc0105b10db02d6da356902bb53651f74e9e53e5fe478f9bda65b865e1de67f",
+      "7": "f7bb54e373183d835db6a961aff60e22c8f04c75e4e760b3f70fedd55a72fa53",
+      "8": "f6026534ee80d0dabb23c90fbf37a303420a8af5e87a8cc4aaf8728c809b8df6",
+      "9": "c581d1d004e7ad0340d3a620bf17067fd84e23b5c95a88b2b5654438e7edba97",
+      "10": "720a9df30ad99b17a7a58da7032cb77d344ed62dabb072bee00031454ba509be"
+    },
+    "client_metric_lookups": {
+      "1": "metrics/evaluation_metrics.csv#round=10&model_scope=client&client_id=1",
+      "2": "metrics/evaluation_metrics.csv#round=10&model_scope=client&client_id=2",
+      "3": "metrics/evaluation_metrics.csv#round=10&model_scope=client&client_id=3",
+      "4": "metrics/evaluation_metrics.csv#round=10&model_scope=client&client_id=4",
+      "5": "metrics/evaluation_metrics.csv#round=10&model_scope=client&client_id=5",
+      "6": "metrics/evaluation_metrics.csv#round=10&model_scope=client&client_id=6",
+      "7": "metrics/evaluation_metrics.csv#round=10&model_scope=client&client_id=7",
+      "8": "metrics/evaluation_metrics.csv#round=10&model_scope=client&client_id=8",
+      "9": "metrics/evaluation_metrics.csv#round=10&model_scope=client&client_id=9",
+      "10": "metrics/evaluation_metrics.csv#round=10&model_scope=client&client_id=10"
+    },
+    "optimizer_state_persistence": "optimizer_recreated_for_each_local_epoch"
+  }
+]

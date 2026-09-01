@@ -1,0 +1,9 @@
+[
+  {
+    "enabled": false,
+    "reason": "FedCAPS has no server classifier pretraining stage",
+    "train_examples": 0,
+    "optimizer_steps": 0,
+    "seconds": 0.0
+  }
+]

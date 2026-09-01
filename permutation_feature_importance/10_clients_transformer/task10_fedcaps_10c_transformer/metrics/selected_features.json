@@ -1,0 +1,1529 @@
+{
+  "selected_feature_ids": [
+    3,
+    5,
+    6,
+    12,
+    15,
+    16,
+    19,
+    24
+  ],
+  "selected_feature_names": [
+    "UDP",
+    "Max",
+    "TCP",
+    "rst_flag_number",
+    "ack_count",
+    "fin_flag_number",
+    "Header_Length",
+    "DNS"
+  ],
+  "selected_feature_count": 8,
+  "best_by_reward": {
+    "candidate_id": 27,
+    "search_epoch": 3,
+    "global_step": 2700,
+    "feature_ids": [
+      3,
+      5,
+      6,
+      12,
+      15,
+      16,
+      19,
+      24
+    ],
+    "feature_names": [
+      "UDP",
+      "Max",
+      "TCP",
+      "rst_flag_number",
+      "ack_count",
+      "fin_flag_number",
+      "Header_Length",
+      "DNS"
+    ],
+    "subset_size": 8,
+    "weighted_micro_f1": 0.6238708888363423,
+    "weighted_macro_f1": 0.04094049846909114,
+    "baseline_performance": 0.5486496686935425,
+    "compactness": 0.6799999999999999,
+    "reward": 0.6195221220142799,
+    "communication_bytes": 200,
+    "communication_bytes_cumulative": 7880,
+    "per_client": [
+      {
+        "client_id": 1,
+        "model_family": "transformer",
+        "feature_ids": [
+          3,
+          5,
+          6,
+          12,
+          15,
+          16,
+          19,
+          24
+        ],
+        "subset_size": 8,
+        "micro_f1": 0.8774111675126903,
+        "macro_f1": 0.02749127229639997,
+        "validation_loss": 0.5939962435494824,
+        "train_loss": 1.2035566437166885,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 25213,
+            "validation_examples": 6307,
+            "accuracy": 0.8771206595845885,
+            "macro_f1": 0.027486423237256724,
+            "micro_f1": 0.8771206595845885
+          },
+          {
+            "fold": 2,
+            "train_examples": 25214,
+            "validation_examples": 6306,
+            "accuracy": 0.8771011734855693,
+            "macro_f1": 0.02748609792823102,
+            "micro_f1": 0.8771011734855693
+          },
+          {
+            "fold": 3,
+            "train_examples": 25216,
+            "validation_examples": 6304,
+            "accuracy": 0.8773794416243654,
+            "macro_f1": 0.02749074281170009,
+            "micro_f1": 0.8773794416243654
+          },
+          {
+            "fold": 4,
+            "train_examples": 25218,
+            "validation_examples": 6302,
+            "accuracy": 0.8776578863852745,
+            "macro_f1": 0.027495389265314845,
+            "micro_f1": 0.8776578863852745
+          },
+          {
+            "fold": 5,
+            "train_examples": 25219,
+            "validation_examples": 6301,
+            "accuracy": 0.8777971750515791,
+            "macro_f1": 0.027497713081175674,
+            "micro_f1": 0.8777971750515791
+          }
+        ],
+        "seconds": 1.1589770860009594,
+        "gpu_id": 1,
+        "candidate_id": 27,
+        "sample_weight": 0.0008752007588923535
+      },
+      {
+        "client_id": 2,
+        "model_family": "transformer",
+        "feature_ids": [
+          3,
+          5,
+          6,
+          12,
+          15,
+          16,
+          19,
+          24
+        ],
+        "subset_size": 8,
+        "micro_f1": 0.43058,
+        "macro_f1": 0.03442348707970534,
+        "validation_loss": 1.75104994140625,
+        "train_loss": 2.133330566390455,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79990,
+            "validation_examples": 20010,
+            "accuracy": 0.43033483258370814,
+            "macro_f1": 0.03438136358737367,
+            "micro_f1": 0.43033483258370814
+          },
+          {
+            "fold": 2,
+            "train_examples": 79995,
+            "validation_examples": 20005,
+            "accuracy": 0.4292926768307923,
+            "macro_f1": 0.03431052950043103,
+            "micro_f1": 0.4292926768307923
+          },
+          {
+            "fold": 3,
+            "train_examples": 80002,
+            "validation_examples": 19998,
+            "accuracy": 0.4304430443044304,
+            "macro_f1": 0.03440504083636003,
+            "micro_f1": 0.4304430443044304
+          },
+          {
+            "fold": 4,
+            "train_examples": 80005,
+            "validation_examples": 19995,
+            "accuracy": 0.4315078769692423,
+            "macro_f1": 0.03452753077544194,
+            "micro_f1": 0.4315078769692423
+          },
+          {
+            "fold": 5,
+            "train_examples": 80008,
+            "validation_examples": 19992,
+            "accuracy": 0.4313225290116046,
+            "macro_f1": 0.03449466456732401,
+            "micro_f1": 0.4313225290116046
+          }
+        ],
+        "seconds": 3.4630893869998545,
+        "gpu_id": 0,
+        "candidate_id": 27,
+        "sample_weight": 0.06140813360272783
+      },
+      {
+        "client_id": 3,
+        "model_family": "transformer",
+        "feature_ids": [
+          3,
+          5,
+          6,
+          12,
+          15,
+          16,
+          19,
+          24
+        ],
+        "subset_size": 8,
+        "micro_f1": 0.56286,
+        "macro_f1": 0.033734586301305,
+        "validation_loss": 1.0508985473632813,
+        "train_loss": 1.375466553019285,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79989,
+            "validation_examples": 20011,
+            "accuracy": 0.5619909050022488,
+            "macro_f1": 0.03363412519485353,
+            "micro_f1": 0.5619909050022488
+          },
+          {
+            "fold": 2,
+            "train_examples": 79996,
+            "validation_examples": 20004,
+            "accuracy": 0.563887222555489,
+            "macro_f1": 0.03368916226940588,
+            "micro_f1": 0.563887222555489
+          },
+          {
+            "fold": 3,
+            "train_examples": 79999,
+            "validation_examples": 20001,
+            "accuracy": 0.5639718014099295,
+            "macro_f1": 0.0340105857694063,
+            "micro_f1": 0.5639718014099295
+          },
+          {
+            "fold": 4,
+            "train_examples": 80007,
+            "validation_examples": 19993,
+            "accuracy": 0.5586455259340769,
+            "macro_f1": 0.03332044025943016,
+            "micro_f1": 0.5586455259340769
+          },
+          {
+            "fold": 5,
+            "train_examples": 80009,
+            "validation_examples": 19991,
+            "accuracy": 0.565804612075434,
+            "macro_f1": 0.03402606376179479,
+            "micro_f1": 0.565804612075434
+          }
+        ],
+        "seconds": 3.7725302660001034,
+        "gpu_id": 0,
+        "candidate_id": 27,
+        "sample_weight": 0.10352608723008234
+      },
+      {
+        "client_id": 4,
+        "model_family": "transformer",
+        "feature_ids": [
+          3,
+          5,
+          6,
+          12,
+          15,
+          16,
+          19,
+          24
+        ],
+        "subset_size": 8,
+        "micro_f1": 0.83035,
+        "macro_f1": 0.02672125405859996,
+        "validation_loss": 0.5962271557617187,
+        "train_loss": 0.8831735745277256,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79996,
+            "validation_examples": 20004,
+            "accuracy": 0.8303839232153569,
+            "macro_f1": 0.026717450558198283,
+            "micro_f1": 0.8303839232153569
+          },
+          {
+            "fold": 2,
+            "train_examples": 79999,
+            "validation_examples": 20001,
+            "accuracy": 0.8302584870756462,
+            "macro_f1": 0.02671948715269685,
+            "micro_f1": 0.8302584870756462
+          },
+          {
+            "fold": 3,
+            "train_examples": 80000,
+            "validation_examples": 20000,
+            "accuracy": 0.8303,
+            "macro_f1": 0.02672308020766506,
+            "micro_f1": 0.8303
+          },
+          {
+            "fold": 4,
+            "train_examples": 80002,
+            "validation_examples": 19998,
+            "accuracy": 0.8303330333033303,
+            "macro_f1": 0.026720081486150574,
+            "micro_f1": 0.8303330333033303
+          },
+          {
+            "fold": 5,
+            "train_examples": 80003,
+            "validation_examples": 19997,
+            "accuracy": 0.8304745711856778,
+            "macro_f1": 0.02672617426322951,
+            "micro_f1": 0.8304745711856778
+          }
+        ],
+        "seconds": 3.54248055700009,
+        "gpu_id": 0,
+        "candidate_id": 27,
+        "sample_weight": 0.05331877405031971
+      },
+      {
+        "client_id": 5,
+        "model_family": "transformer",
+        "feature_ids": [
+          3,
+          5,
+          6,
+          12,
+          15,
+          16,
+          19,
+          24
+        ],
+        "subset_size": 8,
+        "micro_f1": 0.94292,
+        "macro_f1": 0.05536318142522049,
+        "validation_loss": 0.28679058013916015,
+        "train_loss": 0.6365624242091179,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79994,
+            "validation_examples": 20006,
+            "accuracy": 0.9430170948715385,
+            "macro_f1": 0.055378241002104166,
+            "micro_f1": 0.9430170948715385
+          },
+          {
+            "fold": 2,
+            "train_examples": 79998,
+            "validation_examples": 20002,
+            "accuracy": 0.9425057494250575,
+            "macro_f1": 0.055344963396517746,
+            "micro_f1": 0.9425057494250575
+          },
+          {
+            "fold": 3,
+            "train_examples": 80001,
+            "validation_examples": 19999,
+            "accuracy": 0.9425471273563678,
+            "macro_f1": 0.0553042129288776,
+            "micro_f1": 0.9425471273563678
+          },
+          {
+            "fold": 4,
+            "train_examples": 80002,
+            "validation_examples": 19998,
+            "accuracy": 0.9447944794479448,
+            "macro_f1": 0.0555298556743013,
+            "micro_f1": 0.9447944794479448
+          },
+          {
+            "fold": 5,
+            "train_examples": 80005,
+            "validation_examples": 19995,
+            "accuracy": 0.9417354338584646,
+            "macro_f1": 0.05526106886496739,
+            "micro_f1": 0.9417354338584646
+          }
+        ],
+        "seconds": 3.451627697000731,
+        "gpu_id": 0,
+        "candidate_id": 27,
+        "sample_weight": 0.07030152831932522
+      },
+      {
+        "client_id": 6,
+        "model_family": "transformer",
+        "feature_ids": [
+          3,
+          5,
+          6,
+          12,
+          15,
+          16,
+          19,
+          24
+        ],
+        "subset_size": 8,
+        "micro_f1": 0.99163,
+        "macro_f1": 0.05795278903739736,
+        "validation_loss": 0.07980347015380859,
+        "train_loss": 0.5511844116196409,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79998,
+            "validation_examples": 20002,
+            "accuracy": 0.9918508149185081,
+            "macro_f1": 0.0579894479982842,
+            "micro_f1": 0.9918508149185081
+          },
+          {
+            "fold": 2,
+            "train_examples": 79999,
+            "validation_examples": 20001,
+            "accuracy": 0.991950402479876,
+            "macro_f1": 0.05799358952484144,
+            "micro_f1": 0.991950402479876
+          },
+          {
+            "fold": 3,
+            "train_examples": 80000,
+            "validation_examples": 20000,
+            "accuracy": 0.9917,
+            "macro_f1": 0.057966593172483774,
+            "micro_f1": 0.9917
+          },
+          {
+            "fold": 4,
+            "train_examples": 80001,
+            "validation_examples": 19999,
+            "accuracy": 0.9909995499774988,
+            "macro_f1": 0.05786246709809122,
+            "micro_f1": 0.9909995499774988
+          },
+          {
+            "fold": 5,
+            "train_examples": 80002,
+            "validation_examples": 19998,
+            "accuracy": 0.9916491649164917,
+            "macro_f1": 0.057951618766760644,
+            "micro_f1": 0.9916491649164917
+          }
+        ],
+        "seconds": 3.4214966159997857,
+        "gpu_id": 0,
+        "candidate_id": 27,
+        "sample_weight": 0.07459800879610083
+      },
+      {
+        "client_id": 7,
+        "model_family": "transformer",
+        "feature_ids": [
+          3,
+          5,
+          6,
+          12,
+          15,
+          16,
+          19,
+          24
+        ],
+        "subset_size": 8,
+        "micro_f1": 0.86525,
+        "macro_f1": 0.0348411810894687,
+        "validation_loss": 0.550006996459961,
+        "train_loss": 0.7533771321077645,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79996,
+            "validation_examples": 20004,
+            "accuracy": 0.8654269146170765,
+            "macro_f1": 0.03677766977479808,
+            "micro_f1": 0.8654269146170765
+          },
+          {
+            "fold": 2,
+            "train_examples": 79998,
+            "validation_examples": 20002,
+            "accuracy": 0.8652634736526348,
+            "macro_f1": 0.034788311084121226,
+            "micro_f1": 0.8652634736526348
+          },
+          {
+            "fold": 3,
+            "train_examples": 80000,
+            "validation_examples": 20000,
+            "accuracy": 0.86555,
+            "macro_f1": 0.03649839442668378,
+            "micro_f1": 0.86555
+          },
+          {
+            "fold": 4,
+            "train_examples": 80002,
+            "validation_examples": 19998,
+            "accuracy": 0.8648864886488649,
+            "macro_f1": 0.03280853115668716,
+            "micro_f1": 0.8648864886488649
+          },
+          {
+            "fold": 5,
+            "train_examples": 80004,
+            "validation_examples": 19996,
+            "accuracy": 0.865123024604921,
+            "macro_f1": 0.03305691399794303,
+            "micro_f1": 0.865123024604921
+          }
+        ],
+        "seconds": 3.3328011610010435,
+        "gpu_id": 1,
+        "candidate_id": 27,
+        "sample_weight": 0.0506732076446565
+      },
+      {
+        "client_id": 8,
+        "model_family": "transformer",
+        "feature_ids": [
+          3,
+          5,
+          6,
+          12,
+          15,
+          16,
+          19,
+          24
+        ],
+        "subset_size": 8,
+        "micro_f1": 0.43103,
+        "macro_f1": 0.04530359454899308,
+        "validation_loss": 1.684474033203125,
+        "train_loss": 2.12308511844337,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79991,
+            "validation_examples": 20009,
+            "accuracy": 0.42925683442450896,
+            "macro_f1": 0.04447026729217346,
+            "micro_f1": 0.42925683442450896
+          },
+          {
+            "fold": 2,
+            "train_examples": 79995,
+            "validation_examples": 20005,
+            "accuracy": 0.43289177705573606,
+            "macro_f1": 0.046689213067224095,
+            "micro_f1": 0.43289177705573606
+          },
+          {
+            "fold": 3,
+            "train_examples": 79999,
+            "validation_examples": 20001,
+            "accuracy": 0.43082845857707114,
+            "macro_f1": 0.04540722423675237,
+            "micro_f1": 0.43082845857707114
+          },
+          {
+            "fold": 4,
+            "train_examples": 80002,
+            "validation_examples": 19998,
+            "accuracy": 0.4311931193119312,
+            "macro_f1": 0.04499516407909656,
+            "micro_f1": 0.4311931193119312
+          },
+          {
+            "fold": 5,
+            "train_examples": 80013,
+            "validation_examples": 19987,
+            "accuracy": 0.43098013708910793,
+            "macro_f1": 0.04487852690008619,
+            "micro_f1": 0.43098013708910793
+          }
+        ],
+        "seconds": 3.629877833000137,
+        "gpu_id": 1,
+        "candidate_id": 27,
+        "sample_weight": 0.35428718146871235
+      },
+      {
+        "client_id": 9,
+        "model_family": "transformer",
+        "feature_ids": [
+          3,
+          5,
+          6,
+          12,
+          15,
+          16,
+          19,
+          24
+        ],
+        "subset_size": 8,
+        "micro_f1": 0.75781,
+        "macro_f1": 0.025361593723205518,
+        "validation_loss": 0.7681579357910157,
+        "train_loss": 1.0899481948645413,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79991,
+            "validation_examples": 20009,
+            "accuracy": 0.7574091658753561,
+            "macro_f1": 0.025355402265004524,
+            "micro_f1": 0.7574091658753561
+          },
+          {
+            "fold": 2,
+            "train_examples": 80000,
+            "validation_examples": 20000,
+            "accuracy": 0.75785,
+            "macro_f1": 0.025363076701678883,
+            "micro_f1": 0.75785
+          },
+          {
+            "fold": 3,
+            "train_examples": 80002,
+            "validation_examples": 19998,
+            "accuracy": 0.757925792579258,
+            "macro_f1": 0.025363076701678883,
+            "micro_f1": 0.757925792579258
+          },
+          {
+            "fold": 4,
+            "train_examples": 80003,
+            "validation_examples": 19997,
+            "accuracy": 0.7578636795519328,
+            "macro_f1": 0.02536189440214208,
+            "micro_f1": 0.7578636795519328
+          },
+          {
+            "fold": 5,
+            "train_examples": 80004,
+            "validation_examples": 19996,
+            "accuracy": 0.758001600320064,
+            "macro_f1": 0.025364519794433094,
+            "micro_f1": 0.758001600320064
+          }
+        ],
+        "seconds": 3.3908040349997464,
+        "gpu_id": 1,
+        "candidate_id": 27,
+        "sample_weight": 0.12090076595060324
+      },
+      {
+        "client_id": 10,
+        "model_family": "transformer",
+        "feature_ids": [
+          3,
+          5,
+          6,
+          12,
+          15,
+          16,
+          19,
+          24
+        ],
+        "subset_size": 8,
+        "micro_f1": 0.59651,
+        "macro_f1": 0.04348234614643548,
+        "validation_loss": 1.175471484375,
+        "train_loss": 1.5953800622814893,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79993,
+            "validation_examples": 20007,
+            "accuracy": 0.5982406157844754,
+            "macro_f1": 0.04366233904040904,
+            "micro_f1": 0.5982406157844754
+          },
+          {
+            "fold": 2,
+            "train_examples": 79998,
+            "validation_examples": 20002,
+            "accuracy": 0.5958404159584042,
+            "macro_f1": 0.04350946947780946,
+            "micro_f1": 0.5958404159584042
+          },
+          {
+            "fold": 3,
+            "train_examples": 80001,
+            "validation_examples": 19999,
+            "accuracy": 0.5961298064903245,
+            "macro_f1": 0.04344092652240057,
+            "micro_f1": 0.5961298064903245
+          },
+          {
+            "fold": 4,
+            "train_examples": 80002,
+            "validation_examples": 19998,
+            "accuracy": 0.5956595659565956,
+            "macro_f1": 0.04320559759484049,
+            "micro_f1": 0.5956595659565956
+          },
+          {
+            "fold": 5,
+            "train_examples": 80006,
+            "validation_examples": 19994,
+            "accuracy": 0.5966790037011104,
+            "macro_f1": 0.043629155126635955,
+            "micro_f1": 0.5966790037011104
+          }
+        ],
+        "seconds": 3.432621409001513,
+        "gpu_id": 1,
+        "candidate_id": 27,
+        "sample_weight": 0.1101111121785796
+      }
+    ]
+  },
+  "best_by_weighted_micro_f1": {
+    "candidate_id": 23,
+    "search_epoch": 3,
+    "global_step": 2300,
+    "feature_ids": [
+      1,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      16,
+      17,
+      18,
+      19,
+      21
+    ],
+    "feature_names": [
+      "AVG",
+      "fin_count",
+      "Max",
+      "TCP",
+      "syn_count",
+      "Protocol Type",
+      "Rate",
+      "IAT",
+      "syn_flag_number",
+      "rst_flag_number",
+      "Tot sum",
+      "fin_flag_number",
+      "HTTP",
+      "rst_count",
+      "Header_Length",
+      "ICMP"
+    ],
+    "subset_size": 16,
+    "weighted_micro_f1": 0.7009895338925658,
+    "weighted_macro_f1": 0.05173443456727612,
+    "baseline_performance": 0.5598862171173096,
+    "compactness": 0.36,
+    "reward": 0.33811033167752563,
+    "communication_bytes": 360,
+    "communication_bytes_cumulative": 6700,
+    "per_client": [
+      {
+        "client_id": 1,
+        "model_family": "transformer",
+        "feature_ids": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          16,
+          17,
+          18,
+          19,
+          21
+        ],
+        "subset_size": 16,
+        "micro_f1": 0.8774111675126903,
+        "macro_f1": 0.02749127229639997,
+        "validation_loss": 0.6540499885675266,
+        "train_loss": 1.2199226814620008,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 25213,
+            "validation_examples": 6307,
+            "accuracy": 0.8771206595845885,
+            "macro_f1": 0.027486423237256724,
+            "micro_f1": 0.8771206595845885
+          },
+          {
+            "fold": 2,
+            "train_examples": 25214,
+            "validation_examples": 6306,
+            "accuracy": 0.8771011734855693,
+            "macro_f1": 0.02748609792823102,
+            "micro_f1": 0.8771011734855693
+          },
+          {
+            "fold": 3,
+            "train_examples": 25216,
+            "validation_examples": 6304,
+            "accuracy": 0.8773794416243654,
+            "macro_f1": 0.02749074281170009,
+            "micro_f1": 0.8773794416243654
+          },
+          {
+            "fold": 4,
+            "train_examples": 25218,
+            "validation_examples": 6302,
+            "accuracy": 0.8776578863852745,
+            "macro_f1": 0.027495389265314845,
+            "micro_f1": 0.8776578863852745
+          },
+          {
+            "fold": 5,
+            "train_examples": 25219,
+            "validation_examples": 6301,
+            "accuracy": 0.8777971750515791,
+            "macro_f1": 0.027497713081175674,
+            "micro_f1": 0.8777971750515791
+          }
+        ],
+        "seconds": 1.3929670709985658,
+        "gpu_id": 1,
+        "candidate_id": 23,
+        "sample_weight": 0.0008752007588923535
+      },
+      {
+        "client_id": 2,
+        "model_family": "transformer",
+        "feature_ids": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          16,
+          17,
+          18,
+          19,
+          21
+        ],
+        "subset_size": 16,
+        "micro_f1": 0.53888,
+        "macro_f1": 0.06194358643098557,
+        "validation_loss": 1.4654211743164063,
+        "train_loss": 2.016226743142605,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79990,
+            "validation_examples": 20010,
+            "accuracy": 0.511744127936032,
+            "macro_f1": 0.057552771441969075,
+            "micro_f1": 0.511744127936032
+          },
+          {
+            "fold": 2,
+            "train_examples": 79995,
+            "validation_examples": 20005,
+            "accuracy": 0.542014496375906,
+            "macro_f1": 0.0620159705852803,
+            "micro_f1": 0.542014496375906
+          },
+          {
+            "fold": 3,
+            "train_examples": 80002,
+            "validation_examples": 19998,
+            "accuracy": 0.5505550555055505,
+            "macro_f1": 0.06327221684619797,
+            "micro_f1": 0.5505550555055505
+          },
+          {
+            "fold": 4,
+            "train_examples": 80005,
+            "validation_examples": 19995,
+            "accuracy": 0.5429857464366091,
+            "macro_f1": 0.06250690566233164,
+            "micro_f1": 0.5429857464366091
+          },
+          {
+            "fold": 5,
+            "train_examples": 80008,
+            "validation_examples": 19992,
+            "accuracy": 0.5471188475390156,
+            "macro_f1": 0.0640988307089951,
+            "micro_f1": 0.5471188475390156
+          }
+        ],
+        "seconds": 4.173276581001119,
+        "gpu_id": 0,
+        "candidate_id": 23,
+        "sample_weight": 0.06140813360272783
+      },
+      {
+        "client_id": 3,
+        "model_family": "transformer",
+        "feature_ids": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          16,
+          17,
+          18,
+          19,
+          21
+        ],
+        "subset_size": 16,
+        "micro_f1": 0.82184,
+        "macro_f1": 0.05175281198473211,
+        "validation_loss": 0.7544323010253906,
+        "train_loss": 1.1251056019686163,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79989,
+            "validation_examples": 20011,
+            "accuracy": 0.8198990555194643,
+            "macro_f1": 0.05163699695346799,
+            "micro_f1": 0.8198990555194643
+          },
+          {
+            "fold": 2,
+            "train_examples": 79996,
+            "validation_examples": 20004,
+            "accuracy": 0.8228354329134173,
+            "macro_f1": 0.0518252446666976,
+            "micro_f1": 0.8228354329134173
+          },
+          {
+            "fold": 3,
+            "train_examples": 79999,
+            "validation_examples": 20001,
+            "accuracy": 0.8202589870506475,
+            "macro_f1": 0.051643535743462705,
+            "micro_f1": 0.8202589870506475
+          },
+          {
+            "fold": 4,
+            "train_examples": 80007,
+            "validation_examples": 19993,
+            "accuracy": 0.8215875556444756,
+            "macro_f1": 0.051727782531145225,
+            "micro_f1": 0.8215875556444756
+          },
+          {
+            "fold": 5,
+            "train_examples": 80009,
+            "validation_examples": 19991,
+            "accuracy": 0.8246210794857686,
+            "macro_f1": 0.05192998094673426,
+            "micro_f1": 0.8246210794857686
+          }
+        ],
+        "seconds": 4.156971660999261,
+        "gpu_id": 0,
+        "candidate_id": 23,
+        "sample_weight": 0.10352608723008234
+      },
+      {
+        "client_id": 4,
+        "model_family": "transformer",
+        "feature_ids": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          16,
+          17,
+          18,
+          19,
+          21
+        ],
+        "subset_size": 16,
+        "micro_f1": 0.83039,
+        "macro_f1": 0.026796328610775716,
+        "validation_loss": 0.5748826422119141,
+        "train_loss": 0.8795352641265839,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79996,
+            "validation_examples": 20004,
+            "accuracy": 0.8301839632073585,
+            "macro_f1": 0.026728201604168972,
+            "micro_f1": 0.8301839632073585
+          },
+          {
+            "fold": 2,
+            "train_examples": 79999,
+            "validation_examples": 20001,
+            "accuracy": 0.8304084795760212,
+            "macro_f1": 0.02676855964102753,
+            "micro_f1": 0.8304084795760212
+          },
+          {
+            "fold": 3,
+            "train_examples": 80000,
+            "validation_examples": 20000,
+            "accuracy": 0.83055,
+            "macro_f1": 0.026886321185955457,
+            "micro_f1": 0.83055
+          },
+          {
+            "fold": 4,
+            "train_examples": 80002,
+            "validation_examples": 19998,
+            "accuracy": 0.8302330233023303,
+            "macro_f1": 0.02679300083463357,
+            "micro_f1": 0.8302330233023303
+          },
+          {
+            "fold": 5,
+            "train_examples": 80003,
+            "validation_examples": 19997,
+            "accuracy": 0.8305745861879282,
+            "macro_f1": 0.026804768526622832,
+            "micro_f1": 0.8305745861879282
+          }
+        ],
+        "seconds": 4.218351886998789,
+        "gpu_id": 0,
+        "candidate_id": 23,
+        "sample_weight": 0.05331877405031971
+      },
+      {
+        "client_id": 5,
+        "model_family": "transformer",
+        "feature_ids": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          16,
+          17,
+          18,
+          19,
+          21
+        ],
+        "subset_size": 16,
+        "micro_f1": 0.95417,
+        "macro_f1": 0.05652171051558977,
+        "validation_loss": 0.24760475463867188,
+        "train_loss": 0.5917520651273429,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79994,
+            "validation_examples": 20006,
+            "accuracy": 0.953963810856743,
+            "macro_f1": 0.05652353729457828,
+            "micro_f1": 0.953963810856743
+          },
+          {
+            "fold": 2,
+            "train_examples": 79998,
+            "validation_examples": 20002,
+            "accuracy": 0.9533546645335467,
+            "macro_f1": 0.05646840618430266,
+            "micro_f1": 0.9533546645335467
+          },
+          {
+            "fold": 3,
+            "train_examples": 80001,
+            "validation_examples": 19999,
+            "accuracy": 0.9546977348867444,
+            "macro_f1": 0.056551532823492026,
+            "micro_f1": 0.9546977348867444
+          },
+          {
+            "fold": 4,
+            "train_examples": 80002,
+            "validation_examples": 19998,
+            "accuracy": 0.9541954195419542,
+            "macro_f1": 0.056510679581900224,
+            "micro_f1": 0.9541954195419542
+          },
+          {
+            "fold": 5,
+            "train_examples": 80005,
+            "validation_examples": 19995,
+            "accuracy": 0.9546386596649162,
+            "macro_f1": 0.056554394367089256,
+            "micro_f1": 0.9546386596649162
+          }
+        ],
+        "seconds": 4.0513466150005115,
+        "gpu_id": 0,
+        "candidate_id": 23,
+        "sample_weight": 0.07030152831932522
+      },
+      {
+        "client_id": 6,
+        "model_family": "transformer",
+        "feature_ids": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          16,
+          17,
+          18,
+          19,
+          21
+        ],
+        "subset_size": 16,
+        "micro_f1": 0.99268,
+        "macro_f1": 0.05807670815632752,
+        "validation_loss": 0.07528897598266601,
+        "train_loss": 0.5551498040393926,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79998,
+            "validation_examples": 20002,
+            "accuracy": 0.9928507149285072,
+            "macro_f1": 0.05809195228978206,
+            "micro_f1": 0.9928507149285072
+          },
+          {
+            "fold": 2,
+            "train_examples": 79999,
+            "validation_examples": 20001,
+            "accuracy": 0.9931503424828758,
+            "macro_f1": 0.058131782153834945,
+            "micro_f1": 0.9931503424828758
+          },
+          {
+            "fold": 3,
+            "train_examples": 80000,
+            "validation_examples": 20000,
+            "accuracy": 0.9925,
+            "macro_f1": 0.05807316759648211,
+            "micro_f1": 0.9925
+          },
+          {
+            "fold": 4,
+            "train_examples": 80001,
+            "validation_examples": 19999,
+            "accuracy": 0.992349617480874,
+            "macro_f1": 0.05803145441743718,
+            "micro_f1": 0.992349617480874
+          },
+          {
+            "fold": 5,
+            "train_examples": 80002,
+            "validation_examples": 19998,
+            "accuracy": 0.9925492549254925,
+            "macro_f1": 0.05805505037496275,
+            "micro_f1": 0.9925492549254925
+          }
+        ],
+        "seconds": 4.031360078000944,
+        "gpu_id": 0,
+        "candidate_id": 23,
+        "sample_weight": 0.07459800879610083
+      },
+      {
+        "client_id": 7,
+        "model_family": "transformer",
+        "feature_ids": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          16,
+          17,
+          18,
+          19,
+          21
+        ],
+        "subset_size": 16,
+        "micro_f1": 0.8645,
+        "macro_f1": 0.0273503795152045,
+        "validation_loss": 0.5086929254150391,
+        "train_loss": 0.7693202569575608,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79996,
+            "validation_examples": 20004,
+            "accuracy": 0.8643271345730854,
+            "macro_f1": 0.027271379404982348,
+            "micro_f1": 0.8643271345730854
+          },
+          {
+            "fold": 2,
+            "train_examples": 79998,
+            "validation_examples": 20002,
+            "accuracy": 0.8644135586441356,
+            "macro_f1": 0.02727284199102788,
+            "micro_f1": 0.8644135586441356
+          },
+          {
+            "fold": 3,
+            "train_examples": 80000,
+            "validation_examples": 20000,
+            "accuracy": 0.8645,
+            "macro_f1": 0.027274304733961165,
+            "micro_f1": 0.8645
+          },
+          {
+            "fold": 4,
+            "train_examples": 80002,
+            "validation_examples": 19998,
+            "accuracy": 0.8645864586458646,
+            "macro_f1": 0.02727576763380744,
+            "micro_f1": 0.8645864586458646
+          },
+          {
+            "fold": 5,
+            "train_examples": 80004,
+            "validation_examples": 19996,
+            "accuracy": 0.8646729345869174,
+            "macro_f1": 0.027656622830616307,
+            "micro_f1": 0.8646729345869174
+          }
+        ],
+        "seconds": 3.99518131700097,
+        "gpu_id": 1,
+        "candidate_id": 23,
+        "sample_weight": 0.0506732076446565
+      },
+      {
+        "client_id": 8,
+        "model_family": "transformer",
+        "feature_ids": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          16,
+          17,
+          18,
+          19,
+          21
+        ],
+        "subset_size": 16,
+        "micro_f1": 0.55398,
+        "macro_f1": 0.06157972155912807,
+        "validation_loss": 1.4760119702148438,
+        "train_loss": 2.051034690566957,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79991,
+            "validation_examples": 20009,
+            "accuracy": 0.5542006097256235,
+            "macro_f1": 0.06246608046553471,
+            "micro_f1": 0.5542006097256235
+          },
+          {
+            "fold": 2,
+            "train_examples": 79995,
+            "validation_examples": 20005,
+            "accuracy": 0.5548112971757061,
+            "macro_f1": 0.06157308097852584,
+            "micro_f1": 0.5548112971757061
+          },
+          {
+            "fold": 3,
+            "train_examples": 79999,
+            "validation_examples": 20001,
+            "accuracy": 0.5530723463826809,
+            "macro_f1": 0.062213059151977126,
+            "micro_f1": 0.5530723463826809
+          },
+          {
+            "fold": 4,
+            "train_examples": 80002,
+            "validation_examples": 19998,
+            "accuracy": 0.5548554855485549,
+            "macro_f1": 0.06085818142168395,
+            "micro_f1": 0.5548554855485549
+          },
+          {
+            "fold": 5,
+            "train_examples": 80013,
+            "validation_examples": 19987,
+            "accuracy": 0.5529594236253564,
+            "macro_f1": 0.06070469182846248,
+            "micro_f1": 0.5529594236253564
+          }
+        ],
+        "seconds": 4.159572213999127,
+        "gpu_id": 1,
+        "candidate_id": 23,
+        "sample_weight": 0.35428718146871235
+      },
+      {
+        "client_id": 9,
+        "model_family": "transformer",
+        "feature_ids": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          16,
+          17,
+          18,
+          19,
+          21
+        ],
+        "subset_size": 16,
+        "micro_f1": 0.75838,
+        "macro_f1": 0.02724968307662826,
+        "validation_loss": 0.8080615295410156,
+        "train_loss": 1.100733326406479,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79991,
+            "validation_examples": 20009,
+            "accuracy": 0.7588085361587286,
+            "macro_f1": 0.026921421556666245,
+            "micro_f1": 0.7588085361587286
+          },
+          {
+            "fold": 2,
+            "train_examples": 80000,
+            "validation_examples": 20000,
+            "accuracy": 0.75795,
+            "macro_f1": 0.026939244964070075,
+            "micro_f1": 0.75795
+          },
+          {
+            "fold": 3,
+            "train_examples": 80002,
+            "validation_examples": 19998,
+            "accuracy": 0.7589258925892589,
+            "macro_f1": 0.026844452866748095,
+            "micro_f1": 0.7589258925892589
+          },
+          {
+            "fold": 4,
+            "train_examples": 80003,
+            "validation_examples": 19997,
+            "accuracy": 0.7581137170575586,
+            "macro_f1": 0.02810118185183984,
+            "micro_f1": 0.7581137170575586
+          },
+          {
+            "fold": 5,
+            "train_examples": 80004,
+            "validation_examples": 19996,
+            "accuracy": 0.7581016203240648,
+            "macro_f1": 0.02738211513497575,
+            "micro_f1": 0.7581016203240648
+          }
+        ],
+        "seconds": 4.041021017001185,
+        "gpu_id": 1,
+        "candidate_id": 23,
+        "sample_weight": 0.12090076595060324
+      },
+      {
+        "client_id": 10,
+        "model_family": "transformer",
+        "feature_ids": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          16,
+          17,
+          18,
+          19,
+          21
+        ],
+        "subset_size": 16,
+        "micro_f1": 0.5892,
+        "macro_f1": 0.057366655268864364,
+        "validation_loss": 1.1598352685546875,
+        "train_loss": 1.6306845410120487,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79993,
+            "validation_examples": 20007,
+            "accuracy": 0.5914429949517669,
+            "macro_f1": 0.057649016539875905,
+            "micro_f1": 0.5914429949517669
+          },
+          {
+            "fold": 2,
+            "train_examples": 79998,
+            "validation_examples": 20002,
+            "accuracy": 0.5876912308769123,
+            "macro_f1": 0.05723173089660067,
+            "micro_f1": 0.5876912308769123
+          },
+          {
+            "fold": 3,
+            "train_examples": 80001,
+            "validation_examples": 19999,
+            "accuracy": 0.5830291514575728,
+            "macro_f1": 0.05609405639751014,
+            "micro_f1": 0.5830291514575728
+          },
+          {
+            "fold": 4,
+            "train_examples": 80002,
+            "validation_examples": 19998,
+            "accuracy": 0.5965096509650966,
+            "macro_f1": 0.05858890414349066,
+            "micro_f1": 0.5965096509650966
+          },
+          {
+            "fold": 5,
+            "train_examples": 80006,
+            "validation_examples": 19994,
+            "accuracy": 0.5873261978593578,
+            "macro_f1": 0.05724007870438578,
+            "micro_f1": 0.5873261978593578
+          }
+        ],
+        "seconds": 4.013728425999943,
+        "gpu_id": 1,
+        "candidate_id": 23,
+        "sample_weight": 0.1101111121785796
+      }
+    ]
+  }
+}

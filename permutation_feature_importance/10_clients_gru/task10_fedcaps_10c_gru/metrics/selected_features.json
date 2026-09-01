@@ -1,0 +1,1429 @@
+{
+  "selected_feature_ids": [
+    6,
+    8,
+    9,
+    17,
+    18,
+    24
+  ],
+  "selected_feature_names": [
+    "TCP",
+    "Protocol Type",
+    "Rate",
+    "HTTP",
+    "rst_count",
+    "DNS"
+  ],
+  "selected_feature_count": 6,
+  "best_by_reward": {
+    "candidate_id": 76,
+    "search_epoch": 8,
+    "global_step": 7600,
+    "feature_ids": [
+      6,
+      8,
+      9,
+      17,
+      18,
+      24
+    ],
+    "feature_names": [
+      "TCP",
+      "Protocol Type",
+      "Rate",
+      "HTTP",
+      "rst_count",
+      "DNS"
+    ],
+    "subset_size": 6,
+    "weighted_micro_f1": 0.4885279908794752,
+    "weighted_macro_f1": 0.018379281378049693,
+    "baseline_performance": 0.27358996868133545,
+    "compactness": 0.76,
+    "reward": 0.7054938022198141,
+    "communication_bytes": 160,
+    "communication_bytes_cumulative": 13700,
+    "per_client": [
+      {
+        "client_id": 1,
+        "model_family": "gru",
+        "feature_ids": [
+          6,
+          8,
+          9,
+          17,
+          18,
+          24
+        ],
+        "subset_size": 6,
+        "micro_f1": 0.8774111675126903,
+        "macro_f1": 0.02749127229639997,
+        "validation_loss": 2.8996557245399748,
+        "train_loss": 3.23752431993368,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 25213,
+            "validation_examples": 6307,
+            "accuracy": 0.8771206595845885,
+            "macro_f1": 0.027486423237256724,
+            "micro_f1": 0.8771206595845885
+          },
+          {
+            "fold": 2,
+            "train_examples": 25214,
+            "validation_examples": 6306,
+            "accuracy": 0.8771011734855693,
+            "macro_f1": 0.02748609792823102,
+            "micro_f1": 0.8771011734855693
+          },
+          {
+            "fold": 3,
+            "train_examples": 25216,
+            "validation_examples": 6304,
+            "accuracy": 0.8773794416243654,
+            "macro_f1": 0.02749074281170009,
+            "micro_f1": 0.8773794416243654
+          },
+          {
+            "fold": 4,
+            "train_examples": 25218,
+            "validation_examples": 6302,
+            "accuracy": 0.8776578863852745,
+            "macro_f1": 0.027495389265314845,
+            "micro_f1": 0.8776578863852745
+          },
+          {
+            "fold": 5,
+            "train_examples": 25219,
+            "validation_examples": 6301,
+            "accuracy": 0.8777971750515791,
+            "macro_f1": 0.027497713081175674,
+            "micro_f1": 0.8777971750515791
+          }
+        ],
+        "seconds": 0.5065354160005882,
+        "gpu_id": 1,
+        "candidate_id": 76,
+        "sample_weight": 0.0008752007588923535
+      },
+      {
+        "client_id": 2,
+        "model_family": "gru",
+        "feature_ids": [
+          6,
+          8,
+          9,
+          17,
+          18,
+          24
+        ],
+        "subset_size": 6,
+        "micro_f1": 0.24095,
+        "macro_f1": 0.012757277828217652,
+        "validation_loss": 2.92197158203125,
+        "train_loss": 3.239376669880152,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79990,
+            "validation_examples": 20010,
+            "accuracy": 0.2416791604197901,
+            "macro_f1": 0.012944435655459814,
+            "micro_f1": 0.2416791604197901
+          },
+          {
+            "fold": 2,
+            "train_examples": 79995,
+            "validation_examples": 20005,
+            "accuracy": 0.24053986503374156,
+            "macro_f1": 0.012673055905699004,
+            "micro_f1": 0.24053986503374156
+          },
+          {
+            "fold": 3,
+            "train_examples": 80002,
+            "validation_examples": 19998,
+            "accuracy": 0.24107410741074106,
+            "macro_f1": 0.012779785534451287,
+            "micro_f1": 0.24107410741074106
+          },
+          {
+            "fold": 4,
+            "train_examples": 80005,
+            "validation_examples": 19995,
+            "accuracy": 0.24021005251312827,
+            "macro_f1": 0.012571710320292612,
+            "micro_f1": 0.24021005251312827
+          },
+          {
+            "fold": 5,
+            "train_examples": 80008,
+            "validation_examples": 19992,
+            "accuracy": 0.24124649859943978,
+            "macro_f1": 0.012816025186076802,
+            "micro_f1": 0.24124649859943978
+          }
+        ],
+        "seconds": 1.6137024089994156,
+        "gpu_id": 0,
+        "candidate_id": 76,
+        "sample_weight": 0.06140813360272783
+      },
+      {
+        "client_id": 3,
+        "model_family": "gru",
+        "feature_ids": [
+          6,
+          8,
+          9,
+          17,
+          18,
+          24
+        ],
+        "subset_size": 6,
+        "micro_f1": 0.47686,
+        "macro_f1": 0.01918151390922996,
+        "validation_loss": 1.8336261669921874,
+        "train_loss": 2.722054918204844,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79989,
+            "validation_examples": 20011,
+            "accuracy": 0.47673779421318274,
+            "macro_f1": 0.01918254766827476,
+            "micro_f1": 0.47673779421318274
+          },
+          {
+            "fold": 2,
+            "train_examples": 79996,
+            "validation_examples": 20004,
+            "accuracy": 0.47690461907618475,
+            "macro_f1": 0.01918830958883735,
+            "micro_f1": 0.47690461907618475
+          },
+          {
+            "fold": 3,
+            "train_examples": 79999,
+            "validation_examples": 20001,
+            "accuracy": 0.4768261586920654,
+            "macro_f1": 0.019184875616650016,
+            "micro_f1": 0.4768261586920654
+          },
+          {
+            "fold": 4,
+            "train_examples": 80007,
+            "validation_examples": 19993,
+            "accuracy": 0.47641674586105137,
+            "macro_f1": 0.01911837994027934,
+            "micro_f1": 0.47641674586105137
+          },
+          {
+            "fold": 5,
+            "train_examples": 80009,
+            "validation_examples": 19991,
+            "accuracy": 0.4774148366765044,
+            "macro_f1": 0.019233414136907614,
+            "micro_f1": 0.4774148366765044
+          }
+        ],
+        "seconds": 1.5956110229999467,
+        "gpu_id": 0,
+        "candidate_id": 76,
+        "sample_weight": 0.10352608723008234
+      },
+      {
+        "client_id": 4,
+        "model_family": "gru",
+        "feature_ids": [
+          6,
+          8,
+          9,
+          17,
+          18,
+          24
+        ],
+        "subset_size": 6,
+        "micro_f1": 0.83048,
+        "macro_f1": 0.026687953272301446,
+        "validation_loss": 1.1558423803710938,
+        "train_loss": 2.3706750262287257,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79996,
+            "validation_examples": 20004,
+            "accuracy": 0.8303339332133574,
+            "macro_f1": 0.02668538874554574,
+            "micro_f1": 0.8303339332133574
+          },
+          {
+            "fold": 2,
+            "train_examples": 79999,
+            "validation_examples": 20001,
+            "accuracy": 0.8304584770761462,
+            "macro_f1": 0.026687575415296268,
+            "micro_f1": 0.8304584770761462
+          },
+          {
+            "fold": 3,
+            "train_examples": 80000,
+            "validation_examples": 20000,
+            "accuracy": 0.8305,
+            "macro_f1": 0.026688304384851452,
+            "micro_f1": 0.8305
+          },
+          {
+            "fold": 4,
+            "train_examples": 80002,
+            "validation_examples": 19998,
+            "accuracy": 0.8305330533053306,
+            "macro_f1": 0.026688884639549812,
+            "micro_f1": 0.8305330533053306
+          },
+          {
+            "fold": 5,
+            "train_examples": 80003,
+            "validation_examples": 19997,
+            "accuracy": 0.8305745861879282,
+            "macro_f1": 0.02668961372452603,
+            "micro_f1": 0.8305745861879282
+          }
+        ],
+        "seconds": 1.616233955000098,
+        "gpu_id": 0,
+        "candidate_id": 76,
+        "sample_weight": 0.05331877405031971
+      },
+      {
+        "client_id": 5,
+        "model_family": "gru",
+        "feature_ids": [
+          6,
+          8,
+          9,
+          17,
+          18,
+          24
+        ],
+        "subset_size": 6,
+        "micro_f1": 0.73388,
+        "macro_f1": 0.025671881293012604,
+        "validation_loss": 1.0728392150878907,
+        "train_loss": 2.0707476663264632,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79994,
+            "validation_examples": 20006,
+            "accuracy": 0.7340297910626812,
+            "macro_f1": 0.025783969518898036,
+            "micro_f1": 0.7340297910626812
+          },
+          {
+            "fold": 2,
+            "train_examples": 79998,
+            "validation_examples": 20002,
+            "accuracy": 0.7336766323367663,
+            "macro_f1": 0.025629308127550477,
+            "micro_f1": 0.7336766323367663
+          },
+          {
+            "fold": 3,
+            "train_examples": 80001,
+            "validation_examples": 19999,
+            "accuracy": 0.7342867143357168,
+            "macro_f1": 0.02574469643004659,
+            "micro_f1": 0.7342867143357168
+          },
+          {
+            "fold": 4,
+            "train_examples": 80002,
+            "validation_examples": 19998,
+            "accuracy": 0.7340734073407341,
+            "macro_f1": 0.025681512614179856,
+            "micro_f1": 0.7340734073407341
+          },
+          {
+            "fold": 5,
+            "train_examples": 80005,
+            "validation_examples": 19995,
+            "accuracy": 0.7333333333333333,
+            "macro_f1": 0.02551927513911416,
+            "micro_f1": 0.7333333333333333
+          }
+        ],
+        "seconds": 1.6794851519998701,
+        "gpu_id": 0,
+        "candidate_id": 76,
+        "sample_weight": 0.07030152831932522
+      },
+      {
+        "client_id": 6,
+        "model_family": "gru",
+        "feature_ids": [
+          6,
+          8,
+          9,
+          17,
+          18,
+          24
+        ],
+        "subset_size": 6,
+        "micro_f1": 0.84679,
+        "macro_f1": 0.026971759902635513,
+        "validation_loss": 1.3752625927734374,
+        "train_loss": 2.5329073242133857,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79998,
+            "validation_examples": 20002,
+            "accuracy": 0.8467153284671532,
+            "macro_f1": 0.02697047198325971,
+            "micro_f1": 0.8467153284671532
+          },
+          {
+            "fold": 2,
+            "train_examples": 79999,
+            "validation_examples": 20001,
+            "accuracy": 0.8467576621168942,
+            "macro_f1": 0.026971202158205785,
+            "micro_f1": 0.8467576621168942
+          },
+          {
+            "fold": 3,
+            "train_examples": 80000,
+            "validation_examples": 20000,
+            "accuracy": 0.8468,
+            "macro_f1": 0.026971932372689165,
+            "micro_f1": 0.8468
+          },
+          {
+            "fold": 4,
+            "train_examples": 80001,
+            "validation_examples": 19999,
+            "accuracy": 0.8468423421171059,
+            "macro_f1": 0.026972662626713065,
+            "micro_f1": 0.8468423421171059
+          },
+          {
+            "fold": 5,
+            "train_examples": 80002,
+            "validation_examples": 19998,
+            "accuracy": 0.8468346834683468,
+            "macro_f1": 0.02697253054418096,
+            "micro_f1": 0.8468346834683468
+          }
+        ],
+        "seconds": 1.5513944809999884,
+        "gpu_id": 0,
+        "candidate_id": 76,
+        "sample_weight": 0.07459800879610083
+      },
+      {
+        "client_id": 7,
+        "model_family": "gru",
+        "feature_ids": [
+          6,
+          8,
+          9,
+          17,
+          18,
+          24
+        ],
+        "subset_size": 6,
+        "micro_f1": 0.86449,
+        "macro_f1": 0.0272741355229454,
+        "validation_loss": 0.8765722937011718,
+        "train_loss": 2.106161812453866,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79996,
+            "validation_examples": 20004,
+            "accuracy": 0.8643271345730854,
+            "macro_f1": 0.027271379404982348,
+            "micro_f1": 0.8643271345730854
+          },
+          {
+            "fold": 2,
+            "train_examples": 79998,
+            "validation_examples": 20002,
+            "accuracy": 0.8644135586441356,
+            "macro_f1": 0.02727284199102788,
+            "micro_f1": 0.8644135586441356
+          },
+          {
+            "fold": 3,
+            "train_examples": 80000,
+            "validation_examples": 20000,
+            "accuracy": 0.8645,
+            "macro_f1": 0.027274304733961165,
+            "micro_f1": 0.8645
+          },
+          {
+            "fold": 4,
+            "train_examples": 80002,
+            "validation_examples": 19998,
+            "accuracy": 0.8645864586458646,
+            "macro_f1": 0.02727576763380744,
+            "micro_f1": 0.8645864586458646
+          },
+          {
+            "fold": 5,
+            "train_examples": 80004,
+            "validation_examples": 19996,
+            "accuracy": 0.864622924584917,
+            "macro_f1": 0.027276384605069065,
+            "micro_f1": 0.864622924584917
+          }
+        ],
+        "seconds": 1.6521793649999381,
+        "gpu_id": 1,
+        "candidate_id": 76,
+        "sample_weight": 0.0506732076446565
+      },
+      {
+        "client_id": 8,
+        "model_family": "gru",
+        "feature_ids": [
+          6,
+          8,
+          9,
+          17,
+          18,
+          24
+        ],
+        "subset_size": 6,
+        "micro_f1": 0.24422,
+        "macro_f1": 0.01154609502575202,
+        "validation_loss": 2.87743275390625,
+        "train_loss": 3.2349876367133854,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79991,
+            "validation_examples": 20009,
+            "accuracy": 0.24414013693837772,
+            "macro_f1": 0.011543060222401806,
+            "micro_f1": 0.24414013693837772
+          },
+          {
+            "fold": 2,
+            "train_examples": 79995,
+            "validation_examples": 20005,
+            "accuracy": 0.24418895276180955,
+            "macro_f1": 0.011544915274265592,
+            "micro_f1": 0.24418895276180955
+          },
+          {
+            "fold": 3,
+            "train_examples": 79999,
+            "validation_examples": 20001,
+            "accuracy": 0.24418779061046947,
+            "macro_f1": 0.011544871113002161,
+            "micro_f1": 0.24418779061046947
+          },
+          {
+            "fold": 4,
+            "train_examples": 80002,
+            "validation_examples": 19998,
+            "accuracy": 0.24422442244224424,
+            "macro_f1": 0.011546263067561242,
+            "micro_f1": 0.24422442244224424
+          },
+          {
+            "fold": 5,
+            "train_examples": 80013,
+            "validation_examples": 19987,
+            "accuracy": 0.24435883324160704,
+            "macro_f1": 0.011551369773915757,
+            "micro_f1": 0.24435883324160704
+          }
+        ],
+        "seconds": 1.6344718659993305,
+        "gpu_id": 1,
+        "candidate_id": 76,
+        "sample_weight": 0.35428718146871235
+      },
+      {
+        "client_id": 9,
+        "model_family": "gru",
+        "feature_ids": [
+          6,
+          8,
+          9,
+          17,
+          18,
+          24
+        ],
+        "subset_size": 6,
+        "micro_f1": 0.75811,
+        "macro_f1": 0.025365139770749806,
+        "validation_loss": 1.5037778344726562,
+        "train_loss": 2.4907998016402124,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79991,
+            "validation_examples": 20009,
+            "accuracy": 0.7578089859563196,
+            "macro_f1": 0.025359410226048797,
+            "micro_f1": 0.7578089859563196
+          },
+          {
+            "fold": 2,
+            "train_examples": 80000,
+            "validation_examples": 20000,
+            "accuracy": 0.7581,
+            "macro_f1": 0.025364949460814985,
+            "micro_f1": 0.7581
+          },
+          {
+            "fold": 3,
+            "train_examples": 80002,
+            "validation_examples": 19998,
+            "accuracy": 0.7581758175817582,
+            "macro_f1": 0.025366392290704677,
+            "micro_f1": 0.7581758175817582
+          },
+          {
+            "fold": 4,
+            "train_examples": 80003,
+            "validation_examples": 19997,
+            "accuracy": 0.758213732059809,
+            "macro_f1": 0.025367113767205452,
+            "micro_f1": 0.758213732059809
+          },
+          {
+            "fold": 5,
+            "train_examples": 80004,
+            "validation_examples": 19996,
+            "accuracy": 0.758251650330066,
+            "macro_f1": 0.025367835284748178,
+            "micro_f1": 0.758251650330066
+          }
+        ],
+        "seconds": 1.717816182000206,
+        "gpu_id": 1,
+        "candidate_id": 76,
+        "sample_weight": 0.12090076595060324
+      },
+      {
+        "client_id": 10,
+        "model_family": "gru",
+        "feature_ids": [
+          6,
+          8,
+          9,
+          17,
+          18,
+          24
+        ],
+        "subset_size": 6,
+        "micro_f1": 0.38659,
+        "macro_f1": 0.016409661212472688,
+        "validation_loss": 2.415996005859375,
+        "train_loss": 3.0173480322146418,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79993,
+            "validation_examples": 20007,
+            "accuracy": 0.3865147198480532,
+            "macro_f1": 0.016420993636087344,
+            "micro_f1": 0.3865147198480532
+          },
+          {
+            "fold": 2,
+            "train_examples": 79998,
+            "validation_examples": 20002,
+            "accuracy": 0.3865113488651135,
+            "macro_f1": 0.01639796292800465,
+            "micro_f1": 0.3865113488651135
+          },
+          {
+            "fold": 3,
+            "train_examples": 80001,
+            "validation_examples": 19999,
+            "accuracy": 0.38656932846642333,
+            "macro_f1": 0.016399736959334762,
+            "micro_f1": 0.38656932846642333
+          },
+          {
+            "fold": 4,
+            "train_examples": 80002,
+            "validation_examples": 19998,
+            "accuracy": 0.3866386638663866,
+            "macro_f1": 0.016413324653366198,
+            "micro_f1": 0.3866386638663866
+          },
+          {
+            "fold": 5,
+            "train_examples": 80006,
+            "validation_examples": 19994,
+            "accuracy": 0.38671601480444134,
+            "macro_f1": 0.016416282652114558,
+            "micro_f1": 0.38671601480444134
+          }
+        ],
+        "seconds": 1.666361059999872,
+        "gpu_id": 1,
+        "candidate_id": 76,
+        "sample_weight": 0.1101111121785796
+      }
+    ]
+  },
+  "best_by_weighted_micro_f1": {
+    "candidate_id": 15,
+    "search_epoch": 2,
+    "global_step": 1500,
+    "feature_ids": [
+      3,
+      4,
+      5,
+      7,
+      8,
+      16,
+      19,
+      20,
+      21,
+      22
+    ],
+    "feature_names": [
+      "UDP",
+      "fin_count",
+      "Max",
+      "syn_count",
+      "Protocol Type",
+      "fin_flag_number",
+      "Header_Length",
+      "psh_flag_number",
+      "ICMP",
+      "Time_To_Live"
+    ],
+    "subset_size": 10,
+    "weighted_micro_f1": 0.5578977111362133,
+    "weighted_macro_f1": 0.02708003903999258,
+    "baseline_performance": 0.709017276763916,
+    "compactness": 0.6,
+    "reward": 0.5248880434372297,
+    "communication_bytes": 240,
+    "communication_bytes_cumulative": 3100,
+    "per_client": [
+      {
+        "client_id": 1,
+        "model_family": "gru",
+        "feature_ids": [
+          3,
+          4,
+          5,
+          7,
+          8,
+          16,
+          19,
+          20,
+          21,
+          22
+        ],
+        "subset_size": 10,
+        "micro_f1": 0.8774111675126903,
+        "macro_f1": 0.02749127229639997,
+        "validation_loss": 3.0813801876784583,
+        "train_loss": 3.3256110476225915,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 25213,
+            "validation_examples": 6307,
+            "accuracy": 0.8771206595845885,
+            "macro_f1": 0.027486423237256724,
+            "micro_f1": 0.8771206595845885
+          },
+          {
+            "fold": 2,
+            "train_examples": 25214,
+            "validation_examples": 6306,
+            "accuracy": 0.8771011734855693,
+            "macro_f1": 0.02748609792823102,
+            "micro_f1": 0.8771011734855693
+          },
+          {
+            "fold": 3,
+            "train_examples": 25216,
+            "validation_examples": 6304,
+            "accuracy": 0.8773794416243654,
+            "macro_f1": 0.02749074281170009,
+            "micro_f1": 0.8773794416243654
+          },
+          {
+            "fold": 4,
+            "train_examples": 25218,
+            "validation_examples": 6302,
+            "accuracy": 0.8776578863852745,
+            "macro_f1": 0.027495389265314845,
+            "micro_f1": 0.8776578863852745
+          },
+          {
+            "fold": 5,
+            "train_examples": 25219,
+            "validation_examples": 6301,
+            "accuracy": 0.8777971750515791,
+            "macro_f1": 0.027497713081175674,
+            "micro_f1": 0.8777971750515791
+          }
+        ],
+        "seconds": 0.5961867579999307,
+        "gpu_id": 1,
+        "candidate_id": 15,
+        "sample_weight": 0.0008752007588923535
+      },
+      {
+        "client_id": 2,
+        "model_family": "gru",
+        "feature_ids": [
+          3,
+          4,
+          5,
+          7,
+          8,
+          16,
+          19,
+          20,
+          21,
+          22
+        ],
+        "subset_size": 10,
+        "micro_f1": 0.23526,
+        "macro_f1": 0.011622799991467864,
+        "validation_loss": 3.0268834765625,
+        "train_loss": 3.286685605528951,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79990,
+            "validation_examples": 20010,
+            "accuracy": 0.23523238380809594,
+            "macro_f1": 0.011599414313871311,
+            "micro_f1": 0.23523238380809594
+          },
+          {
+            "fold": 2,
+            "train_examples": 79995,
+            "validation_examples": 20005,
+            "accuracy": 0.2350912271932017,
+            "macro_f1": 0.011579826770695939,
+            "micro_f1": 0.2350912271932017
+          },
+          {
+            "fold": 3,
+            "train_examples": 80002,
+            "validation_examples": 19998,
+            "accuracy": 0.23547354735473547,
+            "macro_f1": 0.011678125550271687,
+            "micro_f1": 0.23547354735473547
+          },
+          {
+            "fold": 4,
+            "train_examples": 80005,
+            "validation_examples": 19995,
+            "accuracy": 0.2353088272068017,
+            "macro_f1": 0.011677096584234844,
+            "micro_f1": 0.2353088272068017
+          },
+          {
+            "fold": 5,
+            "train_examples": 80008,
+            "validation_examples": 19992,
+            "accuracy": 0.23519407763105243,
+            "macro_f1": 0.011579106102814358,
+            "micro_f1": 0.23519407763105243
+          }
+        ],
+        "seconds": 1.6554307880001033,
+        "gpu_id": 0,
+        "candidate_id": 15,
+        "sample_weight": 0.06140813360272783
+      },
+      {
+        "client_id": 3,
+        "model_family": "gru",
+        "feature_ids": [
+          3,
+          4,
+          5,
+          7,
+          8,
+          16,
+          19,
+          20,
+          21,
+          22
+        ],
+        "subset_size": 10,
+        "micro_f1": 0.47613,
+        "macro_f1": 0.019047085758333842,
+        "validation_loss": 1.8894507373046876,
+        "train_loss": 2.8174054052791,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79989,
+            "validation_examples": 20011,
+            "accuracy": 0.4755384538503823,
+            "macro_f1": 0.018982950936073533,
+            "micro_f1": 0.4755384538503823
+          },
+          {
+            "fold": 2,
+            "train_examples": 79996,
+            "validation_examples": 20004,
+            "accuracy": 0.47625474905018994,
+            "macro_f1": 0.019072447930976743,
+            "micro_f1": 0.47625474905018994
+          },
+          {
+            "fold": 3,
+            "train_examples": 79999,
+            "validation_examples": 20001,
+            "accuracy": 0.4762261886905655,
+            "macro_f1": 0.019073562202811797,
+            "micro_f1": 0.4762261886905655
+          },
+          {
+            "fold": 4,
+            "train_examples": 80007,
+            "validation_examples": 19993,
+            "accuracy": 0.4763667283549242,
+            "macro_f1": 0.01906564015783923,
+            "micro_f1": 0.4763667283549242
+          },
+          {
+            "fold": 5,
+            "train_examples": 80009,
+            "validation_examples": 19991,
+            "accuracy": 0.4762643189435246,
+            "macro_f1": 0.019040774172136357,
+            "micro_f1": 0.4762643189435246
+          }
+        ],
+        "seconds": 1.6625441139999566,
+        "gpu_id": 0,
+        "candidate_id": 15,
+        "sample_weight": 0.10352608723008234
+      },
+      {
+        "client_id": 4,
+        "model_family": "gru",
+        "feature_ids": [
+          3,
+          4,
+          5,
+          7,
+          8,
+          16,
+          19,
+          20,
+          21,
+          22
+        ],
+        "subset_size": 10,
+        "micro_f1": 0.83048,
+        "macro_f1": 0.026687953272301446,
+        "validation_loss": 1.3483417431640625,
+        "train_loss": 2.6531224133402107,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79996,
+            "validation_examples": 20004,
+            "accuracy": 0.8303339332133574,
+            "macro_f1": 0.02668538874554574,
+            "micro_f1": 0.8303339332133574
+          },
+          {
+            "fold": 2,
+            "train_examples": 79999,
+            "validation_examples": 20001,
+            "accuracy": 0.8304584770761462,
+            "macro_f1": 0.026687575415296268,
+            "micro_f1": 0.8304584770761462
+          },
+          {
+            "fold": 3,
+            "train_examples": 80000,
+            "validation_examples": 20000,
+            "accuracy": 0.8305,
+            "macro_f1": 0.026688304384851452,
+            "micro_f1": 0.8305
+          },
+          {
+            "fold": 4,
+            "train_examples": 80002,
+            "validation_examples": 19998,
+            "accuracy": 0.8305330533053306,
+            "macro_f1": 0.026688884639549812,
+            "micro_f1": 0.8305330533053306
+          },
+          {
+            "fold": 5,
+            "train_examples": 80003,
+            "validation_examples": 19997,
+            "accuracy": 0.8305745861879282,
+            "macro_f1": 0.02668961372452603,
+            "micro_f1": 0.8305745861879282
+          }
+        ],
+        "seconds": 1.761425526000039,
+        "gpu_id": 0,
+        "candidate_id": 15,
+        "sample_weight": 0.05331877405031971
+      },
+      {
+        "client_id": 5,
+        "model_family": "gru",
+        "feature_ids": [
+          3,
+          4,
+          5,
+          7,
+          8,
+          16,
+          19,
+          20,
+          21,
+          22
+        ],
+        "subset_size": 10,
+        "micro_f1": 0.73075,
+        "macro_f1": 0.024847099205529532,
+        "validation_loss": 1.1178524584960938,
+        "train_loss": 2.2276410024988653,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79994,
+            "validation_examples": 20006,
+            "accuracy": 0.730480855743277,
+            "macro_f1": 0.024833089488503608,
+            "micro_f1": 0.730480855743277
+          },
+          {
+            "fold": 2,
+            "train_examples": 79998,
+            "validation_examples": 20002,
+            "accuracy": 0.7306769323067693,
+            "macro_f1": 0.024850168544852703,
+            "micro_f1": 0.7306769323067693
+          },
+          {
+            "fold": 3,
+            "train_examples": 80001,
+            "validation_examples": 19999,
+            "accuracy": 0.7308365418270913,
+            "macro_f1": 0.024838640604447706,
+            "micro_f1": 0.7308365418270913
+          },
+          {
+            "fold": 4,
+            "train_examples": 80002,
+            "validation_examples": 19998,
+            "accuracy": 0.7308230823082308,
+            "macro_f1": 0.024861257870995666,
+            "micro_f1": 0.7308230823082308
+          },
+          {
+            "fold": 5,
+            "train_examples": 80005,
+            "validation_examples": 19995,
+            "accuracy": 0.7309327331832958,
+            "macro_f1": 0.0248523340709249,
+            "micro_f1": 0.7309327331832958
+          }
+        ],
+        "seconds": 1.5730656089999684,
+        "gpu_id": 0,
+        "candidate_id": 15,
+        "sample_weight": 0.07030152831932522
+      },
+      {
+        "client_id": 6,
+        "model_family": "gru",
+        "feature_ids": [
+          3,
+          4,
+          5,
+          7,
+          8,
+          16,
+          19,
+          20,
+          21,
+          22
+        ],
+        "subset_size": 10,
+        "micro_f1": 0.84679,
+        "macro_f1": 0.026971759902635513,
+        "validation_loss": 0.9107490002441406,
+        "train_loss": 2.2601329962314667,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79998,
+            "validation_examples": 20002,
+            "accuracy": 0.8467153284671532,
+            "macro_f1": 0.02697047198325971,
+            "micro_f1": 0.8467153284671532
+          },
+          {
+            "fold": 2,
+            "train_examples": 79999,
+            "validation_examples": 20001,
+            "accuracy": 0.8467576621168942,
+            "macro_f1": 0.026971202158205785,
+            "micro_f1": 0.8467576621168942
+          },
+          {
+            "fold": 3,
+            "train_examples": 80000,
+            "validation_examples": 20000,
+            "accuracy": 0.8468,
+            "macro_f1": 0.026971932372689165,
+            "micro_f1": 0.8468
+          },
+          {
+            "fold": 4,
+            "train_examples": 80001,
+            "validation_examples": 19999,
+            "accuracy": 0.8468423421171059,
+            "macro_f1": 0.026972662626713065,
+            "micro_f1": 0.8468423421171059
+          },
+          {
+            "fold": 5,
+            "train_examples": 80002,
+            "validation_examples": 19998,
+            "accuracy": 0.8468346834683468,
+            "macro_f1": 0.02697253054418096,
+            "micro_f1": 0.8468346834683468
+          }
+        ],
+        "seconds": 1.5574209639999026,
+        "gpu_id": 0,
+        "candidate_id": 15,
+        "sample_weight": 0.07459800879610083
+      },
+      {
+        "client_id": 7,
+        "model_family": "gru",
+        "feature_ids": [
+          3,
+          4,
+          5,
+          7,
+          8,
+          16,
+          19,
+          20,
+          21,
+          22
+        ],
+        "subset_size": 10,
+        "micro_f1": 0.8645,
+        "macro_f1": 0.027452119753221444,
+        "validation_loss": 0.8189491076660156,
+        "train_loss": 2.072980495008826,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79996,
+            "validation_examples": 20004,
+            "accuracy": 0.8643271345730854,
+            "macro_f1": 0.027271379404982348,
+            "micro_f1": 0.8643271345730854
+          },
+          {
+            "fold": 2,
+            "train_examples": 79998,
+            "validation_examples": 20002,
+            "accuracy": 0.8644635536446356,
+            "macro_f1": 0.027715855518910284,
+            "micro_f1": 0.8644635536446356
+          },
+          {
+            "fold": 3,
+            "train_examples": 80000,
+            "validation_examples": 20000,
+            "accuracy": 0.86455,
+            "macro_f1": 0.027717318340296906,
+            "micro_f1": 0.86455
+          },
+          {
+            "fold": 4,
+            "train_examples": 80002,
+            "validation_examples": 19998,
+            "accuracy": 0.8645864586458646,
+            "macro_f1": 0.02727649914258084,
+            "micro_f1": 0.8645864586458646
+          },
+          {
+            "fold": 5,
+            "train_examples": 80004,
+            "validation_examples": 19996,
+            "accuracy": 0.8645729145829166,
+            "macro_f1": 0.02727553847416018,
+            "micro_f1": 0.8645729145829166
+          }
+        ],
+        "seconds": 1.637221012000282,
+        "gpu_id": 1,
+        "candidate_id": 15,
+        "sample_weight": 0.0506732076446565
+      },
+      {
+        "client_id": 8,
+        "model_family": "gru",
+        "feature_ids": [
+          3,
+          4,
+          5,
+          7,
+          8,
+          16,
+          19,
+          20,
+          21,
+          22
+        ],
+        "subset_size": 10,
+        "micro_f1": 0.44189,
+        "macro_f1": 0.03646126835590137,
+        "validation_loss": 3.01632080078125,
+        "train_loss": 3.3029514599889516,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79991,
+            "validation_examples": 20009,
+            "accuracy": 0.44155130191413866,
+            "macro_f1": 0.0364771668542883,
+            "micro_f1": 0.44155130191413866
+          },
+          {
+            "fold": 2,
+            "train_examples": 79995,
+            "validation_examples": 20005,
+            "accuracy": 0.44288927768057984,
+            "macro_f1": 0.03649997988482484,
+            "micro_f1": 0.44288927768057984
+          },
+          {
+            "fold": 3,
+            "train_examples": 79999,
+            "validation_examples": 20001,
+            "accuracy": 0.4412779361031948,
+            "macro_f1": 0.03642896294953719,
+            "micro_f1": 0.4412779361031948
+          },
+          {
+            "fold": 4,
+            "train_examples": 80002,
+            "validation_examples": 19998,
+            "accuracy": 0.44194419441944194,
+            "macro_f1": 0.03648714129199928,
+            "micro_f1": 0.44194419441944194
+          },
+          {
+            "fold": 5,
+            "train_examples": 80013,
+            "validation_examples": 19987,
+            "accuracy": 0.4417871616550758,
+            "macro_f1": 0.036414476041827626,
+            "micro_f1": 0.4417871616550758
+          }
+        ],
+        "seconds": 1.7187614049998956,
+        "gpu_id": 1,
+        "candidate_id": 15,
+        "sample_weight": 0.35428718146871235
+      },
+      {
+        "client_id": 9,
+        "model_family": "gru",
+        "feature_ids": [
+          3,
+          4,
+          5,
+          7,
+          8,
+          16,
+          19,
+          20,
+          21,
+          22
+        ],
+        "subset_size": 10,
+        "micro_f1": 0.758,
+        "macro_f1": 0.025425821042504057,
+        "validation_loss": 1.2994246923828126,
+        "train_loss": 2.3571715365728734,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79991,
+            "validation_examples": 20009,
+            "accuracy": 0.7576090759158379,
+            "macro_f1": 0.02544080219859869,
+            "micro_f1": 0.7576090759158379
+          },
+          {
+            "fold": 2,
+            "train_examples": 80000,
+            "validation_examples": 20000,
+            "accuracy": 0.75805,
+            "macro_f1": 0.025448640975382995,
+            "micro_f1": 0.75805
+          },
+          {
+            "fold": 3,
+            "train_examples": 80002,
+            "validation_examples": 19998,
+            "accuracy": 0.7581258125812581,
+            "macro_f1": 0.025365440695462458,
+            "micro_f1": 0.7581258125812581
+          },
+          {
+            "fold": 4,
+            "train_examples": 80003,
+            "validation_examples": 19997,
+            "accuracy": 0.7581637245586837,
+            "macro_f1": 0.02542334023236612,
+            "micro_f1": 0.7581637245586837
+          },
+          {
+            "fold": 5,
+            "train_examples": 80004,
+            "validation_examples": 19996,
+            "accuracy": 0.7580516103220644,
+            "macro_f1": 0.02545058965417865,
+            "micro_f1": 0.7580516103220644
+          }
+        ],
+        "seconds": 1.7357992150000428,
+        "gpu_id": 1,
+        "candidate_id": 15,
+        "sample_weight": 0.12090076595060324
+      },
+      {
+        "client_id": 10,
+        "model_family": "gru",
+        "feature_ids": [
+          3,
+          4,
+          5,
+          7,
+          8,
+          16,
+          19,
+          20,
+          21,
+          22
+        ],
+        "subset_size": 10,
+        "micro_f1": 0.38655,
+        "macro_f1": 0.016399145572909484,
+        "validation_loss": 2.75978533203125,
+        "train_loss": 3.1808154834610223,
+        "cv_folds": 5,
+        "stream_count": 2,
+        "fold_metrics": [
+          {
+            "fold": 1,
+            "train_examples": 79993,
+            "validation_examples": 20007,
+            "accuracy": 0.38641475483580745,
+            "macro_f1": 0.016395007061877315,
+            "micro_f1": 0.38641475483580745
+          },
+          {
+            "fold": 2,
+            "train_examples": 79998,
+            "validation_examples": 20002,
+            "accuracy": 0.3865113488651135,
+            "macro_f1": 0.01639796292800465,
+            "micro_f1": 0.3865113488651135
+          },
+          {
+            "fold": 3,
+            "train_examples": 80001,
+            "validation_examples": 19999,
+            "accuracy": 0.38656932846642333,
+            "macro_f1": 0.016399736959334762,
+            "micro_f1": 0.38656932846642333
+          },
+          {
+            "fold": 4,
+            "train_examples": 80002,
+            "validation_examples": 19998,
+            "accuracy": 0.3865886588658866,
+            "macro_f1": 0.01640032838841476,
+            "micro_f1": 0.3865886588658866
+          },
+          {
+            "fold": 5,
+            "train_examples": 80006,
+            "validation_examples": 19994,
+            "accuracy": 0.38666599979994,
+            "macro_f1": 0.016402694531374315,
+            "micro_f1": 0.38666599979994
+          }
+        ],
+        "seconds": 1.5833565259999887,
+        "gpu_id": 1,
+        "candidate_id": 15,
+        "sample_weight": 0.1101111121785796
+      }
+    ]
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "run_name": "task10_fedcaps_10c_gru",
+  "scenario": "10_clients_gru",
+  "scenario_name": "10 clients GRU",
+  "method": "fedcaps",
+  "execution_mode": "client_parallel",
+  "input_dir": "/kaggle/input/datasets/odixe0502/data-for-10clients",
+  "output_dir": "/kaggle/working/task10_fedcaps_10c_gru",
+  "temporary_dir": "/kaggle/temp/task10_fedcaps_10c_gru_cache",
+  "model_family": "gru",
+  "client_models": {
+    "1": "gru",
+    "2": "gru",
+    "3": "gru",
+    "4": "gru",
+    "5": "gru",
+    "6": "gru",
+    "7": "gru",
+    "8": "gru",
+    "9": "gru",
+    "10": "gru"
+  },
+  "num_clients": 10,
+  "num_features": 25,
+  "num_classes": 34,
+  "seed": 42,
+  "initialization_seed": 42,
+  "rounds": 10,
+  "communication_rounds": 10,
+  "local_epochs_per_round": 1,
+  "local_train_fraction": 1.0,
+  "local_validation_fraction": 0.0,
+  "create_local_validation": false,
+  "evaluate_global_test_each_round": true,
+  "create_best_checkpoint": false,
+  "persistent_personalized_clients": true,
+  "server_is_classifier": false,
+  "evaluation_scope": "clients_only",
+  "fedcaps_search_cv_folds": 5,
+  "fedcaps_search_pool_max_rows_per_client": 100000,
+  "marlfs_epochs": 300,
+  "marlfs_log_interval": 10,
+  "record_permutations": 25,
+  "encoder_isab_layers": 2,
+  "encoder_attention_heads": 4,
+  "embedding_dimension": 128,
+  "inducing_points": 32,
+  "pma_seed_vectors": 32,
+  "encoder_batch_size": 64,
+  "encoder_learning_rate": 0.001,
+  "encoder_max_epochs": 100,
+  "encoder_patience": 10,
+  "permutation_invariance_tolerance": 1e-05,
+  "ppo_seed_count": 25,
+  "ppo_search_epochs": 10,
+  "ppo_batch_size": 512,
+  "actor_learning_rate": 0.0003,
+  "critic_learning_rate": 0.001,
+  "reward_lambda": 0.1,
+  "ppo_discount_factor": 0.99,
+  "ppo_steps_per_epoch": 1000,
+  "ppo_clip_ratio": 0.2,
+  "ppo_feedback_interval": 100,
+  "ppo_update_epochs": 4,
+  "ppo_entropy_coefficient": 0.001,
+  "actor_step_scale": 0.1,
+  "critic_pretrain_epochs": 200,
+  "critic_calibration_steps": 10,
+  "minimum_subset_size": 2,
+  "candidate_evaluator_epochs": 1,
+  "classifier_optimizer": "SGD",
+  "classifier_learning_rate": 0.01,
+  "per_client_batch_size": 1024,
+  "gradient_accumulation_steps": 1,
+  "scheduler": null,
+  "loss": "cross_entropy",
+  "class_weighting": false,
+  "mixed_precision": true,
+  "gpu_cache_fraction": 0.7,
+  "stream_candidates": [
+    1,
+    2
+  ],
+  "stream_improvement_margin": 1.0,
+  "workload_assignment_policy": "phase_specific_exhaustive_bipartition",
+  "search_parallelism_unit": "independent_stratified_cv_fold",
+  "require_multistream_deterministic_replay": true,
+  "persistent_global_test_gpu_cache": true,
+  "gpu_monitor_interval_seconds": 5.0,
+  "csv_chunksize": 250000,
+  "gpu_copy_chunk_rows": 250000,
+  "worker_timeout_seconds": 43200,
+  "common_metrics": [
+    "accuracy",
+    "macro_precision",
+    "micro_precision",
+    "weighted_precision",
+    "macro_recall",
+    "micro_recall",
+    "weighted_recall",
+    "macro_f1",
+    "micro_f1",
+    "weighted_f1"
+  ],
+  "runtime_stream_count_by_gpu": {
+    "0": 2,
+    "1": 2
+  },
+  "client_assignments_by_phase": {
+    "search": {
+      "0": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "1": [
+        1,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "final_training": {
+      "0": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "1": [
+        3,
+        7,
+        8
+      ]
+    },
+    "evaluation": {
+      "0": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "1": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    }
+  }
+}

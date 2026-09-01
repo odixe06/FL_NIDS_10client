@@ -1,0 +1,5 @@
+{
+  "status": "applicable",
+  "reason": "server state returns 34-class logits",
+  "evaluated_clients": 10
+}

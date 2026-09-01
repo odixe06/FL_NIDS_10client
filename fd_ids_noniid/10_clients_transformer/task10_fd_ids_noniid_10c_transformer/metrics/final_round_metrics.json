@@ -1,0 +1,23 @@
+[
+  {
+    "method": "fd_ids_noniid",
+    "scenario": "10_clients_transformer",
+    "run_name": "task10_fd_ids_noniid_10c_transformer",
+    "round": 10,
+    "model_scope": "server",
+    "client_id": null,
+    "checkpoint_relative_path": "checkpoints/round_010/server.pt",
+    "test_examples": 9003649,
+    "accuracy": 0.6144087802623136,
+    "macro_precision": 0.40845559924110164,
+    "micro_precision": 0.6144087802623136,
+    "weighted_precision": 0.5442116163402293,
+    "macro_recall": 0.4012104767270954,
+    "micro_recall": 0.6144087802623136,
+    "weighted_recall": 0.6144087802623136,
+    "macro_f1": 0.35869707106750276,
+    "micro_f1": 0.6144087802623136,
+    "weighted_f1": 0.5297588329126106,
+    "confusion_matrix_relative_path": "metrics/confusion_matrices/round_010/server.npy"
+  }
+]

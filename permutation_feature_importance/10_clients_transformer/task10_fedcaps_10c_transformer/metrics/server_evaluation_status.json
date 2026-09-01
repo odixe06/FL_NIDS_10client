@@ -1,0 +1,5 @@
+{
+  "status": "not_applicable",
+  "reason": "FedCAPS server state is a feature-selection stack and does not emit 34-class logits",
+  "evaluated_clients_each_round": 10
+}

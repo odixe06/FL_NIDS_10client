@@ -1,0 +1,2 @@
+train_examples,optimizer_steps,cross_entropy_loss,seconds,gpu_id
+36014594,35171,0.6055470829763545,463.1493102730001,0

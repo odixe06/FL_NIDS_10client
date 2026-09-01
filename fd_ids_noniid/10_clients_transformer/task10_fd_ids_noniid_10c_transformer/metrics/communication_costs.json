@@ -1,0 +1,9 @@
+{
+  "model_state_bytes": 284040,
+  "total_bytes": 56808000,
+  "total_mib": 54.17633056640625,
+  "ddp_gradient_allreduce_estimate": {
+    "enabled": false,
+    "bytes": 0
+  }
+}

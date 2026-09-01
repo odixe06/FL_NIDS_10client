@@ -1,0 +1,5 @@
+{
+  "status": "not_applicable",
+  "reason": "The pFedES server state is a 25-to-25 proxy feature extractor and does not return 34-class logits.",
+  "evaluated_clients": 10
+}

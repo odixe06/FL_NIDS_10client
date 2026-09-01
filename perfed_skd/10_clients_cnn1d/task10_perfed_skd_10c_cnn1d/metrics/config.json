@@ -1,0 +1,173 @@
+{
+  "method": "perfed_skd",
+  "method_name": "perfed_skd",
+  "scenario": "10_clients_cnn1d",
+  "run_name": "task10_perfed_skd_10c_cnn1d",
+  "model_family": "cnn1d",
+  "execution_mode": "client_parallel",
+  "input_dir": "/kaggle/input/datasets/odixe0502/data-for-10clients",
+  "output_dir": "/kaggle/working/task10_perfed_skd_10c_cnn1d",
+  "temp_dir": "/kaggle/temp/task10_perfed_skd_10c_cnn1d_runtime",
+  "cache_dir": "/kaggle/temp/task10_perfed_skd_10c_cnn1d_cache",
+  "manifest_path": "/kaggle/temp/task10_perfed_skd_10c_cnn1d_manifest.json",
+  "num_clients": 10,
+  "num_features": 25,
+  "num_classes": 34,
+  "feature_columns": [
+    "ack_flag_number",
+    "AVG",
+    "Std",
+    "UDP",
+    "fin_count",
+    "Max",
+    "TCP",
+    "syn_count",
+    "Protocol Type",
+    "Rate",
+    "IAT",
+    "syn_flag_number",
+    "rst_flag_number",
+    "Tot sum",
+    "HTTPS",
+    "ack_count",
+    "fin_flag_number",
+    "HTTP",
+    "rst_count",
+    "Header_Length",
+    "psh_flag_number",
+    "ICMP",
+    "Time_To_Live",
+    "ARP",
+    "DNS"
+  ],
+  "label_column": "Label",
+  "rounds": 10,
+  "communication_rounds": 10,
+  "local_epochs": 1,
+  "per_client_batch_size": 1024,
+  "evaluation_batch_size": 32768,
+  "csv_chunk_rows": 262144,
+  "gpu_copy_chunk_rows": 262144,
+  "dataloader_workers_per_gpu": 2,
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "momentum": 0.0,
+  "weight_decay": 0.0,
+  "gradient_accumulation_steps": 1,
+  "scheduler": null,
+  "seed": 42,
+  "initialization_seed": 42,
+  "gpu_cache_fraction": 0.7,
+  "stream_candidates": [
+    1,
+    2
+  ],
+  "stream_min_speedup": 1.1,
+  "stream_benchmark_warmup_steps": 3,
+  "stream_benchmark_steps": 12,
+  "worker_count": 2,
+  "worker_timeout_seconds": 86400,
+  "mixed_precision": "cuda_amp",
+  "expected_parameter_count": 35874,
+  "local_train_fraction": 0.9,
+  "local_validation_fraction": 0.1,
+  "create_local_validation": true,
+  "client_selection_metric": "accuracy",
+  "client_selection_source": "local_validation",
+  "split_policy": "deterministic_stratified_90_train_10_validation",
+  "evaluate_global_test_each_round": true,
+  "global_test_controls_training": false,
+  "create_best_checkpoint": false,
+  "comparison_round": 10,
+  "comparison_metrics": [
+    "accuracy",
+    "macro_precision",
+    "micro_precision",
+    "weighted_precision",
+    "macro_recall",
+    "micro_recall",
+    "weighted_recall",
+    "macro_f1",
+    "micro_f1",
+    "weighted_f1"
+  ],
+  "evaluation_scope": "server_and_clients",
+  "server_classifier_available": true,
+  "server_state_type": "global_classifier",
+  "server_evaluation_not_applicable_reason": "",
+  "persistent_personalized_clients": true,
+  "temperature": 1.0,
+  "fedprox_mu": 0.01,
+  "hard_loss_weight": 0.5,
+  "proximal_weight": 0.1,
+  "distillation_lambda": 1.0,
+  "adaptive_epsilon": 1e-08,
+  "enhanced_loss_weight": 0.1,
+  "final_personalized_finetune_epochs": 0,
+  "client_assignment": {
+    "0": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      9,
+      10
+    ],
+    "1": [
+      5,
+      6,
+      8
+    ]
+  },
+  "selected_streams_by_gpu": {
+    "0": 1,
+    "1": 1
+  },
+  "personalized_evaluation_assignment": {
+    "0": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "1": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "stream_benchmark": {
+    "0": [
+      {
+        "stream_count": 1,
+        "seconds": 0.07835420989990234,
+        "samples_per_second": 156826.28943228378,
+        "seconds_per_step": 0.006529517491658528
+      },
+      {
+        "stream_count": 2,
+        "seconds": 0.1465548858642578,
+        "samples_per_second": 167691.44102614775,
+        "seconds_per_step": 0.006106453577677408
+      }
+    ],
+    "1": [
+      {
+        "stream_count": 1,
+        "seconds": 0.07862364959716797,
+        "samples_per_second": 156288.85281919825,
+        "seconds_per_step": 0.006551970799763998
+      },
+      {
+        "stream_count": 2,
+        "seconds": 0.1530960693359375,
+        "samples_per_second": 160526.65562610282,
+        "seconds_per_step": 0.006379002888997396
+      }
+    ]
+  }
+}

@@ -1,0 +1,1002 @@
+[
+  {
+    "round": 1,
+    "client_id": 1,
+    "train_examples": 28368,
+    "selected_for_global_update": true,
+    "train_seconds": 0.39984109500005616,
+    "cross_entropy_loss": 1.4884400615837368,
+    "distillation_kl_loss": 0.37223945885005805,
+    "total_loss": 1.860679517004763
+  },
+  {
+    "round": 1,
+    "client_id": 2,
+    "train_examples": 1990431,
+    "selected_for_global_update": true,
+    "train_seconds": 10.297751394999977,
+    "cross_entropy_loss": 0.35621039606732785,
+    "distillation_kl_loss": 0.08954935996866277,
+    "total_loss": 0.44575975607815405
+  },
+  {
+    "round": 1,
+    "client_id": 3,
+    "train_examples": 3355604,
+    "selected_for_global_update": true,
+    "train_seconds": 17.09967444899985,
+    "cross_entropy_loss": 0.4603280617082426,
+    "distillation_kl_loss": 0.18937629318115623,
+    "total_loss": 0.6497043551760713
+  },
+  {
+    "round": 1,
+    "client_id": 4,
+    "train_examples": 1728229,
+    "selected_for_global_update": true,
+    "train_seconds": 8.654919514999847,
+    "cross_entropy_loss": 0.15555972200241328,
+    "distillation_kl_loss": 0.06387854050238906,
+    "total_loss": 0.21943826257598734
+  },
+  {
+    "round": 1,
+    "client_id": 5,
+    "train_examples": 2278693,
+    "selected_for_global_update": true,
+    "train_seconds": 12.079807028000005,
+    "cross_entropy_loss": 0.19316006746535222,
+    "distillation_kl_loss": 0.07510068207931282,
+    "total_loss": 0.268260749312685
+  },
+  {
+    "round": 1,
+    "client_id": 6,
+    "train_examples": 2417955,
+    "selected_for_global_update": true,
+    "train_seconds": 12.561141227000007,
+    "cross_entropy_loss": 0.03379633124190785,
+    "distillation_kl_loss": 0.015043539990733802,
+    "total_loss": 0.04883987121370979
+  },
+  {
+    "round": 1,
+    "client_id": 7,
+    "train_examples": 1642476,
+    "selected_for_global_update": true,
+    "train_seconds": 8.612978799999837,
+    "cross_entropy_loss": 0.41809303238158524,
+    "distillation_kl_loss": 0.20094047877935786,
+    "total_loss": 0.6190335112616102
+  },
+  {
+    "round": 1,
+    "client_id": 8,
+    "train_examples": 11483556,
+    "selected_for_global_update": true,
+    "train_seconds": 58.987892774999864,
+    "cross_entropy_loss": 0.49097798759671457,
+    "distillation_kl_loss": 0.09584682364030644,
+    "total_loss": 0.5868248111477092
+  },
+  {
+    "round": 1,
+    "client_id": 9,
+    "train_examples": 3918771,
+    "selected_for_global_update": true,
+    "train_seconds": 20.45136787199999,
+    "cross_entropy_loss": 0.2965616042949679,
+    "distillation_kl_loss": 0.11677588794713067,
+    "total_loss": 0.4133374921721571
+  },
+  {
+    "round": 1,
+    "client_id": 10,
+    "train_examples": 3569043,
+    "selected_for_global_update": true,
+    "train_seconds": 17.90754042599997,
+    "cross_entropy_loss": 0.16711246388986406,
+    "distillation_kl_loss": 0.06081348439512814,
+    "total_loss": 0.22792594833526683
+  },
+  {
+    "round": 2,
+    "client_id": 1,
+    "train_examples": 28368,
+    "selected_for_global_update": true,
+    "train_seconds": 0.15426872599982744,
+    "cross_entropy_loss": 1.0647510219211977,
+    "distillation_kl_loss": 0.18950408324809379,
+    "total_loss": 1.254255111111266
+  },
+  {
+    "round": 2,
+    "client_id": 2,
+    "train_examples": 1990431,
+    "selected_for_global_update": true,
+    "train_seconds": 10.20013250299985,
+    "cross_entropy_loss": 0.2698536150385858,
+    "distillation_kl_loss": 0.0369411726440452,
+    "total_loss": 0.3067947872977159
+  },
+  {
+    "round": 2,
+    "client_id": 3,
+    "train_examples": 3355604,
+    "selected_for_global_update": true,
+    "train_seconds": 17.09755998499986,
+    "cross_entropy_loss": 0.2856257300736219,
+    "distillation_kl_loss": 0.06676137756749961,
+    "total_loss": 0.3523871074920035
+  },
+  {
+    "round": 2,
+    "client_id": 4,
+    "train_examples": 1728229,
+    "selected_for_global_update": false,
+    "train_seconds": 9.012102804000051,
+    "cross_entropy_loss": 0.09043315935777615,
+    "distillation_kl_loss": 0.01932351210041385,
+    "total_loss": 0.10975667141341268
+  },
+  {
+    "round": 2,
+    "client_id": 5,
+    "train_examples": 2278693,
+    "selected_for_global_update": false,
+    "train_seconds": 12.04753126699984,
+    "cross_entropy_loss": 0.10936136654667875,
+    "distillation_kl_loss": 0.02982478005671392,
+    "total_loss": 0.13918614661718742
+  },
+  {
+    "round": 2,
+    "client_id": 6,
+    "train_examples": 2417955,
+    "selected_for_global_update": false,
+    "train_seconds": 12.528503426000043,
+    "cross_entropy_loss": 0.018233569560818518,
+    "distillation_kl_loss": 0.004909259630366216,
+    "total_loss": 0.02314282917945093
+  },
+  {
+    "round": 2,
+    "client_id": 7,
+    "train_examples": 1642476,
+    "selected_for_global_update": false,
+    "train_seconds": 8.824163288000136,
+    "cross_entropy_loss": 0.2093075374760185,
+    "distillation_kl_loss": 0.07252251648723898,
+    "total_loss": 0.28183005438993136
+  },
+  {
+    "round": 2,
+    "client_id": 8,
+    "train_examples": 11483556,
+    "selected_for_global_update": true,
+    "train_seconds": 59.280799548999994,
+    "cross_entropy_loss": 0.3993143640119641,
+    "distillation_kl_loss": 0.0390602936371661,
+    "total_loss": 0.4383746576984899
+  },
+  {
+    "round": 2,
+    "client_id": 9,
+    "train_examples": 3918771,
+    "selected_for_global_update": false,
+    "train_seconds": 20.521072859000014,
+    "cross_entropy_loss": 0.1668127931852429,
+    "distillation_kl_loss": 0.045567387330213295,
+    "total_loss": 0.21238018044458978
+  },
+  {
+    "round": 2,
+    "client_id": 10,
+    "train_examples": 3569043,
+    "selected_for_global_update": false,
+    "train_seconds": 18.354550044000007,
+    "cross_entropy_loss": 0.09437120042643449,
+    "distillation_kl_loss": 0.022942514925041135,
+    "total_loss": 0.11731371535317281
+  },
+  {
+    "round": 3,
+    "client_id": 1,
+    "train_examples": 28368,
+    "selected_for_global_update": true,
+    "train_seconds": 0.16134865599997283,
+    "cross_entropy_loss": 0.8703272453957336,
+    "distillation_kl_loss": 0.22662055190890035,
+    "total_loss": 1.0969477935793437
+  },
+  {
+    "round": 3,
+    "client_id": 2,
+    "train_examples": 1990431,
+    "selected_for_global_update": true,
+    "train_seconds": 10.296694356999978,
+    "cross_entropy_loss": 0.2233570803964139,
+    "distillation_kl_loss": 0.02067609206686821,
+    "total_loss": 0.24403317256773235
+  },
+  {
+    "round": 3,
+    "client_id": 3,
+    "train_examples": 3355604,
+    "selected_for_global_update": true,
+    "train_seconds": 17.187847523000073,
+    "cross_entropy_loss": 0.2056429528987398,
+    "distillation_kl_loss": 0.03164162981238158,
+    "total_loss": 0.2372845827138657
+  },
+  {
+    "round": 3,
+    "client_id": 4,
+    "train_examples": 1728229,
+    "selected_for_global_update": false,
+    "train_seconds": 8.970552854000061,
+    "cross_entropy_loss": 0.06556317299542129,
+    "distillation_kl_loss": 0.00810811259071195,
+    "total_loss": 0.07367128558832597
+  },
+  {
+    "round": 3,
+    "client_id": 5,
+    "train_examples": 2278693,
+    "selected_for_global_update": false,
+    "train_seconds": 11.450928980000072,
+    "cross_entropy_loss": 0.07271544604635818,
+    "distillation_kl_loss": 0.013625166691501347,
+    "total_loss": 0.08634061272153733
+  },
+  {
+    "round": 3,
+    "client_id": 6,
+    "train_examples": 2417955,
+    "selected_for_global_update": false,
+    "train_seconds": 12.148812197000098,
+    "cross_entropy_loss": 0.011872262866579966,
+    "distillation_kl_loss": 0.0019899928536947216,
+    "total_loss": 0.0138622557242558
+  },
+  {
+    "round": 3,
+    "client_id": 7,
+    "train_examples": 1642476,
+    "selected_for_global_update": false,
+    "train_seconds": 8.35806548000005,
+    "cross_entropy_loss": 0.12044099471335017,
+    "distillation_kl_loss": 0.03218857502327559,
+    "total_loss": 0.1526295697698216
+  },
+  {
+    "round": 3,
+    "client_id": 8,
+    "train_examples": 11483556,
+    "selected_for_global_update": true,
+    "train_seconds": 58.4910996210001,
+    "cross_entropy_loss": 0.3558254053918625,
+    "distillation_kl_loss": 0.021062364501511478,
+    "total_loss": 0.37688776998610113
+  },
+  {
+    "round": 3,
+    "client_id": 9,
+    "train_examples": 3918771,
+    "selected_for_global_update": false,
+    "train_seconds": 19.744330762000118,
+    "cross_entropy_loss": 0.10943573901250926,
+    "distillation_kl_loss": 0.021276616596349173,
+    "total_loss": 0.13071235554804253
+  },
+  {
+    "round": 3,
+    "client_id": 10,
+    "train_examples": 3569043,
+    "selected_for_global_update": false,
+    "train_seconds": 18.982946625000068,
+    "cross_entropy_loss": 0.0627618908336867,
+    "distillation_kl_loss": 0.010439207890368138,
+    "total_loss": 0.07320109881626981
+  },
+  {
+    "round": 4,
+    "client_id": 1,
+    "train_examples": 28368,
+    "selected_for_global_update": true,
+    "train_seconds": 0.13714311300009285,
+    "cross_entropy_loss": 0.7935703565727434,
+    "distillation_kl_loss": 0.2593259919556651,
+    "total_loss": 1.0528963550765569
+  },
+  {
+    "round": 4,
+    "client_id": 2,
+    "train_examples": 1990431,
+    "selected_for_global_update": true,
+    "train_seconds": 10.163957419000099,
+    "cross_entropy_loss": 0.1995827655182871,
+    "distillation_kl_loss": 0.01523779447715909,
+    "total_loss": 0.21482055974635683
+  },
+  {
+    "round": 4,
+    "client_id": 3,
+    "train_examples": 3355604,
+    "selected_for_global_update": true,
+    "train_seconds": 17.251751818999992,
+    "cross_entropy_loss": 0.1666892313415814,
+    "distillation_kl_loss": 0.01781880631570219,
+    "total_loss": 0.18450803769162336
+  },
+  {
+    "round": 4,
+    "client_id": 4,
+    "train_examples": 1728229,
+    "selected_for_global_update": false,
+    "train_seconds": 9.11115087799999,
+    "cross_entropy_loss": 0.053673092161490715,
+    "distillation_kl_loss": 0.003871197880110098,
+    "total_loss": 0.05754429001449257
+  },
+  {
+    "round": 4,
+    "client_id": 5,
+    "train_examples": 2278693,
+    "selected_for_global_update": false,
+    "train_seconds": 11.863516339999933,
+    "cross_entropy_loss": 0.05484252992968506,
+    "distillation_kl_loss": 0.006570038298450096,
+    "total_loss": 0.06141256824486832
+  },
+  {
+    "round": 4,
+    "client_id": 6,
+    "train_examples": 2417955,
+    "selected_for_global_update": false,
+    "train_seconds": 12.31816432200003,
+    "cross_entropy_loss": 0.008780278748652521,
+    "distillation_kl_loss": 0.0008425539719384519,
+    "total_loss": 0.009622832718283325
+  },
+  {
+    "round": 4,
+    "client_id": 7,
+    "train_examples": 1642476,
+    "selected_for_global_update": false,
+    "train_seconds": 8.601072658000021,
+    "cross_entropy_loss": 0.07834208699527469,
+    "distillation_kl_loss": 0.015688901352254873,
+    "total_loss": 0.09403098834242635
+  },
+  {
+    "round": 4,
+    "client_id": 8,
+    "train_examples": 11483556,
+    "selected_for_global_update": true,
+    "train_seconds": 58.11012370699996,
+    "cross_entropy_loss": 0.3330699835394186,
+    "distillation_kl_loss": 0.013352711169569974,
+    "total_loss": 0.34642269471014275
+  },
+  {
+    "round": 4,
+    "client_id": 9,
+    "train_examples": 3918771,
+    "selected_for_global_update": false,
+    "train_seconds": 19.774927810999998,
+    "cross_entropy_loss": 0.08072202393166436,
+    "distillation_kl_loss": 0.010710334630929614,
+    "total_loss": 0.09143235854157988
+  },
+  {
+    "round": 4,
+    "client_id": 10,
+    "train_examples": 3569043,
+    "selected_for_global_update": false,
+    "train_seconds": 18.25878092800008,
+    "cross_entropy_loss": 0.046846218731658555,
+    "distillation_kl_loss": 0.005280642864536939,
+    "total_loss": 0.05212686161356397
+  },
+  {
+    "round": 5,
+    "client_id": 1,
+    "train_examples": 28368,
+    "selected_for_global_update": true,
+    "train_seconds": 0.147674588999962,
+    "cross_entropy_loss": 0.7528477050090872,
+    "distillation_kl_loss": 0.2763864526087056,
+    "total_loss": 1.0292341654843955
+  },
+  {
+    "round": 5,
+    "client_id": 2,
+    "train_examples": 1990431,
+    "selected_for_global_update": true,
+    "train_seconds": 10.296855945000061,
+    "cross_entropy_loss": 0.1856609051883813,
+    "distillation_kl_loss": 0.013554143543905632,
+    "total_loss": 0.19921504871488574
+  },
+  {
+    "round": 5,
+    "client_id": 3,
+    "train_examples": 3355604,
+    "selected_for_global_update": true,
+    "train_seconds": 17.25371591599992,
+    "cross_entropy_loss": 0.14609023360540843,
+    "distillation_kl_loss": 0.011837939258662302,
+    "total_loss": 0.1579281728475303
+  },
+  {
+    "round": 5,
+    "client_id": 4,
+    "train_examples": 1728229,
+    "selected_for_global_update": false,
+    "train_seconds": 9.11144946499985,
+    "cross_entropy_loss": 0.04743438288092685,
+    "distillation_kl_loss": 0.0021369104696758374,
+    "total_loss": 0.049571293351528496
+  },
+  {
+    "round": 5,
+    "client_id": 5,
+    "train_examples": 2278693,
+    "selected_for_global_update": false,
+    "train_seconds": 11.467278076999946,
+    "cross_entropy_loss": 0.04597216108992516,
+    "distillation_kl_loss": 0.0034546817545917275,
+    "total_loss": 0.04942684282602332
+  },
+  {
+    "round": 5,
+    "client_id": 6,
+    "train_examples": 2417955,
+    "selected_for_global_update": false,
+    "train_seconds": 12.24115992599991,
+    "cross_entropy_loss": 0.007106378746836971,
+    "distillation_kl_loss": 0.0003927581212231176,
+    "total_loss": 0.0074991368698727676
+  },
+  {
+    "round": 5,
+    "client_id": 7,
+    "train_examples": 1642476,
+    "selected_for_global_update": false,
+    "train_seconds": 8.314738963000082,
+    "cross_entropy_loss": 0.05708697321337033,
+    "distillation_kl_loss": 0.008215197427276926,
+    "total_loss": 0.06530217063584569
+  },
+  {
+    "round": 5,
+    "client_id": 8,
+    "train_examples": 11483556,
+    "selected_for_global_update": true,
+    "train_seconds": 57.78131318399983,
+    "cross_entropy_loss": 0.32001268611113515,
+    "distillation_kl_loss": 0.010255697979404576,
+    "total_loss": 0.33026838409839415
+  },
+  {
+    "round": 5,
+    "client_id": 9,
+    "train_examples": 3918771,
+    "selected_for_global_update": false,
+    "train_seconds": 20.088290856999947,
+    "cross_entropy_loss": 0.06577386237201745,
+    "distillation_kl_loss": 0.005949851142632337,
+    "total_loss": 0.07172371353847487
+  },
+  {
+    "round": 5,
+    "client_id": 10,
+    "train_examples": 3569043,
+    "selected_for_global_update": false,
+    "train_seconds": 17.88545100700003,
+    "cross_entropy_loss": 0.03818364449866947,
+    "distillation_kl_loss": 0.0030163648601882875,
+    "total_loss": 0.041200009335231574
+  },
+  {
+    "round": 6,
+    "client_id": 1,
+    "train_examples": 28368,
+    "selected_for_global_update": true,
+    "train_seconds": 0.1526416369999879,
+    "cross_entropy_loss": 0.7294115348179597,
+    "distillation_kl_loss": 0.28140938519754954,
+    "total_loss": 1.0108209053843424
+  },
+  {
+    "round": 6,
+    "client_id": 2,
+    "train_examples": 1990431,
+    "selected_for_global_update": true,
+    "train_seconds": 10.176421448000156,
+    "cross_entropy_loss": 0.1764856157838186,
+    "distillation_kl_loss": 0.013044762302445488,
+    "total_loss": 0.18953037802167239
+  },
+  {
+    "round": 6,
+    "client_id": 3,
+    "train_examples": 3355604,
+    "selected_for_global_update": true,
+    "train_seconds": 17.06722925400004,
+    "cross_entropy_loss": 0.13451119263642414,
+    "distillation_kl_loss": 0.00923617320931787,
+    "total_loss": 0.14374736585005557
+  },
+  {
+    "round": 6,
+    "client_id": 4,
+    "train_examples": 1728229,
+    "selected_for_global_update": false,
+    "train_seconds": 8.93386676,
+    "cross_entropy_loss": 0.0436638101261427,
+    "distillation_kl_loss": 0.0014880207868166989,
+    "total_loss": 0.045151830855627996
+  },
+  {
+    "round": 6,
+    "client_id": 5,
+    "train_examples": 2278693,
+    "selected_for_global_update": false,
+    "train_seconds": 11.689299500999823,
+    "cross_entropy_loss": 0.041220877176822074,
+    "distillation_kl_loss": 0.0019253103316300044,
+    "total_loss": 0.04314618748560361
+  },
+  {
+    "round": 6,
+    "client_id": 6,
+    "train_examples": 2417955,
+    "selected_for_global_update": false,
+    "train_seconds": 12.46091555199996,
+    "cross_entropy_loss": 0.0061037594162437845,
+    "distillation_kl_loss": 0.00022872620431020106,
+    "total_loss": 0.006332485623941239
+  },
+  {
+    "round": 6,
+    "client_id": 7,
+    "train_examples": 1642476,
+    "selected_for_global_update": false,
+    "train_seconds": 8.461023406999857,
+    "cross_entropy_loss": 0.04594529519755732,
+    "distillation_kl_loss": 0.004724025082916736,
+    "total_loss": 0.05066932029635752
+  },
+  {
+    "round": 6,
+    "client_id": 8,
+    "train_examples": 11483556,
+    "selected_for_global_update": true,
+    "train_seconds": 58.202996271000075,
+    "cross_entropy_loss": 0.3113472175739941,
+    "distillation_kl_loss": 0.008649092147619417,
+    "total_loss": 0.3199963099125842
+  },
+  {
+    "round": 6,
+    "client_id": 9,
+    "train_examples": 3918771,
+    "selected_for_global_update": false,
+    "train_seconds": 20.11467513699995,
+    "cross_entropy_loss": 0.05759348142188093,
+    "distillation_kl_loss": 0.003787368891626188,
+    "total_loss": 0.06138085032034866
+  },
+  {
+    "round": 6,
+    "client_id": 10,
+    "train_examples": 3569043,
+    "selected_for_global_update": false,
+    "train_seconds": 18.118806206999807,
+    "cross_entropy_loss": 0.03310162213963585,
+    "distillation_kl_loss": 0.0019993054783688236,
+    "total_loss": 0.03510092762285987
+  },
+  {
+    "round": 7,
+    "client_id": 1,
+    "train_examples": 28368,
+    "selected_for_global_update": true,
+    "train_seconds": 0.14190186800010451,
+    "cross_entropy_loss": 0.7150965282389893,
+    "distillation_kl_loss": 0.27821892184072455,
+    "total_loss": 0.9933154565327865
+  },
+  {
+    "round": 7,
+    "client_id": 2,
+    "train_examples": 1990431,
+    "selected_for_global_update": true,
+    "train_seconds": 10.271636456000124,
+    "cross_entropy_loss": 0.1698936377202583,
+    "distillation_kl_loss": 0.012673998582792619,
+    "total_loss": 0.18256763645704382
+  },
+  {
+    "round": 7,
+    "client_id": 3,
+    "train_examples": 3355604,
+    "selected_for_global_update": true,
+    "train_seconds": 17.21950556500019,
+    "cross_entropy_loss": 0.12712112010918855,
+    "distillation_kl_loss": 0.007932931529863579,
+    "total_loss": 0.13505405169273912
+  },
+  {
+    "round": 7,
+    "client_id": 4,
+    "train_examples": 1728229,
+    "selected_for_global_update": false,
+    "train_seconds": 8.929630526999972,
+    "cross_entropy_loss": 0.04125200290007622,
+    "distillation_kl_loss": 0.0012887425698083562,
+    "total_loss": 0.04254074543752763
+  },
+  {
+    "round": 7,
+    "client_id": 5,
+    "train_examples": 2278693,
+    "selected_for_global_update": false,
+    "train_seconds": 11.87439432500014,
+    "cross_entropy_loss": 0.03859079452009871,
+    "distillation_kl_loss": 0.0012276739332716061,
+    "total_loss": 0.039818468464627596
+  },
+  {
+    "round": 7,
+    "client_id": 6,
+    "train_examples": 2417955,
+    "selected_for_global_update": false,
+    "train_seconds": 12.29465004900021,
+    "cross_entropy_loss": 0.005408239751975917,
+    "distillation_kl_loss": 0.00018735693272310463,
+    "total_loss": 0.005595596685798618
+  },
+  {
+    "round": 7,
+    "client_id": 7,
+    "train_examples": 1642476,
+    "selected_for_global_update": false,
+    "train_seconds": 8.361325034000402,
+    "cross_entropy_loss": 0.03964550696130972,
+    "distillation_kl_loss": 0.0030132183448186023,
+    "total_loss": 0.04265872530995517
+  },
+  {
+    "round": 7,
+    "client_id": 8,
+    "train_examples": 11483556,
+    "selected_for_global_update": true,
+    "train_seconds": 58.181111881000106,
+    "cross_entropy_loss": 0.3054862282694896,
+    "distillation_kl_loss": 0.008187409169399962,
+    "total_loss": 0.31367363743371246
+  },
+  {
+    "round": 7,
+    "client_id": 9,
+    "train_examples": 3918771,
+    "selected_for_global_update": false,
+    "train_seconds": 20.071706547000304,
+    "cross_entropy_loss": 0.052654537840352116,
+    "distillation_kl_loss": 0.002650882706381611,
+    "total_loss": 0.05530542055097733
+  },
+  {
+    "round": 7,
+    "client_id": 10,
+    "train_examples": 3569043,
+    "selected_for_global_update": false,
+    "train_seconds": 18.02654928899983,
+    "cross_entropy_loss": 0.02976822561135082,
+    "distillation_kl_loss": 0.0015383997824600932,
+    "total_loss": 0.03130662540249267
+  },
+  {
+    "round": 8,
+    "client_id": 1,
+    "train_examples": 28368,
+    "selected_for_global_update": true,
+    "train_seconds": 0.15953928300041298,
+    "cross_entropy_loss": 0.7100586390266698,
+    "distillation_kl_loss": 0.2800163904670363,
+    "total_loss": 0.990075030655627
+  },
+  {
+    "round": 8,
+    "client_id": 2,
+    "train_examples": 1990431,
+    "selected_for_global_update": true,
+    "train_seconds": 10.014760888000183,
+    "cross_entropy_loss": 0.16484383417325688,
+    "distillation_kl_loss": 0.012467264889858776,
+    "total_loss": 0.17731109904131795
+  },
+  {
+    "round": 8,
+    "client_id": 3,
+    "train_examples": 3355604,
+    "selected_for_global_update": true,
+    "train_seconds": 17.220097923999674,
+    "cross_entropy_loss": 0.1222185142224035,
+    "distillation_kl_loss": 0.007409233506570333,
+    "total_loss": 0.12962774778926162
+  },
+  {
+    "round": 8,
+    "client_id": 4,
+    "train_examples": 1728229,
+    "selected_for_global_update": false,
+    "train_seconds": 8.986006175000057,
+    "cross_entropy_loss": 0.03938514651546102,
+    "distillation_kl_loss": 0.001219779539224165,
+    "total_loss": 0.04060492607722634
+  },
+  {
+    "round": 8,
+    "client_id": 5,
+    "train_examples": 2278693,
+    "selected_for_global_update": false,
+    "train_seconds": 11.664497128999756,
+    "cross_entropy_loss": 0.03695637340729572,
+    "distillation_kl_loss": 0.0008973537080194256,
+    "total_loss": 0.037853727105935604
+  },
+  {
+    "round": 8,
+    "client_id": 6,
+    "train_examples": 2417955,
+    "selected_for_global_update": false,
+    "train_seconds": 12.45575258000008,
+    "cross_entropy_loss": 0.00488263568246549,
+    "distillation_kl_loss": 0.00016199530333916743,
+    "total_loss": 0.005044630987501398
+  },
+  {
+    "round": 8,
+    "client_id": 7,
+    "train_examples": 1642476,
+    "selected_for_global_update": false,
+    "train_seconds": 8.471918073000325,
+    "cross_entropy_loss": 0.03604283814363243,
+    "distillation_kl_loss": 0.0022845477260085684,
+    "total_loss": 0.03832738587132166
+  },
+  {
+    "round": 8,
+    "client_id": 8,
+    "train_examples": 11483556,
+    "selected_for_global_update": true,
+    "train_seconds": 58.925410629,
+    "cross_entropy_loss": 0.30037594413632557,
+    "distillation_kl_loss": 0.007213978383717105,
+    "total_loss": 0.30758992247069367
+  },
+  {
+    "round": 8,
+    "client_id": 9,
+    "train_examples": 3918771,
+    "selected_for_global_update": false,
+    "train_seconds": 20.058749967999574,
+    "cross_entropy_loss": 0.0496097950450864,
+    "distillation_kl_loss": 0.0021817406349512007,
+    "total_loss": 0.05179153569840972
+  },
+  {
+    "round": 8,
+    "client_id": 10,
+    "train_examples": 3569043,
+    "selected_for_global_update": false,
+    "train_seconds": 18.562512199999674,
+    "cross_entropy_loss": 0.027534493041196442,
+    "distillation_kl_loss": 0.001329418214605384,
+    "total_loss": 0.028863911280648552
+  },
+  {
+    "round": 9,
+    "client_id": 1,
+    "train_examples": 28368,
+    "selected_for_global_update": true,
+    "train_seconds": 0.16299228500020035,
+    "cross_entropy_loss": 0.6951814467834337,
+    "distillation_kl_loss": 0.2714482217090014,
+    "total_loss": 0.9666296716168044
+  },
+  {
+    "round": 9,
+    "client_id": 2,
+    "train_examples": 1990431,
+    "selected_for_global_update": true,
+    "train_seconds": 10.19366977699974,
+    "cross_entropy_loss": 0.16061585368997386,
+    "distillation_kl_loss": 0.012037239408965523,
+    "total_loss": 0.17265309330943143
+  },
+  {
+    "round": 9,
+    "client_id": 3,
+    "train_examples": 3355604,
+    "selected_for_global_update": true,
+    "train_seconds": 17.055782290000025,
+    "cross_entropy_loss": 0.11846928209777007,
+    "distillation_kl_loss": 0.007179404393848768,
+    "total_loss": 0.1256486865410125
+  },
+  {
+    "round": 9,
+    "client_id": 4,
+    "train_examples": 1728229,
+    "selected_for_global_update": false,
+    "train_seconds": 8.698057635000168,
+    "cross_entropy_loss": 0.037971128541219736,
+    "distillation_kl_loss": 0.001191553468156387,
+    "total_loss": 0.03916268202312313
+  },
+  {
+    "round": 9,
+    "client_id": 5,
+    "train_examples": 2278693,
+    "selected_for_global_update": false,
+    "train_seconds": 11.83669612299991,
+    "cross_entropy_loss": 0.0359127611982146,
+    "distillation_kl_loss": 0.0007040972172069298,
+    "total_loss": 0.03661685838558985
+  },
+  {
+    "round": 9,
+    "client_id": 6,
+    "train_examples": 2417955,
+    "selected_for_global_update": false,
+    "train_seconds": 12.277258387000074,
+    "cross_entropy_loss": 0.0045072486402439275,
+    "distillation_kl_loss": 0.0001500430338398256,
+    "total_loss": 0.0046572916801038864
+  },
+  {
+    "round": 9,
+    "client_id": 7,
+    "train_examples": 1642476,
+    "selected_for_global_update": false,
+    "train_seconds": 8.319756864999817,
+    "cross_entropy_loss": 0.03363098950937665,
+    "distillation_kl_loss": 0.0018778299318946148,
+    "total_loss": 0.03550881943463029
+  },
+  {
+    "round": 9,
+    "client_id": 8,
+    "train_examples": 11483556,
+    "selected_for_global_update": true,
+    "train_seconds": 58.55725735199985,
+    "cross_entropy_loss": 0.2964259767278545,
+    "distillation_kl_loss": 0.006824601841705334,
+    "total_loss": 0.3032505786502182
+  },
+  {
+    "round": 9,
+    "client_id": 9,
+    "train_examples": 3918771,
+    "selected_for_global_update": false,
+    "train_seconds": 20.158261422000123,
+    "cross_entropy_loss": 0.04742085342740881,
+    "distillation_kl_loss": 0.0018617720156086889,
+    "total_loss": 0.04928262545917089
+  },
+  {
+    "round": 9,
+    "client_id": 10,
+    "train_examples": 3569043,
+    "selected_for_global_update": false,
+    "train_seconds": 18.245076035999773,
+    "cross_entropy_loss": 0.02580692702686019,
+    "distillation_kl_loss": 0.0012261313007166335,
+    "total_loss": 0.027033058333118896
+  },
+  {
+    "round": 10,
+    "client_id": 1,
+    "train_examples": 28368,
+    "selected_for_global_update": true,
+    "train_seconds": 0.18134502400016572,
+    "cross_entropy_loss": 0.6846106163337953,
+    "distillation_kl_loss": 0.2715902103592305,
+    "total_loss": 0.9562008232466594
+  },
+  {
+    "round": 10,
+    "client_id": 2,
+    "train_examples": 1990431,
+    "selected_for_global_update": true,
+    "train_seconds": 9.915403382000022,
+    "cross_entropy_loss": 0.1567601377680659,
+    "distillation_kl_loss": 0.011704703591100069,
+    "total_loss": 0.1684648411603562
+  },
+  {
+    "round": 10,
+    "client_id": 3,
+    "train_examples": 3355604,
+    "selected_for_global_update": false,
+    "train_seconds": 16.904508565000015,
+    "cross_entropy_loss": 0.10413857118457462,
+    "distillation_kl_loss": 0.00261059821769757,
+    "total_loss": 0.1067491693129693
+  },
+  {
+    "round": 10,
+    "client_id": 4,
+    "train_examples": 1728229,
+    "selected_for_global_update": false,
+    "train_seconds": 8.890988677999758,
+    "cross_entropy_loss": 0.036852614454578415,
+    "distillation_kl_loss": 0.001134614916924994,
+    "total_loss": 0.03798722936903
+  },
+  {
+    "round": 10,
+    "client_id": 5,
+    "train_examples": 2278693,
+    "selected_for_global_update": false,
+    "train_seconds": 11.7087616419999,
+    "cross_entropy_loss": 0.0351602093174748,
+    "distillation_kl_loss": 0.0006304180550407348,
+    "total_loss": 0.03579062739511107
+  },
+  {
+    "round": 10,
+    "client_id": 6,
+    "train_examples": 2417955,
+    "selected_for_global_update": false,
+    "train_seconds": 12.21249055599992,
+    "cross_entropy_loss": 0.004207207293610854,
+    "distillation_kl_loss": 0.0001527000943569012,
+    "total_loss": 0.004359907384343977
+  },
+  {
+    "round": 10,
+    "client_id": 7,
+    "train_examples": 1642476,
+    "selected_for_global_update": false,
+    "train_seconds": 8.469736352999917,
+    "cross_entropy_loss": 0.03191499886975122,
+    "distillation_kl_loss": 0.0018121095343857922,
+    "total_loss": 0.0337271083856855
+  },
+  {
+    "round": 10,
+    "client_id": 8,
+    "train_examples": 11483556,
+    "selected_for_global_update": true,
+    "train_seconds": 58.892154737000055,
+    "cross_entropy_loss": 0.29275787630947214,
+    "distillation_kl_loss": 0.006556146218213304,
+    "total_loss": 0.2993140223148758
+  },
+  {
+    "round": 10,
+    "client_id": 9,
+    "train_examples": 3918771,
+    "selected_for_global_update": false,
+    "train_seconds": 20.47100392900029,
+    "cross_entropy_loss": 0.04576282903472062,
+    "distillation_kl_loss": 0.0017190486840010497,
+    "total_loss": 0.04748187772166933
+  },
+  {
+    "round": 10,
+    "client_id": 10,
+    "train_examples": 3569043,
+    "selected_for_global_update": false,
+    "train_seconds": 18.672476219000146,
+    "cross_entropy_loss": 0.02449350118027557,
+    "distillation_kl_loss": 0.0011158625237804953,
+    "total_loss": 0.025609363710012795
+  }
+]

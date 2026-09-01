@@ -1,0 +1,9 @@
+[
+  {
+    "train_examples": 36014594,
+    "optimizer_steps": 35171,
+    "cross_entropy_loss": 0.6055470829763545,
+    "seconds": 463.1493102730001,
+    "gpu_id": 0
+  }
+]

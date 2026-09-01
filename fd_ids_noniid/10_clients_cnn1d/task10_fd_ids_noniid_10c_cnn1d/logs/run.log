@@ -1,0 +1,22 @@
+2026-08-08 21:56:47,859 | INFO | MainProcess | Prepared client 1: train=31,520 validation=0
+2026-08-08 21:56:59,772 | INFO | MainProcess | Prepared client 2: train=2,211,589 validation=0
+2026-08-08 21:57:17,998 | INFO | MainProcess | Prepared client 3: train=3,728,450 validation=0
+2026-08-08 21:57:27,138 | INFO | MainProcess | Prepared client 4: train=1,920,254 validation=0
+2026-08-08 21:57:39,297 | INFO | MainProcess | Prepared client 5: train=2,531,881 validation=0
+2026-08-08 21:57:51,758 | INFO | MainProcess | Prepared client 6: train=2,686,617 validation=0
+2026-08-08 21:58:00,490 | INFO | MainProcess | Prepared client 7: train=1,824,975 validation=0
+2026-08-08 21:58:56,525 | INFO | MainProcess | Prepared client 8: train=12,759,509 validation=0
+2026-08-08 21:59:17,595 | INFO | MainProcess | Prepared client 9: train=4,354,192 validation=0
+2026-08-08 21:59:36,617 | INFO | MainProcess | Prepared client 10: train=3,965,607 validation=0
+2026-08-08 22:01:24,346 | INFO | MainProcess | Client assignment: {0: [1, 2, 3, 4, 7, 9, 10], 1: [5, 6, 8]}
+2026-08-08 22:03:48,347 | INFO | MainProcess | Completed round 1/10
+2026-08-08 22:06:12,219 | INFO | MainProcess | Completed round 2/10
+2026-08-08 22:08:37,185 | INFO | MainProcess | Completed round 3/10
+2026-08-08 22:11:02,242 | INFO | MainProcess | Completed round 4/10
+2026-08-08 22:13:28,524 | INFO | MainProcess | Completed round 5/10
+2026-08-08 22:15:57,657 | INFO | MainProcess | Completed round 6/10
+2026-08-08 22:18:24,673 | INFO | MainProcess | Completed round 7/10
+2026-08-08 22:20:49,692 | INFO | MainProcess | Completed round 8/10
+2026-08-08 22:23:14,550 | INFO | MainProcess | Completed round 9/10
+2026-08-08 22:25:37,414 | INFO | MainProcess | Completed round 10/10
+2026-08-08 22:25:39,279 | INFO | MainProcess | Pipeline complete in 1481.15 seconds

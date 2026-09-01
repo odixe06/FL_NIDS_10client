@@ -1,0 +1,157 @@
+{
+  "method": "fd_ids_noniid",
+  "method_name": "fd_ids_noniid",
+  "scenario": "10_clients_gru",
+  "run_name": "task10_fd_ids_noniid_10c_gru",
+  "model_family": "gru",
+  "execution_mode": "client_parallel",
+  "input_dir": "/kaggle/input/datasets/odixe0502/data-for-10clients",
+  "output_dir": "/kaggle/working/task10_fd_ids_noniid_10c_gru",
+  "temp_dir": "/kaggle/temp/task10_fd_ids_noniid_10c_gru_runtime",
+  "cache_dir": "/kaggle/temp/task10_fd_ids_noniid_10c_gru_cache",
+  "manifest_path": "/kaggle/temp/task10_fd_ids_noniid_10c_gru_manifest.json",
+  "num_clients": 10,
+  "num_features": 25,
+  "num_classes": 34,
+  "feature_columns": [
+    "ack_flag_number",
+    "AVG",
+    "Std",
+    "UDP",
+    "fin_count",
+    "Max",
+    "TCP",
+    "syn_count",
+    "Protocol Type",
+    "Rate",
+    "IAT",
+    "syn_flag_number",
+    "rst_flag_number",
+    "Tot sum",
+    "HTTPS",
+    "ack_count",
+    "fin_flag_number",
+    "HTTP",
+    "rst_count",
+    "Header_Length",
+    "psh_flag_number",
+    "ICMP",
+    "Time_To_Live",
+    "ARP",
+    "DNS"
+  ],
+  "label_column": "Label",
+  "rounds": 10,
+  "communication_rounds": 10,
+  "local_epochs": 1,
+  "per_client_batch_size": 1024,
+  "evaluation_batch_size": 8192,
+  "csv_chunk_rows": 262144,
+  "gpu_copy_chunk_rows": 262144,
+  "dataloader_workers_per_gpu": 2,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "momentum": 0.0,
+  "weight_decay": 0.0,
+  "gradient_accumulation_steps": 1,
+  "scheduler": null,
+  "seed": 42,
+  "initialization_seed": 42,
+  "gpu_cache_fraction": 0.7,
+  "stream_candidates": [
+    1,
+    2
+  ],
+  "stream_min_speedup": 1.1,
+  "stream_benchmark_warmup_steps": 2,
+  "stream_benchmark_steps": 4,
+  "worker_count": 2,
+  "worker_timeout_seconds": 86400,
+  "mixed_precision": "cuda_amp",
+  "expected_parameter_count": 40034,
+  "local_train_fraction": 1.0,
+  "local_validation_fraction": 0.0,
+  "create_local_validation": false,
+  "client_selection_metric": null,
+  "client_selection_source": null,
+  "split_policy": "100_percent_local_train_no_validation",
+  "evaluate_global_test_each_round": true,
+  "global_test_controls_training": false,
+  "create_best_checkpoint": false,
+  "comparison_round": 10,
+  "comparison_metrics": [
+    "accuracy",
+    "macro_precision",
+    "micro_precision",
+    "weighted_precision",
+    "macro_recall",
+    "micro_recall",
+    "weighted_recall",
+    "macro_f1",
+    "micro_f1",
+    "weighted_f1"
+  ],
+  "evaluation_scope": "server_only",
+  "server_classifier_available": true,
+  "server_state_type": "global_classifier",
+  "server_evaluation_not_applicable_reason": "",
+  "persistent_personalized_clients": false,
+  "temperature": 3.0,
+  "fedprox_mu": 0.01,
+  "hard_loss_weight": 0.5,
+  "proximal_weight": 0.1,
+  "distillation_lambda": 1.0,
+  "adaptive_epsilon": 1e-08,
+  "enhanced_loss_weight": 0.1,
+  "final_personalized_finetune_epochs": 0,
+  "client_assignment": {
+    "0": [
+      1,
+      3,
+      4,
+      6,
+      7,
+      9,
+      10
+    ],
+    "1": [
+      2,
+      5,
+      8
+    ]
+  },
+  "selected_streams_by_gpu": {
+    "0": 1,
+    "1": 1
+  },
+  "stream_benchmark": {
+    "0": [
+      {
+        "stream_count": 1,
+        "seconds": 0.01633523178100586,
+        "samples_per_second": 250746.36558035936,
+        "seconds_per_step": 0.004083807945251465
+      },
+      {
+        "stream_count": 2,
+        "seconds": 0.03847980880737305,
+        "samples_per_second": 212890.87066436635,
+        "seconds_per_step": 0.004809976100921631
+      }
+    ],
+    "1": [
+      {
+        "stream_count": 1,
+        "seconds": 0.017242111206054688,
+        "samples_per_second": 237557.91567807898,
+        "seconds_per_step": 0.004310527801513672
+      },
+      {
+        "stream_count": 2,
+        "seconds": 0.03647164916992188,
+        "samples_per_second": 224612.82081962808,
+        "seconds_per_step": 0.004558956146240235
+      }
+    ]
+  }
+}

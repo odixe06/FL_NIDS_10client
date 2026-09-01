@@ -1,0 +1,72 @@
+[
+  {
+    "round": 1,
+    "bytes_this_round": 147670,
+    "bytes_cumulative": 147670,
+    "mib_cumulative": 0.14082908630371094,
+    "classifier_parameter_communication_bytes": 0
+  },
+  {
+    "round": 2,
+    "bytes_this_round": 0,
+    "bytes_cumulative": 147670,
+    "mib_cumulative": 0.14082908630371094,
+    "classifier_parameter_communication_bytes": 0
+  },
+  {
+    "round": 3,
+    "bytes_this_round": 0,
+    "bytes_cumulative": 147670,
+    "mib_cumulative": 0.14082908630371094,
+    "classifier_parameter_communication_bytes": 0
+  },
+  {
+    "round": 4,
+    "bytes_this_round": 0,
+    "bytes_cumulative": 147670,
+    "mib_cumulative": 0.14082908630371094,
+    "classifier_parameter_communication_bytes": 0
+  },
+  {
+    "round": 5,
+    "bytes_this_round": 0,
+    "bytes_cumulative": 147670,
+    "mib_cumulative": 0.14082908630371094,
+    "classifier_parameter_communication_bytes": 0
+  },
+  {
+    "round": 6,
+    "bytes_this_round": 0,
+    "bytes_cumulative": 147670,
+    "mib_cumulative": 0.14082908630371094,
+    "classifier_parameter_communication_bytes": 0
+  },
+  {
+    "round": 7,
+    "bytes_this_round": 0,
+    "bytes_cumulative": 147670,
+    "mib_cumulative": 0.14082908630371094,
+    "classifier_parameter_communication_bytes": 0
+  },
+  {
+    "round": 8,
+    "bytes_this_round": 0,
+    "bytes_cumulative": 147670,
+    "mib_cumulative": 0.14082908630371094,
+    "classifier_parameter_communication_bytes": 0
+  },
+  {
+    "round": 9,
+    "bytes_this_round": 0,
+    "bytes_cumulative": 147670,
+    "mib_cumulative": 0.14082908630371094,
+    "classifier_parameter_communication_bytes": 0
+  },
+  {
+    "round": 10,
+    "bytes_this_round": 0,
+    "bytes_cumulative": 147670,
+    "mib_cumulative": 0.14082908630371094,
+    "classifier_parameter_communication_bytes": 0
+  }
+]
