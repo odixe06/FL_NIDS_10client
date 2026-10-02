@@ -1,0 +1,51 @@
+2026-07-30 17:36:10 | INFO | Run fd_ids_ciciot2023_10c_mixed_5gru_5transformer started
+2026-07-30 17:36:10 | INFO | Config: {"adaptive_epsilon": 1e-08, "benchmark_timed_steps": 8, "benchmark_warmup_steps": 3, "checkpoint_criterion": "validation_macro_f1", "class_weighting": null, "client_architectures": ["gru", "gru", "gru", "gru", "gru", "transformer", "transformer", "transformer", "transformer", "transformer"], "communication_rounds": 10, "csv_chunk_rows": 200000, "distillation_discrepancy": "mse_softmax", "execution_mode": "client_parallel", "feature_columns": ["ack_flag_number", "AVG", "Std", "UDP", "fin_count", "Max", "TCP", "syn_count", "Protocol Type", "Rate", "IAT", "syn_flag_number", "rst_flag_number", "Tot sum", "HTTPS", "ack_count", "fin_flag_number", "HTTP", "rst_count", "Header_Length", "psh_flag_number", "ICMP", "Time_To_Live", "ARP", "DNS"], "final_personalized_finetune_epochs": 1, "gpu_cache_chunk_rows": 200000, "gpu_cache_fraction": 0.7, "gpu_monitor_interval_seconds": 1.0, "gpu_worker_count": 2, "initialization_seed": 42, "input_dir": "/kaggle/input/datasets/odixe0502/data-for-10clients", "label_loss": "cross_entropy", "learning_rate": 0.001, "local_epochs": 1, "num_classes": 34, "num_clients": 10, "num_features": 25, "omp_num_threads_per_process": 1, "optimizer": "Adam", "per_client_batch_size": 1024, "proxy_model_family": "cnn1d", "run_name": "fd_ids_ciciot2023_10c_mixed_5gru_5transformer", "scenario_model_family": "mixed_gru_transformer", "scenario_name": "5 clients GRU + 5 clients Transformer", "scheduler": null, "seed": 42, "stream_benchmark_timed_steps": 6, "stream_benchmark_warmup_steps": 2, "stream_candidates": [1, 2], "stream_min_speedup": 1.03, "validation_ratio": 0.05, "worker_health_poll_seconds": 10.0, "worker_join_timeout_seconds": 30.0}
+2026-07-30 17:36:11 | INFO | Scanned client 1: 31,520 rows
+2026-07-30 17:36:24 | INFO | Scanned client 2: 2,211,589 rows
+2026-07-30 17:36:34 | INFO | Scanned client 3: 3,728,450 rows
+2026-07-30 17:36:38 | INFO | Scanned client 4: 1,920,254 rows
+2026-07-30 17:36:44 | INFO | Scanned client 5: 2,531,881 rows
+2026-07-30 17:36:50 | INFO | Scanned client 6: 2,686,617 rows
+2026-07-30 17:36:54 | INFO | Scanned client 7: 1,824,975 rows
+2026-07-30 17:37:24 | INFO | Scanned client 8: 12,759,509 rows
+2026-07-30 17:37:34 | INFO | Scanned client 9: 4,354,192 rows
+2026-07-30 17:37:43 | INFO | Scanned client 10: 3,965,607 rows
+2026-07-30 17:39:36 | INFO | Scanned global test: 9,003,649 rows
+2026-07-30 17:39:36 | INFO | Cached client 1: train=29,942 validation=1,578
+2026-07-30 17:39:45 | INFO | Cached client 2: train=2,101,011 validation=110,578
+2026-07-30 17:39:59 | INFO | Cached client 3: train=3,542,026 validation=186,424
+2026-07-30 17:40:06 | INFO | Cached client 4: train=1,824,241 validation=96,013
+2026-07-30 17:40:16 | INFO | Cached client 5: train=2,405,287 validation=126,594
+2026-07-30 17:40:26 | INFO | Cached client 6: train=2,552,285 validation=134,332
+2026-07-30 17:40:32 | INFO | Cached client 7: train=1,733,726 validation=91,249
+2026-07-30 17:41:18 | INFO | Cached client 8: train=12,121,531 validation=637,978
+2026-07-30 17:41:38 | INFO | Cached client 9: train=4,136,478 validation=217,714
+2026-07-30 17:42:00 | INFO | Cached client 10: train=3,767,327 validation=198,280
+2026-07-30 17:42:33 | INFO | Preprocessing completed in 382.66 seconds
+2026-07-30 17:42:35 | INFO | Launching two persistent client-parallel GPU workers: ['/usr/bin/python3', '/kaggle/temp/fd_ids_ciciot2023_10c_mixed_5gru_5transformer_cache/client_parallel_training.py']
+2026-07-30 17:42:38 | INFO | Client-parallel coordinator started
+2026-07-30 17:42:47 | INFO | Client assignment: GPU0=(1, 2, 7, 8) GPU1=(3, 4, 5, 6, 9, 10) predicted seconds={0: 304.177108001709, 1: 306.15507769393923}
+2026-07-30 17:46:49 | INFO | Round 01/10 | proxy val macro-F1=0.093291 | seconds=240.14
+2026-07-30 17:50:53 | INFO | Round 02/10 | proxy val macro-F1=0.276180 | seconds=243.35
+2026-07-30 17:54:55 | INFO | Round 03/10 | proxy val macro-F1=0.323056 | seconds=242.82
+2026-07-30 17:58:59 | INFO | Round 04/10 | proxy val macro-F1=0.331684 | seconds=243.79
+2026-07-30 18:03:02 | INFO | Round 05/10 | proxy val macro-F1=0.345683 | seconds=243.16
+2026-07-30 18:07:05 | INFO | Round 06/10 | proxy val macro-F1=0.345355 | seconds=242.92
+2026-07-30 18:11:09 | INFO | Round 07/10 | proxy val macro-F1=0.347992 | seconds=243.45
+2026-07-30 18:15:12 | INFO | Round 08/10 | proxy val macro-F1=0.352707 | seconds=243.56
+2026-07-30 18:19:15 | INFO | Round 09/10 | proxy val macro-F1=0.351363 | seconds=242.96
+2026-07-30 18:23:18 | INFO | Round 10/10 | proxy val macro-F1=0.354126 | seconds=242.46
+2026-07-30 18:28:40 | INFO | Final proxy test accuracy=0.621917 macro-F1=0.353779
+
+--- GPU 0 worker diagnostics ---
+2026-07-30 17:42:41 | INFO | Worker 0 started on Tesla T4
+2026-07-30 17:42:47 | INFO | Cached client 1 on GPU 0: 3.49 MiB
+2026-07-30 17:42:47 | INFO | Cached client 2 on GPU 0: 244.66 MiB
+2026-07-30 17:42:47 | INFO | Cached client 7 on GPU 0: 201.89 MiB
+2026-07-30 17:42:48 | INFO | Cached client 8 on GPU 0: 1411.54 MiB
+2026-07-30 18:28:44 | INFO | Verified 28 required non-empty outputs
+2026-07-30 18:28:44 | INFO | Initialization hashes: {'cnn1d': '7a5f885df6179c8b2e26e9a204bf23b8b8853b0ac17302c8ba03a009c72b1ae9', 'gru': '66481d12e7da207610fc5a27ae7813dc077f3dde44fff76f40e0c5db79253caf', 'transformer': '06f01536bafbee2b51ebff953dd8c88a5465906f61c62749de774619e7757675'}
+2026-07-30 18:28:44 | INFO | Final proxy accuracy=0.621917 macro-F1=0.353779
+2026-07-30 18:32:52 | INFO | Verified 28 required non-empty outputs
+2026-07-30 18:32:52 | INFO | Initialization hashes: {'cnn1d': '7a5f885df6179c8b2e26e9a204bf23b8b8853b0ac17302c8ba03a009c72b1ae9', 'gru': '66481d12e7da207610fc5a27ae7813dc077f3dde44fff76f40e0c5db79253caf', 'transformer': '06f01536bafbee2b51ebff953dd8c88a5465906f61c62749de774619e7757675'}
+2026-07-30 18:32:52 | INFO | Final proxy accuracy=0.621917 macro-F1=0.353779

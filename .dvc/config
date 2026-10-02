@@ -1,0 +1,6 @@
+[cache]
+    type = "hardlink,copy"
+[core]
+    remote = gdrive
+['remote "gdrive"']
+    url = /mnt/g/My Drive/NCKH/ciciot2023/dvc-storage

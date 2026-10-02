@@ -1,0 +1,494 @@
+2026-08-01 11:49:28,114 | fedcaps-worker-1 | INFO | Worker 1 started on Tesla T4
+2026-08-01 11:49:28,124 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=benchmark_g1 kind=benchmark start
+2026-08-01 11:49:36,498 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=benchmark_g1 kind=benchmark complete seconds=8.37
+2026-08-01 11:49:36,553 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=cache_g1 kind=initialize_cache start
+2026-08-01 11:49:50,382 | fedcaps-worker-1 | INFO | GPU 1 cache planned=1,945,024,932 actual=1,945,024,932 budget=10,945,226,342
+2026-08-01 11:49:50,384 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=cache_g1 kind=initialize_cache complete seconds=13.83
+2026-08-01 11:49:51,429 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=collect_g1 kind=collect_records start
+2026-08-01 11:49:51,474 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 family=gru start epochs=300
+2026-08-01 11:49:52,467 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 epoch=1/300 subset=11 micro_f1=0.233700 macro_f1=0.011211 train_loss=3.273532 q_loss=0.076062 candidate_seconds=0.60
+2026-08-01 11:49:56,281 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 epoch=10/300 subset=12 micro_f1=0.242800 macro_f1=0.013275 train_loss=3.233423 q_loss=0.058968 candidate_seconds=0.38
+2026-08-01 11:50:00,353 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 epoch=20/300 subset=14 micro_f1=0.234400 macro_f1=0.011500 train_loss=3.147872 q_loss=0.047500 candidate_seconds=0.40
+2026-08-01 11:50:04,530 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 epoch=30/300 subset=12 micro_f1=0.250000 macro_f1=0.015132 train_loss=3.135979 q_loss=0.033035 candidate_seconds=0.40
+2026-08-01 11:50:08,780 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 epoch=40/300 subset=14 micro_f1=0.233200 macro_f1=0.011577 train_loss=3.086341 q_loss=0.018098 candidate_seconds=0.36
+2026-08-01 11:50:12,839 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 epoch=50/300 subset=10 micro_f1=0.242000 macro_f1=0.013074 train_loss=3.071433 q_loss=0.014518 candidate_seconds=0.37
+2026-08-01 11:50:17,085 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 epoch=60/300 subset=9 micro_f1=0.233400 macro_f1=0.011338 train_loss=3.164325 q_loss=0.035986 candidate_seconds=0.36
+2026-08-01 11:50:21,378 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 epoch=70/300 subset=14 micro_f1=0.235600 macro_f1=0.011820 train_loss=3.235579 q_loss=0.041976 candidate_seconds=0.42
+2026-08-01 11:50:25,682 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 epoch=80/300 subset=11 micro_f1=0.233800 macro_f1=0.011295 train_loss=3.131956 q_loss=0.013591 candidate_seconds=0.38
+2026-08-01 11:50:29,808 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 epoch=90/300 subset=17 micro_f1=0.233900 macro_f1=0.011320 train_loss=3.096451 q_loss=0.041089 candidate_seconds=0.38
+2026-08-01 11:50:33,968 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 epoch=100/300 subset=12 micro_f1=0.235400 macro_f1=0.012075 train_loss=3.306115 q_loss=0.032612 candidate_seconds=0.39
+2026-08-01 11:50:38,192 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 epoch=110/300 subset=15 micro_f1=0.233900 macro_f1=0.011519 train_loss=3.182725 q_loss=0.005609 candidate_seconds=0.40
+2026-08-01 11:50:42,473 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 epoch=120/300 subset=12 micro_f1=0.242800 macro_f1=0.013286 train_loss=3.170526 q_loss=0.014222 candidate_seconds=0.41
+2026-08-01 11:50:46,542 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 epoch=130/300 subset=12 micro_f1=0.234300 macro_f1=0.011261 train_loss=3.129532 q_loss=0.027789 candidate_seconds=0.42
+2026-08-01 11:50:50,687 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 epoch=140/300 subset=16 micro_f1=0.353700 macro_f1=0.030829 train_loss=3.191381 q_loss=0.038017 candidate_seconds=0.40
+2026-08-01 11:50:54,812 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 epoch=150/300 subset=17 micro_f1=0.234300 macro_f1=0.011289 train_loss=3.103330 q_loss=0.024751 candidate_seconds=0.39
+2026-08-01 11:50:58,712 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 epoch=160/300 subset=19 micro_f1=0.235900 macro_f1=0.011851 train_loss=3.231305 q_loss=0.038254 candidate_seconds=0.35
+2026-08-01 11:51:02,769 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 epoch=170/300 subset=15 micro_f1=0.235600 macro_f1=0.011506 train_loss=3.145602 q_loss=0.017428 candidate_seconds=0.33
+2026-08-01 11:51:06,874 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 epoch=180/300 subset=17 micro_f1=0.233800 macro_f1=0.011224 train_loss=3.161828 q_loss=0.029072 candidate_seconds=0.40
+2026-08-01 11:51:11,039 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 epoch=190/300 subset=15 micro_f1=0.290300 macro_f1=0.037642 train_loss=3.040579 q_loss=0.010367 candidate_seconds=0.41
+2026-08-01 11:51:15,119 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 epoch=200/300 subset=16 micro_f1=0.234700 macro_f1=0.011314 train_loss=3.185369 q_loss=0.004850 candidate_seconds=0.41
+2026-08-01 11:51:19,184 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 epoch=210/300 subset=16 micro_f1=0.234000 macro_f1=0.011379 train_loss=3.145134 q_loss=0.006720 candidate_seconds=0.37
+2026-08-01 11:51:23,501 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 epoch=220/300 subset=14 micro_f1=0.247800 macro_f1=0.016746 train_loss=3.089203 q_loss=0.012042 candidate_seconds=0.36
+2026-08-01 11:51:27,631 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 epoch=230/300 subset=16 micro_f1=0.233100 macro_f1=0.011440 train_loss=3.113934 q_loss=0.008370 candidate_seconds=0.37
+2026-08-01 11:51:31,761 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 epoch=240/300 subset=21 micro_f1=0.236000 macro_f1=0.011917 train_loss=3.210996 q_loss=0.006700 candidate_seconds=0.35
+2026-08-01 11:51:35,933 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 epoch=250/300 subset=15 micro_f1=0.249200 macro_f1=0.014652 train_loss=3.195703 q_loss=0.010342 candidate_seconds=0.39
+2026-08-01 11:51:40,016 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 epoch=260/300 subset=19 micro_f1=0.234600 macro_f1=0.011606 train_loss=3.198432 q_loss=0.003347 candidate_seconds=0.41
+2026-08-01 11:51:44,157 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 epoch=270/300 subset=18 micro_f1=0.234800 macro_f1=0.011513 train_loss=3.118925 q_loss=0.004341 candidate_seconds=0.42
+2026-08-01 11:51:48,141 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 epoch=280/300 subset=16 micro_f1=0.233600 macro_f1=0.011494 train_loss=3.262812 q_loss=0.006644 candidate_seconds=0.36
+2026-08-01 11:51:52,168 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 epoch=290/300 subset=15 micro_f1=0.233400 macro_f1=0.011566 train_loss=3.125921 q_loss=0.010142 candidate_seconds=0.40
+2026-08-01 11:51:56,594 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 epoch=300/300 subset=14 micro_f1=0.232500 macro_f1=0.011223 train_loss=3.192857 q_loss=0.007076 candidate_seconds=0.36
+2026-08-01 11:51:56,594 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=2 complete records=300 seconds=125.12
+2026-08-01 11:51:56,594 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 family=gru start epochs=300
+2026-08-01 11:51:57,023 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 epoch=1/300 subset=9 micro_f1=0.482300 macro_f1=0.020167 train_loss=2.729476 q_loss=0.213223 candidate_seconds=0.39
+2026-08-01 11:52:00,748 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 epoch=10/300 subset=11 micro_f1=0.475200 macro_f1=0.019132 train_loss=2.541471 q_loss=0.084026 candidate_seconds=0.37
+2026-08-01 11:52:04,778 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 epoch=20/300 subset=11 micro_f1=0.479900 macro_f1=0.019924 train_loss=2.544474 q_loss=0.037076 candidate_seconds=0.38
+2026-08-01 11:52:08,707 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 epoch=30/300 subset=11 micro_f1=0.475400 macro_f1=0.019071 train_loss=2.263597 q_loss=0.033233 candidate_seconds=0.39
+2026-08-01 11:52:12,644 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 epoch=40/300 subset=11 micro_f1=0.478400 macro_f1=0.019518 train_loss=2.582609 q_loss=0.022089 candidate_seconds=0.37
+2026-08-01 11:52:16,593 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 epoch=50/300 subset=15 micro_f1=0.475700 macro_f1=0.019324 train_loss=2.215029 q_loss=0.042368 candidate_seconds=0.39
+2026-08-01 11:52:20,682 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 epoch=60/300 subset=13 micro_f1=0.476200 macro_f1=0.019611 train_loss=2.230569 q_loss=0.019903 candidate_seconds=0.37
+2026-08-01 11:52:24,863 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 epoch=70/300 subset=14 micro_f1=0.479000 macro_f1=0.019676 train_loss=2.498299 q_loss=0.015459 candidate_seconds=0.38
+2026-08-01 11:52:28,890 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 epoch=80/300 subset=12 micro_f1=0.476400 macro_f1=0.019901 train_loss=2.337471 q_loss=0.014923 candidate_seconds=0.37
+2026-08-01 11:52:32,975 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 epoch=90/300 subset=12 micro_f1=0.476100 macro_f1=0.020378 train_loss=2.468709 q_loss=0.007902 candidate_seconds=0.36
+2026-08-01 11:52:37,009 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 epoch=100/300 subset=13 micro_f1=0.475800 macro_f1=0.019189 train_loss=2.278742 q_loss=0.020299 candidate_seconds=0.34
+2026-08-01 11:52:40,903 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 epoch=110/300 subset=17 micro_f1=0.475900 macro_f1=0.019061 train_loss=2.240964 q_loss=0.030466 candidate_seconds=0.36
+2026-08-01 11:52:45,163 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 epoch=120/300 subset=15 micro_f1=0.478500 macro_f1=0.019594 train_loss=2.282683 q_loss=0.013031 candidate_seconds=0.43
+2026-08-01 11:52:49,124 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 epoch=130/300 subset=14 micro_f1=0.475900 macro_f1=0.019054 train_loss=2.235635 q_loss=0.019121 candidate_seconds=0.33
+2026-08-01 11:52:53,171 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 epoch=140/300 subset=17 micro_f1=0.476400 macro_f1=0.020190 train_loss=2.469258 q_loss=0.015719 candidate_seconds=0.35
+2026-08-01 11:52:57,120 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 epoch=150/300 subset=10 micro_f1=0.479000 macro_f1=0.019600 train_loss=2.558343 q_loss=0.011271 candidate_seconds=0.40
+2026-08-01 11:53:00,859 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 epoch=160/300 subset=13 micro_f1=0.477100 macro_f1=0.019820 train_loss=2.509139 q_loss=0.021521 candidate_seconds=0.31
+2026-08-01 11:53:04,975 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 epoch=170/300 subset=11 micro_f1=0.480000 macro_f1=0.024752 train_loss=2.561456 q_loss=0.010573 candidate_seconds=0.40
+2026-08-01 11:53:08,979 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 epoch=180/300 subset=15 micro_f1=0.476100 macro_f1=0.019908 train_loss=2.357652 q_loss=0.004883 candidate_seconds=0.36
+2026-08-01 11:53:13,322 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 epoch=190/300 subset=10 micro_f1=0.476100 macro_f1=0.019373 train_loss=2.599114 q_loss=0.044986 candidate_seconds=0.39
+2026-08-01 11:53:17,439 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 epoch=200/300 subset=16 micro_f1=0.475900 macro_f1=0.019158 train_loss=2.270215 q_loss=0.006968 candidate_seconds=0.35
+2026-08-01 11:53:21,288 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 epoch=210/300 subset=16 micro_f1=0.475600 macro_f1=0.019494 train_loss=2.354697 q_loss=0.008151 candidate_seconds=0.37
+2026-08-01 11:53:25,360 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 epoch=220/300 subset=17 micro_f1=0.476300 macro_f1=0.019411 train_loss=2.320810 q_loss=0.005584 candidate_seconds=0.34
+2026-08-01 11:53:29,463 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 epoch=230/300 subset=16 micro_f1=0.475900 macro_f1=0.020091 train_loss=2.433081 q_loss=0.004478 candidate_seconds=0.35
+2026-08-01 11:53:33,585 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 epoch=240/300 subset=18 micro_f1=0.476300 macro_f1=0.019366 train_loss=2.488356 q_loss=0.005974 candidate_seconds=0.36
+2026-08-01 11:53:37,635 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 epoch=250/300 subset=13 micro_f1=0.476900 macro_f1=0.021223 train_loss=2.268024 q_loss=0.023897 candidate_seconds=0.36
+2026-08-01 11:53:41,601 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 epoch=260/300 subset=16 micro_f1=0.475800 macro_f1=0.019110 train_loss=2.458845 q_loss=0.011111 candidate_seconds=0.33
+2026-08-01 11:53:45,737 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 epoch=270/300 subset=15 micro_f1=0.475700 macro_f1=0.019250 train_loss=2.405323 q_loss=0.008975 candidate_seconds=0.32
+2026-08-01 11:53:49,748 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 epoch=280/300 subset=12 micro_f1=0.504000 macro_f1=0.023611 train_loss=2.672580 q_loss=0.004389 candidate_seconds=0.41
+2026-08-01 11:53:53,889 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 epoch=290/300 subset=16 micro_f1=0.477800 macro_f1=0.021047 train_loss=2.497119 q_loss=0.004591 candidate_seconds=0.34
+2026-08-01 11:53:57,944 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 epoch=300/300 subset=19 micro_f1=0.476300 macro_f1=0.019559 train_loss=2.412839 q_loss=0.007417 candidate_seconds=0.38
+2026-08-01 11:53:57,944 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=3 complete records=300 seconds=121.35
+2026-08-01 11:53:57,944 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 family=gru start epochs=300
+2026-08-01 11:53:58,364 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 epoch=1/300 subset=13 micro_f1=0.830500 macro_f1=0.026690 train_loss=1.980019 q_loss=0.438399 candidate_seconds=0.36
+2026-08-01 11:54:02,013 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 epoch=10/300 subset=12 micro_f1=0.830500 macro_f1=0.026688 train_loss=2.284700 q_loss=0.179191 candidate_seconds=0.43
+2026-08-01 11:54:06,101 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 epoch=20/300 subset=15 micro_f1=0.830500 macro_f1=0.026693 train_loss=1.828802 q_loss=0.139467 candidate_seconds=0.40
+2026-08-01 11:54:10,220 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 epoch=30/300 subset=15 micro_f1=0.830500 macro_f1=0.026693 train_loss=1.829688 q_loss=0.072140 candidate_seconds=0.39
+2026-08-01 11:54:14,539 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 epoch=40/300 subset=14 micro_f1=0.830500 macro_f1=0.026688 train_loss=2.414788 q_loss=0.110728 candidate_seconds=0.40
+2026-08-01 11:54:18,631 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 epoch=50/300 subset=13 micro_f1=0.830500 macro_f1=0.026688 train_loss=2.497783 q_loss=0.075464 candidate_seconds=0.39
+2026-08-01 11:54:22,703 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 epoch=60/300 subset=12 micro_f1=0.830500 macro_f1=0.026688 train_loss=2.356259 q_loss=0.028992 candidate_seconds=0.35
+2026-08-01 11:54:26,765 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 epoch=70/300 subset=15 micro_f1=0.830500 macro_f1=0.026688 train_loss=2.227744 q_loss=0.083604 candidate_seconds=0.34
+2026-08-01 11:54:30,820 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 epoch=80/300 subset=11 micro_f1=0.830500 macro_f1=0.026688 train_loss=2.401426 q_loss=0.012720 candidate_seconds=0.41
+2026-08-01 11:54:34,722 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 epoch=90/300 subset=14 micro_f1=0.830500 macro_f1=0.026688 train_loss=2.277603 q_loss=0.022315 candidate_seconds=0.37
+2026-08-01 11:54:38,791 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 epoch=100/300 subset=14 micro_f1=0.830500 macro_f1=0.026688 train_loss=2.046604 q_loss=0.016971 candidate_seconds=0.35
+2026-08-01 11:54:42,952 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 epoch=110/300 subset=14 micro_f1=0.830500 macro_f1=0.026688 train_loss=2.278760 q_loss=0.021197 candidate_seconds=0.39
+2026-08-01 11:54:47,092 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 epoch=120/300 subset=15 micro_f1=0.830500 macro_f1=0.026691 train_loss=2.154898 q_loss=0.027801 candidate_seconds=0.42
+2026-08-01 11:54:51,301 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 epoch=130/300 subset=15 micro_f1=0.830500 macro_f1=0.026691 train_loss=1.894985 q_loss=0.012415 candidate_seconds=0.35
+2026-08-01 11:54:55,375 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 epoch=140/300 subset=12 micro_f1=0.830500 macro_f1=0.026688 train_loss=2.322174 q_loss=0.028607 candidate_seconds=0.40
+2026-08-01 11:54:59,448 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 epoch=150/300 subset=14 micro_f1=0.830500 macro_f1=0.026688 train_loss=2.464158 q_loss=0.009043 candidate_seconds=0.41
+2026-08-01 11:55:03,528 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 epoch=160/300 subset=12 micro_f1=0.830500 macro_f1=0.026688 train_loss=2.442738 q_loss=0.011671 candidate_seconds=0.34
+2026-08-01 11:55:07,530 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 epoch=170/300 subset=16 micro_f1=0.830500 macro_f1=0.026691 train_loss=2.062929 q_loss=0.007667 candidate_seconds=0.37
+2026-08-01 11:55:11,378 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 epoch=180/300 subset=13 micro_f1=0.830500 macro_f1=0.026693 train_loss=1.769147 q_loss=0.018874 candidate_seconds=0.32
+2026-08-01 11:55:15,300 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 epoch=190/300 subset=17 micro_f1=0.830500 macro_f1=0.026691 train_loss=1.992037 q_loss=0.010465 candidate_seconds=0.33
+2026-08-01 11:55:19,119 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 epoch=200/300 subset=16 micro_f1=0.830500 macro_f1=0.026688 train_loss=2.014114 q_loss=0.009751 candidate_seconds=0.36
+2026-08-01 11:55:23,076 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 epoch=210/300 subset=17 micro_f1=0.830500 macro_f1=0.026693 train_loss=2.157618 q_loss=0.008864 candidate_seconds=0.35
+2026-08-01 11:55:27,139 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 epoch=220/300 subset=16 micro_f1=0.830500 macro_f1=0.026693 train_loss=1.835554 q_loss=0.008372 candidate_seconds=0.37
+2026-08-01 11:55:31,263 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 epoch=230/300 subset=12 micro_f1=0.830500 macro_f1=0.026688 train_loss=2.428466 q_loss=0.030721 candidate_seconds=0.35
+2026-08-01 11:55:35,418 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 epoch=240/300 subset=18 micro_f1=0.830500 macro_f1=0.026690 train_loss=2.009608 q_loss=0.010810 candidate_seconds=0.33
+2026-08-01 11:55:39,475 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 epoch=250/300 subset=16 micro_f1=0.830500 macro_f1=0.026688 train_loss=2.211656 q_loss=0.013043 candidate_seconds=0.37
+2026-08-01 11:55:43,655 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 epoch=260/300 subset=18 micro_f1=0.830500 macro_f1=0.026690 train_loss=2.033049 q_loss=0.008281 candidate_seconds=0.36
+2026-08-01 11:55:47,787 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 epoch=270/300 subset=19 micro_f1=0.830500 macro_f1=0.026691 train_loss=2.065901 q_loss=0.003916 candidate_seconds=0.35
+2026-08-01 11:55:51,921 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 epoch=280/300 subset=16 micro_f1=0.830500 macro_f1=0.026691 train_loss=2.014075 q_loss=0.002588 candidate_seconds=0.35
+2026-08-01 11:55:56,035 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 epoch=290/300 subset=19 micro_f1=0.830500 macro_f1=0.026688 train_loss=2.126777 q_loss=0.004702 candidate_seconds=0.38
+2026-08-01 11:56:00,110 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 epoch=300/300 subset=17 micro_f1=0.830500 macro_f1=0.026690 train_loss=2.023593 q_loss=0.005521 candidate_seconds=0.35
+2026-08-01 11:56:00,110 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=4 complete records=300 seconds=122.17
+2026-08-01 11:56:00,110 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 family=transformer start epochs=300
+2026-08-01 11:56:01,052 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 epoch=1/300 subset=15 micro_f1=0.982700 macro_f1=0.056876 train_loss=0.593296 q_loss=0.470750 candidate_seconds=0.89
+2026-08-01 11:56:08,832 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 epoch=10/300 subset=12 micro_f1=0.990500 macro_f1=0.057828 train_loss=0.515024 q_loss=0.335675 candidate_seconds=0.82
+2026-08-01 11:56:17,450 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 epoch=20/300 subset=12 micro_f1=0.846600 macro_f1=0.026973 train_loss=0.789634 q_loss=0.082351 candidate_seconds=0.87
+2026-08-01 11:56:26,463 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 epoch=30/300 subset=13 micro_f1=0.988000 macro_f1=0.057528 train_loss=0.560221 q_loss=0.062809 candidate_seconds=0.82
+2026-08-01 11:56:34,942 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 epoch=40/300 subset=12 micro_f1=0.985200 macro_f1=0.057195 train_loss=0.556314 q_loss=0.054157 candidate_seconds=0.87
+2026-08-01 11:56:43,660 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 epoch=50/300 subset=13 micro_f1=0.994200 macro_f1=0.058258 train_loss=0.527278 q_loss=0.044018 candidate_seconds=0.78
+2026-08-01 11:56:52,524 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 epoch=60/300 subset=6 micro_f1=0.989400 macro_f1=0.057697 train_loss=0.509883 q_loss=0.017452 candidate_seconds=0.80
+2026-08-01 11:57:01,297 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 epoch=70/300 subset=15 micro_f1=0.846800 macro_f1=0.026972 train_loss=0.745150 q_loss=0.026889 candidate_seconds=0.86
+2026-08-01 11:57:09,954 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 epoch=80/300 subset=15 micro_f1=0.972800 macro_f1=0.055634 train_loss=0.648730 q_loss=0.036219 candidate_seconds=0.87
+2026-08-01 11:57:18,904 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 epoch=90/300 subset=14 micro_f1=0.980600 macro_f1=0.056628 train_loss=0.635130 q_loss=0.011662 candidate_seconds=0.84
+2026-08-01 11:57:27,953 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 epoch=100/300 subset=9 micro_f1=0.950100 macro_f1=0.053478 train_loss=0.635745 q_loss=0.079193 candidate_seconds=0.80
+2026-08-01 11:57:36,837 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 epoch=110/300 subset=14 micro_f1=0.846700 macro_f1=0.026970 train_loss=0.775084 q_loss=0.017820 candidate_seconds=0.86
+2026-08-01 11:57:45,957 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 epoch=120/300 subset=20 micro_f1=0.983300 macro_f1=0.056958 train_loss=0.603928 q_loss=0.144648 candidate_seconds=0.99
+2026-08-01 11:57:55,331 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 epoch=130/300 subset=13 micro_f1=0.989100 macro_f1=0.057637 train_loss=0.555730 q_loss=0.017600 candidate_seconds=0.89
+2026-08-01 11:58:04,154 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 epoch=140/300 subset=14 micro_f1=0.982500 macro_f1=0.056882 train_loss=0.617892 q_loss=0.032967 candidate_seconds=0.86
+2026-08-01 11:58:13,575 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 epoch=150/300 subset=19 micro_f1=0.984500 macro_f1=0.057123 train_loss=0.596790 q_loss=0.044723 candidate_seconds=0.98
+2026-08-01 11:58:22,902 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 epoch=160/300 subset=16 micro_f1=0.990000 macro_f1=0.057776 train_loss=0.513566 q_loss=0.030732 candidate_seconds=0.92
+2026-08-01 11:58:32,351 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 epoch=170/300 subset=16 micro_f1=0.988800 macro_f1=0.057624 train_loss=0.575259 q_loss=0.028257 candidate_seconds=0.93
+2026-08-01 11:58:41,698 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 epoch=180/300 subset=15 micro_f1=0.991200 macro_f1=0.057920 train_loss=0.520298 q_loss=0.010679 candidate_seconds=0.93
+2026-08-01 11:58:50,703 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 epoch=190/300 subset=11 micro_f1=0.990100 macro_f1=0.057812 train_loss=0.512567 q_loss=0.016792 candidate_seconds=0.78
+2026-08-01 11:59:00,208 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 epoch=200/300 subset=18 micro_f1=0.987600 macro_f1=0.057487 train_loss=0.550216 q_loss=0.009400 candidate_seconds=1.00
+2026-08-01 11:59:09,729 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 epoch=210/300 subset=18 micro_f1=0.846800 macro_f1=0.026972 train_loss=0.735935 q_loss=0.012410 candidate_seconds=0.90
+2026-08-01 11:59:18,988 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 epoch=220/300 subset=18 micro_f1=0.981600 macro_f1=0.056754 train_loss=0.683773 q_loss=0.012765 candidate_seconds=0.89
+2026-08-01 11:59:28,231 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 epoch=230/300 subset=16 micro_f1=0.989200 macro_f1=0.057680 train_loss=0.591595 q_loss=0.005291 candidate_seconds=0.82
+2026-08-01 11:59:37,678 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 epoch=240/300 subset=19 micro_f1=0.980500 macro_f1=0.056607 train_loss=0.620499 q_loss=0.006179 candidate_seconds=0.92
+2026-08-01 11:59:46,175 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 epoch=250/300 subset=13 micro_f1=0.978300 macro_f1=0.056421 train_loss=0.632950 q_loss=0.008486 candidate_seconds=0.75
+2026-08-01 11:59:55,018 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 epoch=260/300 subset=19 micro_f1=0.969100 macro_f1=0.055138 train_loss=0.672893 q_loss=0.022752 candidate_seconds=0.92
+2026-08-01 12:00:03,668 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 epoch=270/300 subset=16 micro_f1=0.983400 macro_f1=0.057027 train_loss=0.619393 q_loss=0.004541 candidate_seconds=0.83
+2026-08-01 12:00:12,898 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 epoch=280/300 subset=18 micro_f1=0.986800 macro_f1=0.057406 train_loss=0.579150 q_loss=0.005842 candidate_seconds=0.89
+2026-08-01 12:00:22,534 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 epoch=290/300 subset=20 micro_f1=0.979800 macro_f1=0.056526 train_loss=0.678546 q_loss=0.011815 candidate_seconds=0.98
+2026-08-01 12:00:31,959 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 epoch=300/300 subset=21 micro_f1=0.986500 macro_f1=0.057353 train_loss=0.565898 q_loss=0.003585 candidate_seconds=1.00
+2026-08-01 12:00:31,959 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=6 complete records=300 seconds=271.85
+2026-08-01 12:00:31,960 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 family=transformer start epochs=300
+2026-08-01 12:00:32,767 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 epoch=1/300 subset=12 micro_f1=0.864500 macro_f1=0.027274 train_loss=0.736955 q_loss=0.483741 candidate_seconds=0.75
+2026-08-01 12:00:39,757 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 epoch=10/300 subset=12 micro_f1=0.863200 macro_f1=0.027465 train_loss=0.750632 q_loss=0.218918 candidate_seconds=0.75
+2026-08-01 12:00:47,565 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 epoch=20/300 subset=10 micro_f1=0.864800 macro_f1=0.030020 train_loss=0.767170 q_loss=0.070275 candidate_seconds=0.71
+2026-08-01 12:00:55,650 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 epoch=30/300 subset=9 micro_f1=0.867200 macro_f1=0.032767 train_loss=0.749955 q_loss=0.022994 candidate_seconds=0.71
+2026-08-01 12:01:03,737 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 epoch=40/300 subset=9 micro_f1=0.863900 macro_f1=0.027324 train_loss=0.718218 q_loss=0.007267 candidate_seconds=0.70
+2026-08-01 12:01:12,192 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 epoch=50/300 subset=11 micro_f1=0.864000 macro_f1=0.027291 train_loss=0.737883 q_loss=0.011604 candidate_seconds=0.78
+2026-08-01 12:01:20,309 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 epoch=60/300 subset=13 micro_f1=0.864100 macro_f1=0.027480 train_loss=0.740187 q_loss=0.020202 candidate_seconds=0.78
+2026-08-01 12:01:28,292 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 epoch=70/300 subset=10 micro_f1=0.882700 macro_f1=0.038114 train_loss=0.714343 q_loss=0.025804 candidate_seconds=0.74
+2026-08-01 12:01:36,417 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 epoch=80/300 subset=10 micro_f1=0.864600 macro_f1=0.028923 train_loss=0.737356 q_loss=0.036578 candidate_seconds=0.72
+2026-08-01 12:01:44,685 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 epoch=90/300 subset=14 micro_f1=0.864700 macro_f1=0.028636 train_loss=0.726969 q_loss=0.013456 candidate_seconds=0.82
+2026-08-01 12:01:52,645 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 epoch=100/300 subset=12 micro_f1=0.865500 macro_f1=0.033975 train_loss=0.723037 q_loss=0.029101 candidate_seconds=0.78
+2026-08-01 12:02:00,905 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 epoch=110/300 subset=14 micro_f1=0.864500 macro_f1=0.027280 train_loss=0.773179 q_loss=0.024289 candidate_seconds=0.79
+2026-08-01 12:02:09,089 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 epoch=120/300 subset=12 micro_f1=0.864400 macro_f1=0.027292 train_loss=0.770818 q_loss=0.013802 candidate_seconds=0.75
+2026-08-01 12:02:17,305 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 epoch=130/300 subset=13 micro_f1=0.860800 macro_f1=0.029140 train_loss=0.752431 q_loss=0.008066 candidate_seconds=0.78
+2026-08-01 12:02:25,775 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 epoch=140/300 subset=13 micro_f1=0.864200 macro_f1=0.028323 train_loss=0.753529 q_loss=0.021068 candidate_seconds=0.78
+2026-08-01 12:02:34,142 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 epoch=150/300 subset=12 micro_f1=0.866200 macro_f1=0.031041 train_loss=0.724276 q_loss=0.007015 candidate_seconds=0.75
+2026-08-01 12:02:42,446 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 epoch=160/300 subset=16 micro_f1=0.863500 macro_f1=0.028791 train_loss=0.727611 q_loss=0.037975 candidate_seconds=0.87
+2026-08-01 12:02:51,331 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 epoch=170/300 subset=18 micro_f1=0.863600 macro_f1=0.027609 train_loss=0.765302 q_loss=0.008146 candidate_seconds=0.90
+2026-08-01 12:03:00,187 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 epoch=180/300 subset=18 micro_f1=0.863200 macro_f1=0.028019 train_loss=0.755952 q_loss=0.012261 candidate_seconds=0.90
+2026-08-01 12:03:09,307 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 epoch=190/300 subset=17 micro_f1=0.863400 macro_f1=0.027761 train_loss=0.760230 q_loss=0.012545 candidate_seconds=0.88
+2026-08-01 12:03:18,243 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 epoch=200/300 subset=12 micro_f1=0.864500 macro_f1=0.027283 train_loss=0.781128 q_loss=0.009093 candidate_seconds=0.76
+2026-08-01 12:03:27,568 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 epoch=210/300 subset=19 micro_f1=0.862900 macro_f1=0.027755 train_loss=0.735561 q_loss=0.022856 candidate_seconds=0.93
+2026-08-01 12:03:36,992 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 epoch=220/300 subset=17 micro_f1=0.863800 macro_f1=0.027463 train_loss=0.746594 q_loss=0.006127 candidate_seconds=0.87
+2026-08-01 12:03:46,444 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 epoch=230/300 subset=16 micro_f1=0.863800 macro_f1=0.027342 train_loss=0.760280 q_loss=0.016289 candidate_seconds=0.83
+2026-08-01 12:03:55,661 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 epoch=240/300 subset=15 micro_f1=0.863600 macro_f1=0.027290 train_loss=0.772385 q_loss=0.007927 candidate_seconds=0.81
+2026-08-01 12:04:04,416 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 epoch=250/300 subset=15 micro_f1=0.863100 macro_f1=0.027752 train_loss=0.743022 q_loss=0.002890 candidate_seconds=0.82
+2026-08-01 12:04:13,496 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 epoch=260/300 subset=19 micro_f1=0.863700 macro_f1=0.028087 train_loss=0.748400 q_loss=0.004144 candidate_seconds=0.93
+2026-08-01 12:04:22,772 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 epoch=270/300 subset=15 micro_f1=0.864300 macro_f1=0.030839 train_loss=0.771013 q_loss=0.006524 candidate_seconds=0.83
+2026-08-01 12:04:32,434 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 epoch=280/300 subset=18 micro_f1=0.864600 macro_f1=0.033029 train_loss=0.749441 q_loss=0.007309 candidate_seconds=0.91
+2026-08-01 12:04:42,195 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 epoch=290/300 subset=19 micro_f1=0.864300 macro_f1=0.028059 train_loss=0.730357 q_loss=0.013010 candidate_seconds=0.96
+2026-08-01 12:04:51,117 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 epoch=300/300 subset=11 micro_f1=0.864500 macro_f1=0.027274 train_loss=0.766491 q_loss=0.009725 candidate_seconds=0.74
+2026-08-01 12:04:51,117 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=7 complete records=300 seconds=259.16
+2026-08-01 12:04:51,117 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 family=cnn1d start epochs=300
+2026-08-01 12:04:51,573 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 epoch=1/300 subset=15 micro_f1=0.796200 macro_f1=0.043410 train_loss=1.320815 q_loss=0.433953 candidate_seconds=0.41
+2026-08-01 12:04:54,983 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 epoch=10/300 subset=14 micro_f1=0.807100 macro_f1=0.045044 train_loss=1.293905 q_loss=0.218153 candidate_seconds=0.32
+2026-08-01 12:04:58,639 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 epoch=20/300 subset=12 micro_f1=0.888900 macro_f1=0.074179 train_loss=1.240864 q_loss=0.106292 candidate_seconds=0.33
+2026-08-01 12:05:02,252 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 epoch=30/300 subset=10 micro_f1=0.801900 macro_f1=0.043553 train_loss=1.334894 q_loss=0.064266 candidate_seconds=0.37
+2026-08-01 12:05:05,877 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 epoch=40/300 subset=13 micro_f1=0.807000 macro_f1=0.045016 train_loss=1.274436 q_loss=0.017875 candidate_seconds=0.32
+2026-08-01 12:05:09,400 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 epoch=50/300 subset=15 micro_f1=0.885600 macro_f1=0.073981 train_loss=1.283024 q_loss=0.101036 candidate_seconds=0.32
+2026-08-01 12:05:12,956 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 epoch=60/300 subset=12 micro_f1=0.837300 macro_f1=0.056051 train_loss=1.324800 q_loss=0.022111 candidate_seconds=0.32
+2026-08-01 12:05:16,420 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 epoch=70/300 subset=16 micro_f1=0.758100 macro_f1=0.025482 train_loss=1.392047 q_loss=0.039129 candidate_seconds=0.31
+2026-08-01 12:05:19,955 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 epoch=80/300 subset=18 micro_f1=0.759300 macro_f1=0.026332 train_loss=1.441200 q_loss=0.045677 candidate_seconds=0.32
+2026-08-01 12:05:23,502 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 epoch=90/300 subset=12 micro_f1=0.832900 macro_f1=0.053191 train_loss=1.379680 q_loss=0.019981 candidate_seconds=0.32
+2026-08-01 12:05:27,064 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 epoch=100/300 subset=14 micro_f1=0.759100 macro_f1=0.026111 train_loss=1.382685 q_loss=0.015765 candidate_seconds=0.32
+2026-08-01 12:05:30,584 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 epoch=110/300 subset=12 micro_f1=0.758200 macro_f1=0.025537 train_loss=1.499834 q_loss=0.015805 candidate_seconds=0.32
+2026-08-01 12:05:34,173 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 epoch=120/300 subset=15 micro_f1=0.791200 macro_f1=0.043282 train_loss=1.318010 q_loss=0.023697 candidate_seconds=0.33
+2026-08-01 12:05:37,774 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 epoch=130/300 subset=15 micro_f1=0.819900 macro_f1=0.052553 train_loss=1.353976 q_loss=0.012882 candidate_seconds=0.33
+2026-08-01 12:05:41,317 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 epoch=140/300 subset=12 micro_f1=0.838100 macro_f1=0.058071 train_loss=1.322943 q_loss=0.005475 candidate_seconds=0.32
+2026-08-01 12:05:44,884 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 epoch=150/300 subset=15 micro_f1=0.771100 macro_f1=0.033587 train_loss=1.364670 q_loss=0.014471 candidate_seconds=0.32
+2026-08-01 12:05:48,381 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 epoch=160/300 subset=13 micro_f1=0.877600 macro_f1=0.071215 train_loss=1.234581 q_loss=0.023518 candidate_seconds=0.31
+2026-08-01 12:05:51,895 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 epoch=170/300 subset=13 micro_f1=0.798900 macro_f1=0.042525 train_loss=1.327447 q_loss=0.032955 candidate_seconds=0.33
+2026-08-01 12:05:55,447 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 epoch=180/300 subset=11 micro_f1=0.934900 macro_f1=0.083524 train_loss=1.169472 q_loss=0.037262 candidate_seconds=0.31
+2026-08-01 12:05:58,980 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 epoch=190/300 subset=14 micro_f1=0.763800 macro_f1=0.028625 train_loss=1.335806 q_loss=0.010381 candidate_seconds=0.33
+2026-08-01 12:06:02,578 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 epoch=200/300 subset=14 micro_f1=0.840000 macro_f1=0.051112 train_loss=1.395472 q_loss=0.008018 candidate_seconds=0.32
+2026-08-01 12:06:06,110 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 epoch=210/300 subset=16 micro_f1=0.763100 macro_f1=0.029081 train_loss=1.370112 q_loss=0.008892 candidate_seconds=0.32
+2026-08-01 12:06:09,743 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 epoch=220/300 subset=17 micro_f1=0.794200 macro_f1=0.041205 train_loss=1.349031 q_loss=0.005334 candidate_seconds=0.32
+2026-08-01 12:06:13,375 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 epoch=230/300 subset=18 micro_f1=0.758100 macro_f1=0.025365 train_loss=1.340368 q_loss=0.005581 candidate_seconds=0.33
+2026-08-01 12:06:16,957 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 epoch=240/300 subset=18 micro_f1=0.758100 macro_f1=0.025365 train_loss=1.355560 q_loss=0.008453 candidate_seconds=0.32
+2026-08-01 12:06:20,523 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 epoch=250/300 subset=13 micro_f1=0.876900 macro_f1=0.071031 train_loss=1.244418 q_loss=0.013387 candidate_seconds=0.32
+2026-08-01 12:06:24,160 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 epoch=260/300 subset=10 micro_f1=0.910400 macro_f1=0.079072 train_loss=1.152113 q_loss=0.002840 candidate_seconds=0.33
+2026-08-01 12:06:27,733 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 epoch=270/300 subset=16 micro_f1=0.894800 macro_f1=0.075992 train_loss=1.280948 q_loss=0.005645 candidate_seconds=0.31
+2026-08-01 12:06:31,304 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 epoch=280/300 subset=14 micro_f1=0.892600 macro_f1=0.075489 train_loss=1.251719 q_loss=0.003756 candidate_seconds=0.33
+2026-08-01 12:06:34,942 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 epoch=290/300 subset=13 micro_f1=0.889200 macro_f1=0.073584 train_loss=1.200488 q_loss=0.002101 candidate_seconds=0.31
+2026-08-01 12:06:38,521 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 epoch=300/300 subset=15 micro_f1=0.872000 macro_f1=0.070426 train_loss=1.277715 q_loss=0.025784 candidate_seconds=0.33
+2026-08-01 12:06:38,522 | fedcaps-worker-1 | INFO | [STAGE MARLFS] GPU 1 client=9 complete records=300 seconds=107.40
+2026-08-01 12:06:38,582 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=collect_g1 kind=collect_records complete seconds=1007.15
+2026-08-01 12:18:56,604 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e01_c001_g1 kind=evaluate_subsets start
+2026-08-01 12:18:59,911 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e01_c001_g1 kind=evaluate_subsets complete seconds=3.31
+2026-08-01 12:18:59,995 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e01_c002_g1 kind=evaluate_subsets start
+2026-08-01 12:19:03,236 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e01_c002_g1 kind=evaluate_subsets complete seconds=3.24
+2026-08-01 12:19:03,298 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e01_c003_g1 kind=evaluate_subsets start
+2026-08-01 12:19:06,595 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e01_c003_g1 kind=evaluate_subsets complete seconds=3.30
+2026-08-01 12:19:06,656 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e01_c004_g1 kind=evaluate_subsets start
+2026-08-01 12:19:09,913 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e01_c004_g1 kind=evaluate_subsets complete seconds=3.26
+2026-08-01 12:19:09,977 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e01_c005_g1 kind=evaluate_subsets start
+2026-08-01 12:19:13,328 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e01_c005_g1 kind=evaluate_subsets complete seconds=3.35
+2026-08-01 12:19:13,391 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e01_c006_g1 kind=evaluate_subsets start
+2026-08-01 12:19:16,702 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e01_c006_g1 kind=evaluate_subsets complete seconds=3.31
+2026-08-01 12:19:16,766 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e01_c007_g1 kind=evaluate_subsets start
+2026-08-01 12:19:20,068 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e01_c007_g1 kind=evaluate_subsets complete seconds=3.30
+2026-08-01 12:19:20,128 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e01_c008_g1 kind=evaluate_subsets start
+2026-08-01 12:19:23,454 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e01_c008_g1 kind=evaluate_subsets complete seconds=3.33
+2026-08-01 12:19:23,519 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e01_c009_g1 kind=evaluate_subsets start
+2026-08-01 12:19:26,731 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e01_c009_g1 kind=evaluate_subsets complete seconds=3.21
+2026-08-01 12:19:26,794 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e01_c010_g1 kind=evaluate_subsets start
+2026-08-01 12:19:30,039 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e01_c010_g1 kind=evaluate_subsets complete seconds=3.24
+2026-08-01 12:19:30,173 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e02_c011_g1 kind=evaluate_subsets start
+2026-08-01 12:19:33,487 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e02_c011_g1 kind=evaluate_subsets complete seconds=3.31
+2026-08-01 12:19:33,550 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e02_c012_g1 kind=evaluate_subsets start
+2026-08-01 12:19:36,895 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e02_c012_g1 kind=evaluate_subsets complete seconds=3.35
+2026-08-01 12:19:36,956 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e02_c013_g1 kind=evaluate_subsets start
+2026-08-01 12:19:40,186 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e02_c013_g1 kind=evaluate_subsets complete seconds=3.23
+2026-08-01 12:19:40,247 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e02_c014_g1 kind=evaluate_subsets start
+2026-08-01 12:19:43,560 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e02_c014_g1 kind=evaluate_subsets complete seconds=3.31
+2026-08-01 12:19:43,623 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e02_c015_g1 kind=evaluate_subsets start
+2026-08-01 12:19:46,985 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e02_c015_g1 kind=evaluate_subsets complete seconds=3.36
+2026-08-01 12:19:47,050 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e02_c016_g1 kind=evaluate_subsets start
+2026-08-01 12:19:50,487 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e02_c016_g1 kind=evaluate_subsets complete seconds=3.44
+2026-08-01 12:19:50,547 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e02_c017_g1 kind=evaluate_subsets start
+2026-08-01 12:19:53,833 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e02_c017_g1 kind=evaluate_subsets complete seconds=3.29
+2026-08-01 12:19:53,896 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e02_c018_g1 kind=evaluate_subsets start
+2026-08-01 12:19:57,252 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e02_c018_g1 kind=evaluate_subsets complete seconds=3.36
+2026-08-01 12:19:57,313 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e02_c019_g1 kind=evaluate_subsets start
+2026-08-01 12:20:00,772 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e02_c019_g1 kind=evaluate_subsets complete seconds=3.46
+2026-08-01 12:20:00,834 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e02_c020_g1 kind=evaluate_subsets start
+2026-08-01 12:20:04,287 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e02_c020_g1 kind=evaluate_subsets complete seconds=3.45
+2026-08-01 12:20:04,409 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e03_c021_g1 kind=evaluate_subsets start
+2026-08-01 12:20:07,931 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e03_c021_g1 kind=evaluate_subsets complete seconds=3.52
+2026-08-01 12:20:07,991 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e03_c022_g1 kind=evaluate_subsets start
+2026-08-01 12:20:11,435 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e03_c022_g1 kind=evaluate_subsets complete seconds=3.44
+2026-08-01 12:20:11,496 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e03_c023_g1 kind=evaluate_subsets start
+2026-08-01 12:20:14,985 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e03_c023_g1 kind=evaluate_subsets complete seconds=3.49
+2026-08-01 12:20:15,045 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e03_c024_g1 kind=evaluate_subsets start
+2026-08-01 12:20:18,526 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e03_c024_g1 kind=evaluate_subsets complete seconds=3.48
+2026-08-01 12:20:18,586 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e03_c025_g1 kind=evaluate_subsets start
+2026-08-01 12:20:22,158 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e03_c025_g1 kind=evaluate_subsets complete seconds=3.57
+2026-08-01 12:20:22,218 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e03_c026_g1 kind=evaluate_subsets start
+2026-08-01 12:20:25,361 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e03_c026_g1 kind=evaluate_subsets complete seconds=3.14
+2026-08-01 12:20:25,422 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e03_c027_g1 kind=evaluate_subsets start
+2026-08-01 12:20:28,538 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e03_c027_g1 kind=evaluate_subsets complete seconds=3.12
+2026-08-01 12:20:28,598 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e03_c028_g1 kind=evaluate_subsets start
+2026-08-01 12:20:31,793 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e03_c028_g1 kind=evaluate_subsets complete seconds=3.19
+2026-08-01 12:20:31,856 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e03_c029_g1 kind=evaluate_subsets start
+2026-08-01 12:20:34,981 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e03_c029_g1 kind=evaluate_subsets complete seconds=3.13
+2026-08-01 12:20:35,043 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e03_c030_g1 kind=evaluate_subsets start
+2026-08-01 12:20:38,120 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e03_c030_g1 kind=evaluate_subsets complete seconds=3.08
+2026-08-01 12:20:38,233 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e04_c031_g1 kind=evaluate_subsets start
+2026-08-01 12:20:41,319 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e04_c031_g1 kind=evaluate_subsets complete seconds=3.09
+2026-08-01 12:20:41,380 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e04_c032_g1 kind=evaluate_subsets start
+2026-08-01 12:20:44,521 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e04_c032_g1 kind=evaluate_subsets complete seconds=3.14
+2026-08-01 12:20:44,581 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e04_c033_g1 kind=evaluate_subsets start
+2026-08-01 12:20:47,613 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e04_c033_g1 kind=evaluate_subsets complete seconds=3.03
+2026-08-01 12:20:47,671 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e04_c034_g1 kind=evaluate_subsets start
+2026-08-01 12:20:50,796 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e04_c034_g1 kind=evaluate_subsets complete seconds=3.13
+2026-08-01 12:20:50,855 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e04_c035_g1 kind=evaluate_subsets start
+2026-08-01 12:20:54,017 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e04_c035_g1 kind=evaluate_subsets complete seconds=3.16
+2026-08-01 12:20:54,077 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e04_c036_g1 kind=evaluate_subsets start
+2026-08-01 12:20:57,188 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e04_c036_g1 kind=evaluate_subsets complete seconds=3.11
+2026-08-01 12:20:57,247 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e04_c037_g1 kind=evaluate_subsets start
+2026-08-01 12:21:00,224 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e04_c037_g1 kind=evaluate_subsets complete seconds=2.98
+2026-08-01 12:21:00,282 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e04_c038_g1 kind=evaluate_subsets start
+2026-08-01 12:21:03,412 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e04_c038_g1 kind=evaluate_subsets complete seconds=3.13
+2026-08-01 12:21:03,473 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e04_c039_g1 kind=evaluate_subsets start
+2026-08-01 12:21:06,599 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e04_c039_g1 kind=evaluate_subsets complete seconds=3.13
+2026-08-01 12:21:06,657 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e04_c040_g1 kind=evaluate_subsets start
+2026-08-01 12:21:09,644 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e04_c040_g1 kind=evaluate_subsets complete seconds=2.99
+2026-08-01 12:21:09,761 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e05_c041_g1 kind=evaluate_subsets start
+2026-08-01 12:21:12,979 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e05_c041_g1 kind=evaluate_subsets complete seconds=3.22
+2026-08-01 12:21:13,039 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e05_c042_g1 kind=evaluate_subsets start
+2026-08-01 12:21:16,289 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e05_c042_g1 kind=evaluate_subsets complete seconds=3.25
+2026-08-01 12:21:16,349 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e05_c043_g1 kind=evaluate_subsets start
+2026-08-01 12:21:19,518 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e05_c043_g1 kind=evaluate_subsets complete seconds=3.17
+2026-08-01 12:21:19,579 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e05_c044_g1 kind=evaluate_subsets start
+2026-08-01 12:21:22,734 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e05_c044_g1 kind=evaluate_subsets complete seconds=3.16
+2026-08-01 12:21:22,794 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e05_c045_g1 kind=evaluate_subsets start
+2026-08-01 12:21:25,819 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e05_c045_g1 kind=evaluate_subsets complete seconds=3.02
+2026-08-01 12:21:25,878 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e05_c046_g1 kind=evaluate_subsets start
+2026-08-01 12:21:28,954 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e05_c046_g1 kind=evaluate_subsets complete seconds=3.08
+2026-08-01 12:21:29,016 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e05_c047_g1 kind=evaluate_subsets start
+2026-08-01 12:21:31,981 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e05_c047_g1 kind=evaluate_subsets complete seconds=2.96
+2026-08-01 12:21:32,041 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e05_c048_g1 kind=evaluate_subsets start
+2026-08-01 12:21:35,112 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e05_c048_g1 kind=evaluate_subsets complete seconds=3.07
+2026-08-01 12:21:35,175 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e05_c049_g1 kind=evaluate_subsets start
+2026-08-01 12:21:38,170 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e05_c049_g1 kind=evaluate_subsets complete seconds=3.00
+2026-08-01 12:21:38,229 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e05_c050_g1 kind=evaluate_subsets start
+2026-08-01 12:21:41,414 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e05_c050_g1 kind=evaluate_subsets complete seconds=3.18
+2026-08-01 12:21:41,541 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e06_c051_g1 kind=evaluate_subsets start
+2026-08-01 12:21:44,824 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e06_c051_g1 kind=evaluate_subsets complete seconds=3.28
+2026-08-01 12:21:44,882 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e06_c052_g1 kind=evaluate_subsets start
+2026-08-01 12:21:47,990 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e06_c052_g1 kind=evaluate_subsets complete seconds=3.11
+2026-08-01 12:21:48,049 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e06_c053_g1 kind=evaluate_subsets start
+2026-08-01 12:21:51,096 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e06_c053_g1 kind=evaluate_subsets complete seconds=3.05
+2026-08-01 12:21:51,158 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e06_c054_g1 kind=evaluate_subsets start
+2026-08-01 12:21:54,305 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e06_c054_g1 kind=evaluate_subsets complete seconds=3.15
+2026-08-01 12:21:54,369 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e06_c055_g1 kind=evaluate_subsets start
+2026-08-01 12:21:57,543 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e06_c055_g1 kind=evaluate_subsets complete seconds=3.17
+2026-08-01 12:21:57,604 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e06_c056_g1 kind=evaluate_subsets start
+2026-08-01 12:22:00,785 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e06_c056_g1 kind=evaluate_subsets complete seconds=3.18
+2026-08-01 12:22:00,847 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e06_c057_g1 kind=evaluate_subsets start
+2026-08-01 12:22:03,934 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e06_c057_g1 kind=evaluate_subsets complete seconds=3.09
+2026-08-01 12:22:03,996 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e06_c058_g1 kind=evaluate_subsets start
+2026-08-01 12:22:07,138 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e06_c058_g1 kind=evaluate_subsets complete seconds=3.14
+2026-08-01 12:22:07,196 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e06_c059_g1 kind=evaluate_subsets start
+2026-08-01 12:22:10,250 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e06_c059_g1 kind=evaluate_subsets complete seconds=3.05
+2026-08-01 12:22:10,309 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e06_c060_g1 kind=evaluate_subsets start
+2026-08-01 12:22:13,398 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e06_c060_g1 kind=evaluate_subsets complete seconds=3.09
+2026-08-01 12:22:13,517 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e07_c061_g1 kind=evaluate_subsets start
+2026-08-01 12:22:16,555 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e07_c061_g1 kind=evaluate_subsets complete seconds=3.04
+2026-08-01 12:22:16,618 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e07_c062_g1 kind=evaluate_subsets start
+2026-08-01 12:22:19,723 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e07_c062_g1 kind=evaluate_subsets complete seconds=3.10
+2026-08-01 12:22:19,782 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e07_c063_g1 kind=evaluate_subsets start
+2026-08-01 12:22:22,989 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e07_c063_g1 kind=evaluate_subsets complete seconds=3.21
+2026-08-01 12:22:23,051 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e07_c064_g1 kind=evaluate_subsets start
+2026-08-01 12:22:26,030 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e07_c064_g1 kind=evaluate_subsets complete seconds=2.98
+2026-08-01 12:22:26,093 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e07_c065_g1 kind=evaluate_subsets start
+2026-08-01 12:22:29,186 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e07_c065_g1 kind=evaluate_subsets complete seconds=3.09
+2026-08-01 12:22:29,245 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e07_c066_g1 kind=evaluate_subsets start
+2026-08-01 12:22:32,553 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e07_c066_g1 kind=evaluate_subsets complete seconds=3.31
+2026-08-01 12:22:32,613 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e07_c067_g1 kind=evaluate_subsets start
+2026-08-01 12:22:35,702 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e07_c067_g1 kind=evaluate_subsets complete seconds=3.09
+2026-08-01 12:22:35,761 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e07_c068_g1 kind=evaluate_subsets start
+2026-08-01 12:22:38,961 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e07_c068_g1 kind=evaluate_subsets complete seconds=3.20
+2026-08-01 12:22:39,023 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e07_c069_g1 kind=evaluate_subsets start
+2026-08-01 12:22:42,309 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e07_c069_g1 kind=evaluate_subsets complete seconds=3.29
+2026-08-01 12:22:42,369 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e07_c070_g1 kind=evaluate_subsets start
+2026-08-01 12:22:45,678 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e07_c070_g1 kind=evaluate_subsets complete seconds=3.31
+2026-08-01 12:22:45,802 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e08_c071_g1 kind=evaluate_subsets start
+2026-08-01 12:22:49,066 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e08_c071_g1 kind=evaluate_subsets complete seconds=3.26
+2026-08-01 12:22:49,130 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e08_c072_g1 kind=evaluate_subsets start
+2026-08-01 12:22:52,540 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e08_c072_g1 kind=evaluate_subsets complete seconds=3.41
+2026-08-01 12:22:52,604 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e08_c073_g1 kind=evaluate_subsets start
+2026-08-01 12:22:55,874 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e08_c073_g1 kind=evaluate_subsets complete seconds=3.27
+2026-08-01 12:22:55,938 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e08_c074_g1 kind=evaluate_subsets start
+2026-08-01 12:22:59,257 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e08_c074_g1 kind=evaluate_subsets complete seconds=3.32
+2026-08-01 12:22:59,319 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e08_c075_g1 kind=evaluate_subsets start
+2026-08-01 12:23:02,492 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e08_c075_g1 kind=evaluate_subsets complete seconds=3.17
+2026-08-01 12:23:02,554 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e08_c076_g1 kind=evaluate_subsets start
+2026-08-01 12:23:05,735 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e08_c076_g1 kind=evaluate_subsets complete seconds=3.18
+2026-08-01 12:23:05,801 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e08_c077_g1 kind=evaluate_subsets start
+2026-08-01 12:23:09,133 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e08_c077_g1 kind=evaluate_subsets complete seconds=3.33
+2026-08-01 12:23:09,194 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e08_c078_g1 kind=evaluate_subsets start
+2026-08-01 12:23:12,404 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e08_c078_g1 kind=evaluate_subsets complete seconds=3.21
+2026-08-01 12:23:12,468 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e08_c079_g1 kind=evaluate_subsets start
+2026-08-01 12:23:15,695 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e08_c079_g1 kind=evaluate_subsets complete seconds=3.23
+2026-08-01 12:23:15,755 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e08_c080_g1 kind=evaluate_subsets start
+2026-08-01 12:23:18,789 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e08_c080_g1 kind=evaluate_subsets complete seconds=3.03
+2026-08-01 12:23:18,910 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e09_c081_g1 kind=evaluate_subsets start
+2026-08-01 12:23:22,075 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e09_c081_g1 kind=evaluate_subsets complete seconds=3.17
+2026-08-01 12:23:22,136 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e09_c082_g1 kind=evaluate_subsets start
+2026-08-01 12:23:25,162 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e09_c082_g1 kind=evaluate_subsets complete seconds=3.03
+2026-08-01 12:23:25,224 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e09_c083_g1 kind=evaluate_subsets start
+2026-08-01 12:23:28,511 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e09_c083_g1 kind=evaluate_subsets complete seconds=3.29
+2026-08-01 12:23:28,573 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e09_c084_g1 kind=evaluate_subsets start
+2026-08-01 12:23:31,687 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e09_c084_g1 kind=evaluate_subsets complete seconds=3.11
+2026-08-01 12:23:31,752 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e09_c085_g1 kind=evaluate_subsets start
+2026-08-01 12:23:34,955 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e09_c085_g1 kind=evaluate_subsets complete seconds=3.20
+2026-08-01 12:23:35,020 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e09_c086_g1 kind=evaluate_subsets start
+2026-08-01 12:23:38,151 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e09_c086_g1 kind=evaluate_subsets complete seconds=3.13
+2026-08-01 12:23:38,218 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e09_c087_g1 kind=evaluate_subsets start
+2026-08-01 12:23:41,721 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e09_c087_g1 kind=evaluate_subsets complete seconds=3.50
+2026-08-01 12:23:41,787 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e09_c088_g1 kind=evaluate_subsets start
+2026-08-01 12:23:45,415 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e09_c088_g1 kind=evaluate_subsets complete seconds=3.63
+2026-08-01 12:23:45,480 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e09_c089_g1 kind=evaluate_subsets start
+2026-08-01 12:23:48,652 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e09_c089_g1 kind=evaluate_subsets complete seconds=3.17
+2026-08-01 12:23:48,714 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e09_c090_g1 kind=evaluate_subsets start
+2026-08-01 12:23:51,806 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e09_c090_g1 kind=evaluate_subsets complete seconds=3.09
+2026-08-01 12:23:51,955 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e10_c091_g1 kind=evaluate_subsets start
+2026-08-01 12:23:55,047 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e10_c091_g1 kind=evaluate_subsets complete seconds=3.09
+2026-08-01 12:23:55,112 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e10_c092_g1 kind=evaluate_subsets start
+2026-08-01 12:23:58,282 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e10_c092_g1 kind=evaluate_subsets complete seconds=3.17
+2026-08-01 12:23:58,345 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e10_c093_g1 kind=evaluate_subsets start
+2026-08-01 12:24:01,491 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e10_c093_g1 kind=evaluate_subsets complete seconds=3.15
+2026-08-01 12:24:01,554 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e10_c094_g1 kind=evaluate_subsets start
+2026-08-01 12:24:04,772 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e10_c094_g1 kind=evaluate_subsets complete seconds=3.22
+2026-08-01 12:24:04,835 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e10_c095_g1 kind=evaluate_subsets start
+2026-08-01 12:24:07,957 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e10_c095_g1 kind=evaluate_subsets complete seconds=3.12
+2026-08-01 12:24:08,020 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e10_c096_g1 kind=evaluate_subsets start
+2026-08-01 12:24:11,196 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e10_c096_g1 kind=evaluate_subsets complete seconds=3.18
+2026-08-01 12:24:11,260 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e10_c097_g1 kind=evaluate_subsets start
+2026-08-01 12:24:14,569 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e10_c097_g1 kind=evaluate_subsets complete seconds=3.31
+2026-08-01 12:24:14,633 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e10_c098_g1 kind=evaluate_subsets start
+2026-08-01 12:24:18,247 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e10_c098_g1 kind=evaluate_subsets complete seconds=3.61
+2026-08-01 12:24:18,315 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e10_c099_g1 kind=evaluate_subsets start
+2026-08-01 12:24:21,921 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e10_c099_g1 kind=evaluate_subsets complete seconds=3.61
+2026-08-01 12:24:21,995 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e10_c100_g1 kind=evaluate_subsets start
+2026-08-01 12:24:25,150 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=ppo_eval_e10_c100_g1 kind=evaluate_subsets complete seconds=3.15
+2026-08-01 12:24:25,304 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=final_train_g1 kind=train_final start
+2026-08-01 12:24:25,357 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=2 family=gru start epochs=10 selected_features=10
+2026-08-01 12:24:33,621 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=2 epoch=1/10 steps=1944 train_loss=1.952354 validation_loss=1.485629 validation_accuracy=0.487489 validation_macro_f1=0.060739 seconds=8.25
+2026-08-01 12:24:42,147 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=2 epoch=2/10 steps=1944 train_loss=1.219469 validation_loss=1.055159 validation_accuracy=0.618332 validation_macro_f1=0.098357 seconds=8.52
+2026-08-01 12:24:50,990 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=2 epoch=3/10 steps=1944 train_loss=0.965055 validation_loss=0.873539 validation_accuracy=0.671475 validation_macro_f1=0.115849 seconds=8.84
+2026-08-01 12:25:00,363 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=2 epoch=4/10 steps=1944 train_loss=0.821141 validation_loss=0.757293 validation_accuracy=0.714150 validation_macro_f1=0.154343 seconds=9.37
+2026-08-01 12:25:10,041 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=2 epoch=5/10 steps=1944 train_loss=0.731570 validation_loss=0.684327 validation_accuracy=0.724360 validation_macro_f1=0.165688 seconds=9.68
+2026-08-01 12:25:20,109 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=2 epoch=6/10 steps=1944 train_loss=0.668413 validation_loss=0.628558 validation_accuracy=0.737595 validation_macro_f1=0.182413 seconds=10.07
+2026-08-01 12:25:29,571 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=2 epoch=7/10 steps=1944 train_loss=0.616633 validation_loss=0.582992 validation_accuracy=0.750052 validation_macro_f1=0.203291 seconds=9.46
+2026-08-01 12:25:39,182 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=2 epoch=8/10 steps=1944 train_loss=0.576220 validation_loss=0.549411 validation_accuracy=0.762242 validation_macro_f1=0.218074 seconds=9.61
+2026-08-01 12:25:48,526 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=2 epoch=9/10 steps=1944 train_loss=0.546600 validation_loss=0.522785 validation_accuracy=0.774003 validation_macro_f1=0.226070 seconds=9.34
+2026-08-01 12:25:57,330 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=2 epoch=10/10 steps=1944 train_loss=0.518208 validation_loss=0.500025 validation_accuracy=0.781129 validation_macro_f1=0.234279 seconds=8.80
+2026-08-01 12:25:57,331 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=2 complete best_epoch=10 best_validation_macro_f1=0.234279 seconds=91.97
+2026-08-01 12:25:57,331 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=3 family=gru start epochs=10 selected_features=10
+2026-08-01 12:26:11,772 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=3 epoch=1/10 steps=3277 train_loss=0.940114 validation_loss=0.594486 validation_accuracy=0.840266 validation_macro_f1=0.063343 seconds=14.43
+2026-08-01 12:26:26,904 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=3 epoch=2/10 steps=3277 train_loss=0.482111 validation_loss=0.357245 validation_accuracy=0.899876 validation_macro_f1=0.088206 seconds=15.13
+2026-08-01 12:26:41,760 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=3 epoch=3/10 steps=3277 train_loss=0.313165 validation_loss=0.272483 validation_accuracy=0.921780 validation_macro_f1=0.095396 seconds=14.85
+2026-08-01 12:26:57,180 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=3 epoch=4/10 steps=3277 train_loss=0.255173 validation_loss=0.228295 validation_accuracy=0.937336 validation_macro_f1=0.124412 seconds=15.42
+2026-08-01 12:27:11,871 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=3 epoch=5/10 steps=3277 train_loss=0.218275 validation_loss=0.202310 validation_accuracy=0.944197 validation_macro_f1=0.135366 seconds=14.69
+2026-08-01 12:27:26,724 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=3 epoch=6/10 steps=3277 train_loss=0.192884 validation_loss=0.178239 validation_accuracy=0.948700 validation_macro_f1=0.138090 seconds=14.85
+2026-08-01 12:27:42,016 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=3 epoch=7/10 steps=3277 train_loss=0.177033 validation_loss=0.165248 validation_accuracy=0.952112 validation_macro_f1=0.144131 seconds=15.29
+2026-08-01 12:27:57,061 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=3 epoch=8/10 steps=3277 train_loss=0.166095 validation_loss=0.156410 validation_accuracy=0.954171 validation_macro_f1=0.151113 seconds=15.04
+2026-08-01 12:28:12,389 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=3 epoch=9/10 steps=3277 train_loss=0.158128 validation_loss=0.149931 validation_accuracy=0.955609 validation_macro_f1=0.155598 seconds=15.33
+2026-08-01 12:28:27,313 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=3 epoch=10/10 steps=3277 train_loss=0.152085 validation_loss=0.144858 validation_accuracy=0.956620 validation_macro_f1=0.160410 seconds=14.92
+2026-08-01 12:28:27,315 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=3 complete best_epoch=10 best_validation_macro_f1=0.160410 seconds=149.98
+2026-08-01 12:28:27,315 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=4 family=gru start epochs=10 selected_features=10
+2026-08-01 12:28:34,981 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=4 epoch=1/10 steps=1688 train_loss=0.656109 validation_loss=0.463012 validation_accuracy=0.875777 validation_macro_f1=0.045479 seconds=7.65
+2026-08-01 12:28:42,940 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=4 epoch=2/10 steps=1688 train_loss=0.418206 validation_loss=0.363778 validation_accuracy=0.895248 validation_macro_f1=0.050276 seconds=7.96
+2026-08-01 12:28:50,741 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=4 epoch=3/10 steps=1688 train_loss=0.253907 validation_loss=0.162228 validation_accuracy=0.957990 validation_macro_f1=0.075863 seconds=7.80
+2026-08-01 12:28:58,680 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=4 epoch=4/10 steps=1688 train_loss=0.153901 validation_loss=0.137030 validation_accuracy=0.965124 validation_macro_f1=0.078583 seconds=7.94
+2026-08-01 12:29:06,344 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=4 epoch=5/10 steps=1688 train_loss=0.137694 validation_loss=0.124721 validation_accuracy=0.968608 validation_macro_f1=0.079851 seconds=7.66
+2026-08-01 12:29:13,885 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=4 epoch=6/10 steps=1688 train_loss=0.126904 validation_loss=0.114928 validation_accuracy=0.970650 validation_macro_f1=0.080622 seconds=7.54
+2026-08-01 12:29:21,617 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=4 epoch=7/10 steps=1688 train_loss=0.117888 validation_loss=0.106818 validation_accuracy=0.972181 validation_macro_f1=0.081140 seconds=7.73
+2026-08-01 12:29:29,194 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=4 epoch=8/10 steps=1688 train_loss=0.110384 validation_loss=0.099806 validation_accuracy=0.973733 validation_macro_f1=0.081633 seconds=7.58
+2026-08-01 12:29:36,885 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=4 epoch=9/10 steps=1688 train_loss=0.103533 validation_loss=0.093986 validation_accuracy=0.975722 validation_macro_f1=0.082315 seconds=7.69
+2026-08-01 12:29:44,976 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=4 epoch=10/10 steps=1688 train_loss=0.098200 validation_loss=0.089302 validation_accuracy=0.977149 validation_macro_f1=0.082786 seconds=8.09
+2026-08-01 12:29:44,977 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=4 complete best_epoch=10 best_validation_macro_f1=0.082786 seconds=77.66
+2026-08-01 12:29:44,977 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=6 family=transformer start epochs=10 selected_features=10
+2026-08-01 12:30:08,034 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=6 epoch=1/10 steps=2362 train_loss=0.047975 validation_loss=0.025083 validation_accuracy=0.995452 validation_macro_f1=0.058392 seconds=23.05
+2026-08-01 12:30:31,002 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=6 epoch=2/10 steps=2362 train_loss=0.023132 validation_loss=0.021920 validation_accuracy=0.995373 validation_macro_f1=0.058383 seconds=22.97
+2026-08-01 12:30:55,269 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=6 epoch=3/10 steps=2362 train_loss=0.020641 validation_loss=0.019646 validation_accuracy=0.995813 validation_macro_f1=0.058433 seconds=24.27
+2026-08-01 12:31:18,684 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=6 epoch=4/10 steps=2362 train_loss=0.018077 validation_loss=0.016869 validation_accuracy=0.996263 validation_macro_f1=0.058480 seconds=23.41
+2026-08-01 12:31:42,727 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=6 epoch=5/10 steps=2362 train_loss=0.014511 validation_loss=0.013884 validation_accuracy=0.996907 validation_macro_f1=0.060614 seconds=24.04
+2026-08-01 12:32:05,703 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=6 epoch=6/10 steps=2362 train_loss=0.011856 validation_loss=0.011016 validation_accuracy=0.997365 validation_macro_f1=0.064433 seconds=22.98
+2026-08-01 12:32:28,351 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=6 epoch=7/10 steps=2362 train_loss=0.010651 validation_loss=0.011862 validation_accuracy=0.997067 validation_macro_f1=0.062346 seconds=22.65
+2026-08-01 12:32:51,302 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=6 epoch=8/10 steps=2362 train_loss=0.009963 validation_loss=0.009910 validation_accuracy=0.997595 validation_macro_f1=0.068870 seconds=22.95
+2026-08-01 12:33:13,779 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=6 epoch=9/10 steps=2362 train_loss=0.009463 validation_loss=0.008935 validation_accuracy=0.997521 validation_macro_f1=0.064600 seconds=22.48
+2026-08-01 12:33:36,491 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=6 epoch=10/10 steps=2362 train_loss=0.009000 validation_loss=0.008596 validation_accuracy=0.997551 validation_macro_f1=0.066653 seconds=22.71
+2026-08-01 12:33:36,493 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=6 complete best_epoch=8 best_validation_macro_f1=0.068870 seconds=231.52
+2026-08-01 12:33:36,493 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=7 family=transformer start epochs=10 selected_features=10
+2026-08-01 12:33:51,390 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=7 epoch=1/10 steps=1604 train_loss=0.458312 validation_loss=0.398846 validation_accuracy=0.891205 validation_macro_f1=0.063497 seconds=14.89
+2026-08-01 12:34:07,687 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=7 epoch=2/10 steps=1604 train_loss=0.388172 validation_loss=0.377303 validation_accuracy=0.896005 validation_macro_f1=0.065746 seconds=16.30
+2026-08-01 12:34:23,553 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=7 epoch=3/10 steps=1604 train_loss=0.374377 validation_loss=0.367358 validation_accuracy=0.898071 validation_macro_f1=0.067144 seconds=15.86
+2026-08-01 12:34:39,714 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=7 epoch=4/10 steps=1604 train_loss=0.366756 validation_loss=0.361651 validation_accuracy=0.898772 validation_macro_f1=0.067259 seconds=16.16
+2026-08-01 12:34:55,643 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=7 epoch=5/10 steps=1604 train_loss=0.361158 validation_loss=0.357868 validation_accuracy=0.899320 validation_macro_f1=0.067366 seconds=15.93
+2026-08-01 12:35:12,543 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=7 epoch=6/10 steps=1604 train_loss=0.357052 validation_loss=0.352678 validation_accuracy=0.900476 validation_macro_f1=0.069164 seconds=16.90
+2026-08-01 12:35:28,200 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=7 epoch=7/10 steps=1604 train_loss=0.354142 validation_loss=0.349153 validation_accuracy=0.901052 validation_macro_f1=0.070978 seconds=15.66
+2026-08-01 12:35:43,783 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=7 epoch=8/10 steps=1604 train_loss=0.351610 validation_loss=0.346118 validation_accuracy=0.901583 validation_macro_f1=0.073079 seconds=15.58
+2026-08-01 12:35:59,023 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=7 epoch=9/10 steps=1604 train_loss=0.348806 validation_loss=0.343468 validation_accuracy=0.902443 validation_macro_f1=0.079022 seconds=15.24
+2026-08-01 12:36:14,600 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=7 epoch=10/10 steps=1604 train_loss=0.345698 validation_loss=0.340332 validation_accuracy=0.903523 validation_macro_f1=0.083916 seconds=15.58
+2026-08-01 12:36:14,603 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=7 complete best_epoch=10 best_validation_macro_f1=0.083916 seconds=158.11
+2026-08-01 12:36:14,603 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=9 family=cnn1d start epochs=10 selected_features=10
+2026-08-01 12:36:30,712 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=9 epoch=1/10 steps=3827 train_loss=0.281552 validation_loss=0.191476 validation_accuracy=0.956394 validation_macro_f1=0.132241 seconds=16.10
+2026-08-01 12:36:47,749 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=9 epoch=2/10 steps=3827 train_loss=0.176659 validation_loss=0.167036 validation_accuracy=0.963895 validation_macro_f1=0.183285 seconds=17.04
+2026-08-01 12:37:04,397 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=9 epoch=3/10 steps=3827 train_loss=0.163383 validation_loss=0.159219 validation_accuracy=0.964639 validation_macro_f1=0.186725 seconds=16.65
+2026-08-01 12:37:21,182 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=9 epoch=4/10 steps=3827 train_loss=0.158303 validation_loss=0.156725 validation_accuracy=0.964503 validation_macro_f1=0.186622 seconds=16.78
+2026-08-01 12:37:37,837 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=9 epoch=5/10 steps=3827 train_loss=0.155632 validation_loss=0.154043 validation_accuracy=0.965557 validation_macro_f1=0.190273 seconds=16.65
+2026-08-01 12:37:54,509 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=9 epoch=6/10 steps=3827 train_loss=0.153834 validation_loss=0.152484 validation_accuracy=0.965900 validation_macro_f1=0.193445 seconds=16.67
+2026-08-01 12:38:10,821 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=9 epoch=7/10 steps=3827 train_loss=0.152640 validation_loss=0.151534 validation_accuracy=0.966010 validation_macro_f1=0.194702 seconds=16.31
+2026-08-01 12:38:28,085 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=9 epoch=8/10 steps=3827 train_loss=0.151737 validation_loss=0.150952 validation_accuracy=0.966171 validation_macro_f1=0.196614 seconds=17.26
+2026-08-01 12:38:45,240 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=9 epoch=9/10 steps=3827 train_loss=0.150966 validation_loss=0.150028 validation_accuracy=0.966207 validation_macro_f1=0.196019 seconds=17.15
+2026-08-01 12:39:01,073 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=9 epoch=10/10 steps=3827 train_loss=0.150395 validation_loss=0.150298 validation_accuracy=0.966106 validation_macro_f1=0.197716 seconds=15.83
+2026-08-01 12:39:01,075 | fedcaps-worker-1 | INFO | [STAGE final-train] GPU 1 client=9 complete best_epoch=10 best_validation_macro_f1=0.197716 seconds=166.47
+2026-08-01 12:39:01,092 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=final_train_g1 kind=train_final complete seconds=875.79
+2026-08-01 12:39:01,321 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=final_test_g1 kind=test_final start
+2026-08-01 12:39:05,161 | fedcaps-worker-1 | INFO | [STAGE final-test] GPU 1 client=2 family=gru start test_rows=9,003,649 selected_features=10
+2026-08-01 12:39:18,041 | fedcaps-worker-1 | INFO | [STAGE final-test] GPU 1 client=2 complete accuracy=0.459001 macro_f1=0.154916 weighted_f1=0.376743 seconds=12.88
+2026-08-01 12:39:18,041 | fedcaps-worker-1 | INFO | [STAGE final-test] GPU 1 client=3 family=gru start test_rows=9,003,649 selected_features=10
+2026-08-01 12:39:30,906 | fedcaps-worker-1 | INFO | [STAGE final-test] GPU 1 client=3 complete accuracy=0.199174 macro_f1=0.092173 weighted_f1=0.119486 seconds=12.87
+2026-08-01 12:39:30,906 | fedcaps-worker-1 | INFO | [STAGE final-test] GPU 1 client=4 family=gru start test_rows=9,003,649 selected_features=10
+2026-08-01 12:39:44,256 | fedcaps-worker-1 | INFO | [STAGE final-test] GPU 1 client=4 complete accuracy=0.107478 macro_f1=0.018051 weighted_f1=0.022178 seconds=13.35
+2026-08-01 12:39:44,257 | fedcaps-worker-1 | INFO | [STAGE final-test] GPU 1 client=6 family=transformer start test_rows=9,003,649 selected_features=10
+2026-08-01 12:40:06,106 | fedcaps-worker-1 | INFO | [STAGE final-test] GPU 1 client=6 complete accuracy=0.238999 macro_f1=0.025676 weighted_f1=0.095036 seconds=21.85
+2026-08-01 12:40:06,106 | fedcaps-worker-1 | INFO | [STAGE final-test] GPU 1 client=7 family=transformer start test_rows=9,003,649 selected_features=10
+2026-08-01 12:40:27,401 | fedcaps-worker-1 | INFO | [STAGE final-test] GPU 1 client=7 complete accuracy=0.083933 macro_f1=0.017634 weighted_f1=0.015294 seconds=21.29
+2026-08-01 12:40:27,401 | fedcaps-worker-1 | INFO | [STAGE final-test] GPU 1 client=9 family=cnn1d start test_rows=9,003,649 selected_features=10
+2026-08-01 12:40:38,775 | fedcaps-worker-1 | INFO | [STAGE final-test] GPU 1 client=9 complete accuracy=0.334845 macro_f1=0.103163 weighted_f1=0.227901 seconds=11.37
+2026-08-01 12:40:38,780 | fedcaps-worker-1 | INFO | [TASK] GPU 1 task=final_test_g1 kind=test_final complete seconds=97.46

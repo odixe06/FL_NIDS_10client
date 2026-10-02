@@ -1,0 +1,556 @@
+{
+  "preprocessing_seconds": 308.74969279000004,
+  "training_and_validation_seconds": 5299.051268542,
+  "final_test_seconds": 81.30275789400002,
+  "sum_local_client_training_seconds": 4913.343374054998,
+  "sum_local_client_validation_seconds": 181.37984567700448,
+  "sum_global_client_validation_seconds": 182.55218043600144,
+  "per_round_seconds": [
+    {
+      "round": 1,
+      "seconds": 545.9148430680001
+    },
+    {
+      "round": 2,
+      "seconds": 530.215236254
+    },
+    {
+      "round": 3,
+      "seconds": 531.2344686509998
+    },
+    {
+      "round": 4,
+      "seconds": 528.9398172809997
+    },
+    {
+      "round": 5,
+      "seconds": 526.6531117
+    },
+    {
+      "round": 6,
+      "seconds": 526.6532827280002
+    },
+    {
+      "round": 7,
+      "seconds": 529.7792410199995
+    },
+    {
+      "round": 8,
+      "seconds": 526.5934358909999
+    },
+    {
+      "round": 9,
+      "seconds": 525.2658601680005
+    },
+    {
+      "round": 10,
+      "seconds": 527.5204482140007
+    }
+  ],
+  "per_client_round_training_seconds": [
+    {
+      "round": 1,
+      "client_id": 1,
+      "seconds": 1.4172073250000494
+    },
+    {
+      "round": 1,
+      "client_id": 2,
+      "seconds": 31.291193625999995
+    },
+    {
+      "round": 1,
+      "client_id": 3,
+      "seconds": 52.32735437500003
+    },
+    {
+      "round": 1,
+      "client_id": 4,
+      "seconds": 26.999371225999994
+    },
+    {
+      "round": 1,
+      "client_id": 5,
+      "seconds": 35.288652611999964
+    },
+    {
+      "round": 1,
+      "client_id": 6,
+      "seconds": 37.53972205700006
+    },
+    {
+      "round": 1,
+      "client_id": 7,
+      "seconds": 25.504818784999998
+    },
+    {
+      "round": 1,
+      "client_id": 8,
+      "seconds": 176.7885980550002
+    },
+    {
+      "round": 1,
+      "client_id": 9,
+      "seconds": 61.81763767799998
+    },
+    {
+      "round": 1,
+      "client_id": 10,
+      "seconds": 55.42304596400004
+    },
+    {
+      "round": 2,
+      "client_id": 1,
+      "seconds": 0.5388325579999673
+    },
+    {
+      "round": 2,
+      "client_id": 2,
+      "seconds": 29.903715669999883
+    },
+    {
+      "round": 2,
+      "client_id": 3,
+      "seconds": 50.728667821000045
+    },
+    {
+      "round": 2,
+      "client_id": 4,
+      "seconds": 26.487937719
+    },
+    {
+      "round": 2,
+      "client_id": 5,
+      "seconds": 34.191054036000196
+    },
+    {
+      "round": 2,
+      "client_id": 6,
+      "seconds": 36.19229402400015
+    },
+    {
+      "round": 2,
+      "client_id": 7,
+      "seconds": 24.819728983000005
+    },
+    {
+      "round": 2,
+      "client_id": 8,
+      "seconds": 175.0503302279999
+    },
+    {
+      "round": 2,
+      "client_id": 9,
+      "seconds": 59.769448939000085
+    },
+    {
+      "round": 2,
+      "client_id": 10,
+      "seconds": 54.1993073000001
+    },
+    {
+      "round": 3,
+      "client_id": 1,
+      "seconds": 0.5465676470000744
+    },
+    {
+      "round": 3,
+      "client_id": 2,
+      "seconds": 30.49888084400004
+    },
+    {
+      "round": 3,
+      "client_id": 3,
+      "seconds": 51.546531849000075
+    },
+    {
+      "round": 3,
+      "client_id": 4,
+      "seconds": 26.145779289000075
+    },
+    {
+      "round": 3,
+      "client_id": 5,
+      "seconds": 34.35166470900003
+    },
+    {
+      "round": 3,
+      "client_id": 6,
+      "seconds": 37.39404625899988
+    },
+    {
+      "round": 3,
+      "client_id": 7,
+      "seconds": 25.22239235699999
+    },
+    {
+      "round": 3,
+      "client_id": 8,
+      "seconds": 173.94213132899995
+    },
+    {
+      "round": 3,
+      "client_id": 9,
+      "seconds": 59.54482797300034
+    },
+    {
+      "round": 3,
+      "client_id": 10,
+      "seconds": 53.658029301999704
+    },
+    {
+      "round": 4,
+      "client_id": 1,
+      "seconds": 0.5549637049998637
+    },
+    {
+      "round": 4,
+      "client_id": 2,
+      "seconds": 30.38796026099999
+    },
+    {
+      "round": 4,
+      "client_id": 3,
+      "seconds": 50.299941450999995
+    },
+    {
+      "round": 4,
+      "client_id": 4,
+      "seconds": 26.342159907000223
+    },
+    {
+      "round": 4,
+      "client_id": 5,
+      "seconds": 34.08091338799977
+    },
+    {
+      "round": 4,
+      "client_id": 6,
+      "seconds": 36.35339552300002
+    },
+    {
+      "round": 4,
+      "client_id": 7,
+      "seconds": 24.73242114200002
+    },
+    {
+      "round": 4,
+      "client_id": 8,
+      "seconds": 174.60215887700042
+    },
+    {
+      "round": 4,
+      "client_id": 9,
+      "seconds": 59.53455950899979
+    },
+    {
+      "round": 4,
+      "client_id": 10,
+      "seconds": 53.75598645199989
+    },
+    {
+      "round": 5,
+      "client_id": 1,
+      "seconds": 0.5354318859999694
+    },
+    {
+      "round": 5,
+      "client_id": 2,
+      "seconds": 30.170418831999996
+    },
+    {
+      "round": 5,
+      "client_id": 3,
+      "seconds": 50.77743735800004
+    },
+    {
+      "round": 5,
+      "client_id": 4,
+      "seconds": 25.87507667
+    },
+    {
+      "round": 5,
+      "client_id": 5,
+      "seconds": 33.75715269800003
+    },
+    {
+      "round": 5,
+      "client_id": 6,
+      "seconds": 36.253891480999755
+    },
+    {
+      "round": 5,
+      "client_id": 7,
+      "seconds": 24.78120311199973
+    },
+    {
+      "round": 5,
+      "client_id": 8,
+      "seconds": 172.80685268599973
+    },
+    {
+      "round": 5,
+      "client_id": 9,
+      "seconds": 59.34734308199995
+    },
+    {
+      "round": 5,
+      "client_id": 10,
+      "seconds": 54.272629383000094
+    },
+    {
+      "round": 6,
+      "client_id": 1,
+      "seconds": 0.519268576000286
+    },
+    {
+      "round": 6,
+      "client_id": 2,
+      "seconds": 29.97089505699978
+    },
+    {
+      "round": 6,
+      "client_id": 3,
+      "seconds": 50.555485295999915
+    },
+    {
+      "round": 6,
+      "client_id": 4,
+      "seconds": 26.014972983000007
+    },
+    {
+      "round": 6,
+      "client_id": 5,
+      "seconds": 34.29300894200014
+    },
+    {
+      "round": 6,
+      "client_id": 6,
+      "seconds": 37.16005970799961
+    },
+    {
+      "round": 6,
+      "client_id": 7,
+      "seconds": 24.918515362999642
+    },
+    {
+      "round": 6,
+      "client_id": 8,
+      "seconds": 173.02805350500012
+    },
+    {
+      "round": 6,
+      "client_id": 9,
+      "seconds": 58.488810965000084
+    },
+    {
+      "round": 6,
+      "client_id": 10,
+      "seconds": 53.598752690999845
+    },
+    {
+      "round": 7,
+      "client_id": 1,
+      "seconds": 0.5526892540001427
+    },
+    {
+      "round": 7,
+      "client_id": 2,
+      "seconds": 29.880823692000376
+    },
+    {
+      "round": 7,
+      "client_id": 3,
+      "seconds": 50.99694380899973
+    },
+    {
+      "round": 7,
+      "client_id": 4,
+      "seconds": 25.902808885000013
+    },
+    {
+      "round": 7,
+      "client_id": 5,
+      "seconds": 33.91348328599997
+    },
+    {
+      "round": 7,
+      "client_id": 6,
+      "seconds": 36.232212007999806
+    },
+    {
+      "round": 7,
+      "client_id": 7,
+      "seconds": 24.80755668599977
+    },
+    {
+      "round": 7,
+      "client_id": 8,
+      "seconds": 175.78618032899976
+    },
+    {
+      "round": 7,
+      "client_id": 9,
+      "seconds": 59.34508677099984
+    },
+    {
+      "round": 7,
+      "client_id": 10,
+      "seconds": 53.94620117799968
+    },
+    {
+      "round": 8,
+      "client_id": 1,
+      "seconds": 0.5428367530003015
+    },
+    {
+      "round": 8,
+      "client_id": 2,
+      "seconds": 30.326042771000175
+    },
+    {
+      "round": 8,
+      "client_id": 3,
+      "seconds": 50.527635978000035
+    },
+    {
+      "round": 8,
+      "client_id": 4,
+      "seconds": 26.16449741300039
+    },
+    {
+      "round": 8,
+      "client_id": 5,
+      "seconds": 34.24152225599937
+    },
+    {
+      "round": 8,
+      "client_id": 6,
+      "seconds": 36.659798340000634
+    },
+    {
+      "round": 8,
+      "client_id": 7,
+      "seconds": 24.653768966000825
+    },
+    {
+      "round": 8,
+      "client_id": 8,
+      "seconds": 172.42832559599992
+    },
+    {
+      "round": 8,
+      "client_id": 9,
+      "seconds": 58.88162134100003
+    },
+    {
+      "round": 8,
+      "client_id": 10,
+      "seconds": 54.15815109800042
+    },
+    {
+      "round": 9,
+      "client_id": 1,
+      "seconds": 0.5520663249999416
+    },
+    {
+      "round": 9,
+      "client_id": 2,
+      "seconds": 30.273688833999586
+    },
+    {
+      "round": 9,
+      "client_id": 3,
+      "seconds": 50.16008719000001
+    },
+    {
+      "round": 9,
+      "client_id": 4,
+      "seconds": 25.85810537999987
+    },
+    {
+      "round": 9,
+      "client_id": 5,
+      "seconds": 34.09471195399965
+    },
+    {
+      "round": 9,
+      "client_id": 6,
+      "seconds": 36.20382233300006
+    },
+    {
+      "round": 9,
+      "client_id": 7,
+      "seconds": 24.730110653999873
+    },
+    {
+      "round": 9,
+      "client_id": 8,
+      "seconds": 173.2123328329999
+    },
+    {
+      "round": 9,
+      "client_id": 9,
+      "seconds": 58.83547414699933
+    },
+    {
+      "round": 9,
+      "client_id": 10,
+      "seconds": 53.54045877899989
+    },
+    {
+      "round": 10,
+      "client_id": 1,
+      "seconds": 0.5350680330002433
+    },
+    {
+      "round": 10,
+      "client_id": 2,
+      "seconds": 30.00798583699998
+    },
+    {
+      "round": 10,
+      "client_id": 3,
+      "seconds": 50.742124622999654
+    },
+    {
+      "round": 10,
+      "client_id": 4,
+      "seconds": 25.93296068000018
+    },
+    {
+      "round": 10,
+      "client_id": 5,
+      "seconds": 34.08015975199942
+    },
+    {
+      "round": 10,
+      "client_id": 6,
+      "seconds": 36.263287325999954
+    },
+    {
+      "round": 10,
+      "client_id": 7,
+      "seconds": 24.66331779200027
+    },
+    {
+      "round": 10,
+      "client_id": 8,
+      "seconds": 173.65707662600016
+    },
+    {
+      "round": 10,
+      "client_id": 9,
+      "seconds": 59.65446123299989
+    },
+    {
+      "round": 10,
+      "client_id": 10,
+      "seconds": 53.49839628599966
+    }
+  ],
+  "plotting_seconds": 3.592653392000102,
+  "ddp_runtime_seconds": 5384.520478271,
+  "total_notebook_pipeline_seconds": 5702.31893117,
+  "torchrun_wall_seconds": 5393.1254306109995
+}

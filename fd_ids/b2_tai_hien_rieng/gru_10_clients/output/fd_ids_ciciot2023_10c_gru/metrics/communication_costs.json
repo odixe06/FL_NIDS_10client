@@ -1,0 +1,17 @@
+{
+  "fl_estimation_scope": "raw model state only; server download plus client upload; excludes protocol, serialization, retry and compression",
+  "model_state_bytes": 160136,
+  "model_state_mib": 0.15271759033203125,
+  "participating_clients_per_round": 10,
+  "rounds": 10,
+  "fl_total_bytes_per_round": 3202720,
+  "fl_total_mib_per_round": 3.054351806640625,
+  "fl_total_bytes_all_rounds": 32027200,
+  "fl_total_mib_all_rounds": 30.54351806640625,
+  "ddp_estimation_scope": "ring all-reduce gradient payload approximation; excludes bucket padding, buffer broadcast and NCCL protocol overhead",
+  "ddp_world_size": 2,
+  "ddp_optimizer_steps": 334180,
+  "ddp_gradient_allreduce_bytes_per_rank_per_step": 160136,
+  "ddp_gradient_allreduce_bytes_all_ranks": 107028496960,
+  "ddp_gradient_allreduce_mib_all_ranks": 102070.3286743164
+}

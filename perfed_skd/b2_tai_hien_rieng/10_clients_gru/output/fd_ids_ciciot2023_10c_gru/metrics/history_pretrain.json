@@ -1,0 +1,12 @@
+[
+  {
+    "epoch": 1,
+    "train_examples": 36014594,
+    "optimizer_steps": 35171,
+    "cross_entropy_loss": 1.0051288199639266,
+    "epoch_seconds": 115.84780739199994,
+    "gpu_id": 0,
+    "peak_allocated_bytes": 186320384,
+    "peak_reserved_bytes": 266338304
+  }
+]

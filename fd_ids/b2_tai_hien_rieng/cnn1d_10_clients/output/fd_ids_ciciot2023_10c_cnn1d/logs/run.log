@@ -1,0 +1,306 @@
+2026-07-29 08:42:02 | INFO | Run fd_ids_ciciot2023_10c_cnn1d started
+2026-07-29 08:42:02 | INFO | Environment: {"cuda": "12.8", "gpus": ["Tesla T4", "Tesla T4"], "numpy": "2.0.2", "pandas": "2.3.3", "platform": "Linux-6.12.90+-x86_64-with-glibc2.35", "python": "3.12.13", "pytorch": "2.10.0+cu128"}
+2026-07-29 08:42:02 | INFO | Config: {"aggregation": "sample_weighted_fedavg", "batch_size": 1024, "batch_size_per_gpu": 512, "beta": 0.1, "class_imbalance_handling": "none", "communication_rounds": 10, "csv_chunk_rows": 262144, "dataset_partition": "10_clients_prepartitioned_dirichlet_alpha_0.2", "distributed_backend": "nccl", "distributed_launcher": "torchrun", "expected_trainable_parameters": 35874, "feature_columns": ["ack_flag_number", "AVG", "Std", "UDP", "fin_count", "Max", "TCP", "syn_count", "Protocol Type", "Rate", "IAT", "syn_flag_number", "rst_flag_number", "Tot sum", "HTTPS", "ack_count", "fin_flag_number", "HTTP", "rst_count", "Header_Length", "psh_flag_number", "ICMP", "Time_To_Live", "ARP", "DNS"], "feature_selection_upstream": "XGBoost_top_25", "gradient_accumulation_steps": 1, "input_dir": "/kaggle/input/datasets/odixe0502/data-for-10clients", "knowledge_distillation": "round_wise", "label_column": "Label", "lambda_hard": 0.5, "learning_rate": 0.001, "learning_rate_scaling": "none_adam_preserve_paper_lr", "local_epochs": 1, "model_family": "cnn1d", "model_hparams": {"channels": [32, 64, 128], "kernel_size": 3, "pooling": "max_then_adaptive_average"}, "mu": 0.01, "multi_gpu": "DistributedDataParallel", "num_classes": 34, "num_clients": 10, "num_workers_per_process": 2, "num_workers_total": 4, "omp_num_threads_per_process": 1, "optimizer": "Adam", "prefetch_factor": 2, "run_name": "fd_ids_ciciot2023_10c_cnn1d", "scaling_upstream": "QuantileTransformer_train_fit", "scheduler": null, "seed": 42, "temperature": 3.0, "validation_fraction": 0.05, "world_size": 2}
+2026-07-29 08:42:03 | INFO | Validated input schema: 25 features, 34 classes, BENIGN id=1
+2026-07-29 08:42:03 | INFO | Converting client_1_train.csv: 31,520 rows
+2026-07-29 08:42:03 | INFO | Converted client_1_train.csv: 31,520/31,520 rows
+2026-07-29 08:42:03 | INFO | Client 01 ready: train=29,942 validation=1,578
+2026-07-29 08:42:07 | INFO | Converting client_2_train.csv: 2,211,589 rows
+2026-07-29 08:42:07 | INFO | Converted client_2_train.csv: 262,144/2,211,589 rows
+2026-07-29 08:42:15 | INFO | Client 02 ready: train=2,101,011 validation=110,578
+2026-07-29 08:42:19 | INFO | Converting client_3_train.csv: 3,728,450 rows
+2026-07-29 08:42:20 | INFO | Converted client_3_train.csv: 262,144/3,728,450 rows
+2026-07-29 08:42:27 | INFO | Converted client_3_train.csv: 2,621,440/3,728,450 rows
+2026-07-29 08:42:33 | INFO | Client 03 ready: train=3,542,026 validation=186,424
+2026-07-29 08:42:35 | INFO | Converting client_4_train.csv: 1,920,254 rows
+2026-07-29 08:42:36 | INFO | Converted client_4_train.csv: 262,144/1,920,254 rows
+2026-07-29 08:42:42 | INFO | Client 04 ready: train=1,824,241 validation=96,013
+2026-07-29 08:42:45 | INFO | Converting client_5_train.csv: 2,531,881 rows
+2026-07-29 08:42:46 | INFO | Converted client_5_train.csv: 262,144/2,531,881 rows
+2026-07-29 08:42:52 | INFO | Converted client_5_train.csv: 2,531,881/2,531,881 rows
+2026-07-29 08:42:54 | INFO | Client 05 ready: train=2,405,287 validation=126,594
+2026-07-29 08:42:58 | INFO | Converting client_6_train.csv: 2,686,617 rows
+2026-07-29 08:42:58 | INFO | Converted client_6_train.csv: 262,144/2,686,617 rows
+2026-07-29 08:43:05 | INFO | Converted client_6_train.csv: 2,621,440/2,686,617 rows
+2026-07-29 08:43:07 | INFO | Client 06 ready: train=2,552,285 validation=134,332
+2026-07-29 08:43:10 | INFO | Converting client_7_train.csv: 1,824,975 rows
+2026-07-29 08:43:10 | INFO | Converted client_7_train.csv: 262,144/1,824,975 rows
+2026-07-29 08:43:16 | INFO | Client 07 ready: train=1,733,726 validation=91,249
+2026-07-29 08:43:32 | INFO | Converting client_8_train.csv: 12,759,509 rows
+2026-07-29 08:43:33 | INFO | Converted client_8_train.csv: 262,144/12,759,509 rows
+2026-07-29 08:43:40 | INFO | Converted client_8_train.csv: 2,621,440/12,759,509 rows
+2026-07-29 08:43:47 | INFO | Converted client_8_train.csv: 5,242,880/12,759,509 rows
+2026-07-29 08:43:55 | INFO | Converted client_8_train.csv: 7,864,320/12,759,509 rows
+2026-07-29 08:44:03 | INFO | Converted client_8_train.csv: 10,485,760/12,759,509 rows
+2026-07-29 08:44:13 | INFO | Client 08 ready: train=12,121,531 validation=637,978
+2026-07-29 08:44:18 | INFO | Converting client_9_train.csv: 4,354,192 rows
+2026-07-29 08:44:19 | INFO | Converted client_9_train.csv: 262,144/4,354,192 rows
+2026-07-29 08:44:26 | INFO | Converted client_9_train.csv: 2,621,440/4,354,192 rows
+2026-07-29 08:44:33 | INFO | Client 09 ready: train=4,136,478 validation=217,714
+2026-07-29 08:44:39 | INFO | Converting client_10_train.csv: 3,965,607 rows
+2026-07-29 08:44:40 | INFO | Converted client_10_train.csv: 262,144/3,965,607 rows
+2026-07-29 08:44:47 | INFO | Converted client_10_train.csv: 2,621,440/3,965,607 rows
+2026-07-29 08:44:54 | INFO | Client 10 ready: train=3,767,327 validation=198,280
+2026-07-29 08:45:06 | INFO | Converting global_test_data.csv: 9,003,649 rows
+2026-07-29 08:45:07 | INFO | Converted global_test_data.csv: 262,144/9,003,649 rows
+2026-07-29 08:45:14 | INFO | Converted global_test_data.csv: 2,621,440/9,003,649 rows
+2026-07-29 08:45:22 | INFO | Converted global_test_data.csv: 5,242,880/9,003,649 rows
+2026-07-29 08:45:29 | INFO | Converted global_test_data.csv: 7,864,320/9,003,649 rows
+2026-07-29 08:45:58 | INFO | Counting global_train_data.csv: 4.00 GiB scanned
+2026-07-29 08:46:20 | INFO | Counting global_train_data.csv: 8.00 GiB scanned
+2026-07-29 08:46:26 | INFO | Dataset ready in 263.35 s | train=34,213,854 validation=1,800,740 test=9,003,649
+2026-07-29 08:46:27 | INFO | Launching DDP: /usr/bin/python3 -m torch.distributed.run --standalone --nnodes=1 --max-restarts=0 --nproc-per-node=2 /kaggle/temp/fd_ids_ciciot2023_10c_cnn1d_cache/fd_ids_ddp_runtime.py
+2026-07-29 08:46:33 | rank=0 | INFO | Starting DDP rank 0/2 on Tesla T4 | per-rank batch=512
+2026-07-29 08:46:33 | rank=0 | INFO | DDP model metadata: {"model_family": "cnn1d", "model_hparams": {"channels": [32, 64, 128], "kernel_size": 3, "pooling": "max_then_adaptive_average"}, "model_state_bytes": 145312, "model_state_mib": 0.138580322265625, "total_parameters": 35874, "trainable_parameter_bytes": 143496, "trainable_parameters": 35874}
+2026-07-29 08:46:39 | rank=0 | INFO | Round 01/10 | client 01/10 | epoch 1/1 | hard=2.114956 soft=0.108441 prox=0.017716 total=1.113470 | 2.69 s
+2026-07-29 08:46:40 | rank=0 | INFO | Round 01/10 | client 01 local validation | accuracy=0.916350 macro_f1=0.046522 | 0.24 s
+2026-07-29 08:47:19 | rank=0 | INFO | Round 01/10 | client 02/10 | epoch 1/1 | hard=0.519773 soft=0.456930 prox=0.161265 total=0.504478 | 38.75 s
+2026-07-29 08:47:20 | rank=0 | INFO | Round 01/10 | client 02 local validation | accuracy=0.966015 macro_f1=0.333539 | 1.13 s
+2026-07-29 08:48:24 | rank=0 | INFO | Round 01/10 | client 03/10 | epoch 1/1 | hard=0.444244 soft=0.466657 prox=0.109304 total=0.466381 | 63.70 s
+2026-07-29 08:48:25 | rank=0 | INFO | Round 01/10 | client 03 local validation | accuracy=0.969628 macro_f1=0.215938 | 1.79 s
+2026-07-29 08:48:58 | rank=0 | INFO | Round 01/10 | client 04/10 | epoch 1/1 | hard=0.382740 soft=0.438675 prox=0.061421 total=0.416850 | 32.70 s
+2026-07-29 08:48:59 | rank=0 | INFO | Round 01/10 | client 04 local validation | accuracy=0.991303 macro_f1=0.117901 | 1.01 s
+2026-07-29 08:49:43 | rank=0 | INFO | Round 01/10 | client 05/10 | epoch 1/1 | hard=0.375974 soft=0.465208 prox=0.049199 total=0.425511 | 43.13 s
+2026-07-29 08:49:44 | rank=0 | INFO | Round 01/10 | client 05 local validation | accuracy=0.987701 macro_f1=0.160648 | 1.36 s
+2026-07-29 08:50:30 | rank=0 | INFO | Round 01/10 | client 06/10 | epoch 1/1 | hard=0.334943 soft=0.466552 prox=0.023197 total=0.403067 | 45.82 s
+2026-07-29 08:50:31 | rank=0 | INFO | Round 01/10 | client 06 local validation | accuracy=0.998749 macro_f1=0.084750 | 1.34 s
+2026-07-29 08:51:03 | rank=0 | INFO | Round 01/10 | client 07/10 | epoch 1/1 | hard=0.402354 soft=0.476608 prox=0.069462 total=0.446427 | 31.59 s
+2026-07-29 08:51:04 | rank=0 | INFO | Round 01/10 | client 07 local validation | accuracy=0.991408 macro_f1=0.180280 | 0.99 s
+2026-07-29 08:54:40 | rank=0 | INFO | Round 01/10 | client 08/10 | epoch 1/1 | hard=0.643394 soft=0.469857 prox=0.152803 total=0.571906 | 215.78 s
+2026-07-29 08:54:46 | rank=0 | INFO | Round 01/10 | client 08 local validation | accuracy=0.887366 macro_f1=0.285678 | 5.85 s
+2026-07-29 08:56:00 | rank=0 | INFO | Round 01/10 | client 09/10 | epoch 1/1 | hard=0.395467 soft=0.487535 prox=0.087035 total=0.450204 | 74.48 s
+2026-07-29 08:56:02 | rank=0 | INFO | Round 01/10 | client 09 local validation | accuracy=0.986468 macro_f1=0.246753 | 2.08 s
+2026-07-29 08:57:11 | rank=0 | INFO | Round 01/10 | client 10/10 | epoch 1/1 | hard=0.364227 soft=0.464352 prox=0.097772 total=0.424067 | 68.07 s
+2026-07-29 08:57:13 | rank=0 | INFO | Round 01/10 | client 10 local validation | accuracy=0.995930 macro_f1=0.202644 | 1.93 s
+2026-07-29 08:57:31 | rank=0 | INFO | Saved best.pt at round 1 with validation macro-F1 0.060212
+2026-07-29 08:57:31 | rank=0 | INFO | Round 01/10 complete | val_loss=2.845593 val_acc=0.304505 val_macro_f1=0.060212 | 657.83 s | FL comm=2.772 MiB cumulative
+2026-07-29 08:57:32 | rank=0 | INFO | Round 02/10 | client 01/10 | epoch 1/1 | hard=1.952178 soft=0.133478 prox=0.014430 total=1.044271 | 0.66 s
+2026-07-29 08:57:32 | rank=0 | INFO | Round 02/10 | client 01 local validation | accuracy=0.941065 macro_f1=0.074942 | 0.13 s
+2026-07-29 08:58:09 | rank=0 | INFO | Round 02/10 | client 02/10 | epoch 1/1 | hard=0.463297 soft=0.401154 prox=0.096261 total=0.441852 | 36.56 s
+2026-07-29 08:58:10 | rank=0 | INFO | Round 02/10 | client 02 local validation | accuracy=0.966440 macro_f1=0.327264 | 1.14 s
+2026-07-29 08:59:11 | rank=0 | INFO | Round 02/10 | client 03/10 | epoch 1/1 | hard=0.418949 soft=0.437849 prox=0.067456 total=0.435144 | 61.09 s
+2026-07-29 08:59:13 | rank=0 | INFO | Round 02/10 | client 03 local validation | accuracy=0.972477 macro_f1=0.226566 | 1.75 s
+2026-07-29 08:59:45 | rank=0 | INFO | Round 02/10 | client 04/10 | epoch 1/1 | hard=0.338977 soft=0.356625 prox=0.036906 total=0.351492 | 31.69 s
+2026-07-29 08:59:46 | rank=0 | INFO | Round 02/10 | client 04 local validation | accuracy=0.991803 macro_f1=0.127839 | 1.01 s
+2026-07-29 09:00:28 | rank=0 | INFO | Round 02/10 | client 05/10 | epoch 1/1 | hard=0.353289 soft=0.431261 prox=0.031142 total=0.395389 | 41.96 s
+2026-07-29 09:00:29 | rank=0 | INFO | Round 02/10 | client 05 local validation | accuracy=0.989581 macro_f1=0.174865 | 1.27 s
+2026-07-29 09:01:14 | rank=0 | INFO | Round 02/10 | client 06/10 | epoch 1/1 | hard=0.307461 soft=0.397894 prox=0.014420 total=0.354120 | 44.48 s
+2026-07-29 09:01:15 | rank=0 | INFO | Round 02/10 | client 06 local validation | accuracy=0.998965 macro_f1=0.090195 | 1.33 s
+2026-07-29 09:01:46 | rank=0 | INFO | Round 02/10 | client 07/10 | epoch 1/1 | hard=0.362851 soft=0.428497 prox=0.041645 total=0.399838 | 30.61 s
+2026-07-29 09:01:47 | rank=0 | INFO | Round 02/10 | client 07 local validation | accuracy=0.993479 macro_f1=0.211360 | 0.98 s
+2026-07-29 09:05:19 | rank=0 | INFO | Round 02/10 | client 08/10 | epoch 1/1 | hard=0.590396 soft=0.366305 prox=0.069784 total=0.485329 | 211.71 s
+2026-07-29 09:05:25 | rank=0 | INFO | Round 02/10 | client 08 local validation | accuracy=0.888468 macro_f1=0.288731 | 6.21 s
+2026-07-29 09:06:37 | rank=0 | INFO | Round 02/10 | client 09/10 | epoch 1/1 | hard=0.367112 soft=0.445288 prox=0.048002 total=0.411000 | 72.15 s
+2026-07-29 09:06:39 | rank=0 | INFO | Round 02/10 | client 09 local validation | accuracy=0.986739 macro_f1=0.251714 | 2.01 s
+2026-07-29 09:07:45 | rank=0 | INFO | Round 02/10 | client 10/10 | epoch 1/1 | hard=0.309109 soft=0.343374 prox=0.051969 total=0.331439 | 65.84 s
+2026-07-29 09:07:47 | rank=0 | INFO | Round 02/10 | client 10 local validation | accuracy=0.995935 macro_f1=0.202538 | 1.90 s
+2026-07-29 09:08:06 | rank=0 | INFO | Saved best.pt at round 2 with validation macro-F1 0.205233
+2026-07-29 09:08:06 | rank=0 | INFO | Round 02/10 complete | val_loss=2.240811 val_acc=0.552425 val_macro_f1=0.205233 | 634.50 s | FL comm=5.543 MiB cumulative
+2026-07-29 09:08:06 | rank=0 | INFO | Round 03/10 | client 01/10 | epoch 1/1 | hard=2.024832 soft=0.158707 prox=0.012716 total=1.093041 | 0.65 s
+2026-07-29 09:08:07 | rank=0 | INFO | Round 03/10 | client 01 local validation | accuracy=0.946768 macro_f1=0.075960 | 0.12 s
+2026-07-29 09:08:43 | rank=0 | INFO | Round 03/10 | client 02/10 | epoch 1/1 | hard=0.416026 soft=0.337778 prox=0.065153 total=0.383417 | 36.37 s
+2026-07-29 09:08:44 | rank=0 | INFO | Round 03/10 | client 02 local validation | accuracy=0.969379 macro_f1=0.346746 | 1.19 s
+2026-07-29 09:09:46 | rank=0 | INFO | Round 03/10 | client 03/10 | epoch 1/1 | hard=0.400439 soft=0.406325 prox=0.047151 total=0.408097 | 61.25 s
+2026-07-29 09:09:47 | rank=0 | INFO | Round 03/10 | client 03 local validation | accuracy=0.973775 macro_f1=0.237406 | 1.82 s
+2026-07-29 09:10:19 | rank=0 | INFO | Round 03/10 | client 04/10 | epoch 1/1 | hard=0.298173 soft=0.269821 prox=0.027409 total=0.286738 | 31.68 s
+2026-07-29 09:10:20 | rank=0 | INFO | Round 03/10 | client 04 local validation | accuracy=0.992032 macro_f1=0.124169 | 1.06 s
+2026-07-29 09:11:02 | rank=0 | INFO | Round 03/10 | client 05/10 | epoch 1/1 | hard=0.335305 soft=0.392300 prox=0.022501 total=0.366052 | 41.42 s
+2026-07-29 09:11:03 | rank=0 | INFO | Round 03/10 | client 05 local validation | accuracy=0.990000 macro_f1=0.194758 | 1.31 s
+2026-07-29 09:11:48 | rank=0 | INFO | Round 03/10 | client 06/10 | epoch 1/1 | hard=0.276744 soft=0.312338 prox=0.012449 total=0.295786 | 44.22 s
+2026-07-29 09:11:49 | rank=0 | INFO | Round 03/10 | client 06 local validation | accuracy=0.999062 macro_f1=0.103876 | 1.35 s
+2026-07-29 09:12:19 | rank=0 | INFO | Round 03/10 | client 07/10 | epoch 1/1 | hard=0.323093 soft=0.340722 prox=0.029728 total=0.334880 | 30.10 s
+2026-07-29 09:12:20 | rank=0 | INFO | Round 03/10 | client 07 local validation | accuracy=0.995342 macro_f1=0.225066 | 0.96 s
+2026-07-29 09:15:57 | rank=0 | INFO | Round 03/10 | client 08/10 | epoch 1/1 | hard=0.534925 soft=0.261084 prox=0.036808 total=0.401685 | 216.28 s
+2026-07-29 09:16:03 | rank=0 | INFO | Round 03/10 | client 08 local validation | accuracy=0.888158 macro_f1=0.289758 | 6.11 s
+2026-07-29 09:17:17 | rank=0 | INFO | Round 03/10 | client 09/10 | epoch 1/1 | hard=0.348280 soft=0.415719 prox=0.032982 total=0.385297 | 73.69 s
+2026-07-29 09:17:19 | rank=0 | INFO | Round 03/10 | client 09 local validation | accuracy=0.987883 macro_f1=0.256232 | 2.16 s
+2026-07-29 09:18:29 | rank=0 | INFO | Round 03/10 | client 10/10 | epoch 1/1 | hard=0.266654 soft=0.261391 prox=0.032662 total=0.267288 | 70.08 s
+2026-07-29 09:18:31 | rank=0 | INFO | Round 03/10 | client 10 local validation | accuracy=0.996016 macro_f1=0.202761 | 2.14 s
+2026-07-29 09:18:52 | rank=0 | INFO | Saved best.pt at round 3 with validation macro-F1 0.232914
+2026-07-29 09:18:52 | rank=0 | INFO | Round 03/10 complete | val_loss=1.806331 val_acc=0.572922 val_macro_f1=0.232914 | 645.81 s | FL comm=8.315 MiB cumulative
+2026-07-29 09:18:52 | rank=0 | INFO | Round 04/10 | client 01/10 | epoch 1/1 | hard=2.086115 soft=0.186718 prox=0.012180 total=1.137635 | 0.72 s
+2026-07-29 09:18:52 | rank=0 | INFO | Round 04/10 | client 01 local validation | accuracy=0.950570 macro_f1=0.075937 | 0.13 s
+2026-07-29 09:19:33 | rank=0 | INFO | Round 04/10 | client 02/10 | epoch 1/1 | hard=0.379359 soft=0.288040 prox=0.050589 total=0.338758 | 40.32 s
+2026-07-29 09:19:34 | rank=0 | INFO | Round 04/10 | client 02 local validation | accuracy=0.970048 macro_f1=0.346581 | 1.24 s
+2026-07-29 09:20:39 | rank=0 | INFO | Round 04/10 | client 03/10 | epoch 1/1 | hard=0.387959 soft=0.389105 prox=0.037407 total=0.392273 | 64.28 s
+2026-07-29 09:20:41 | rank=0 | INFO | Round 04/10 | client 03 local validation | accuracy=0.974547 macro_f1=0.246878 | 1.92 s
+2026-07-29 09:21:14 | rank=0 | INFO | Round 04/10 | client 04/10 | epoch 1/1 | hard=0.252354 soft=0.189477 prox=0.024149 total=0.223330 | 33.29 s
+2026-07-29 09:21:15 | rank=0 | INFO | Round 04/10 | client 04 local validation | accuracy=0.992345 macro_f1=0.125968 | 1.03 s
+2026-07-29 09:21:59 | rank=0 | INFO | Round 04/10 | client 05/10 | epoch 1/1 | hard=0.320468 soft=0.361984 prox=0.017850 total=0.343011 | 43.42 s
+2026-07-29 09:22:00 | rank=0 | INFO | Round 04/10 | client 05 local validation | accuracy=0.989984 macro_f1=0.200273 | 1.32 s
+2026-07-29 09:22:46 | rank=0 | INFO | Round 04/10 | client 06/10 | epoch 1/1 | hard=0.237164 soft=0.215967 prox=0.012188 total=0.227785 | 46.13 s
+2026-07-29 09:22:48 | rank=0 | INFO | Round 04/10 | client 06 local validation | accuracy=0.999181 macro_f1=0.122047 | 1.35 s
+2026-07-29 09:23:19 | rank=0 | INFO | Round 04/10 | client 07/10 | epoch 1/1 | hard=0.291991 soft=0.276324 prox=0.024395 total=0.286597 | 31.11 s
+2026-07-29 09:23:20 | rank=0 | INFO | Round 04/10 | client 07 local validation | accuracy=0.994630 macro_f1=0.223775 | 0.96 s
+2026-07-29 09:26:57 | rank=0 | INFO | Round 04/10 | client 08/10 | epoch 1/1 | hard=0.488624 soft=0.183676 prox=0.023893 total=0.338539 | 216.90 s
+2026-07-29 09:27:03 | rank=0 | INFO | Round 04/10 | client 08 local validation | accuracy=0.889543 macro_f1=0.301105 | 6.29 s
+2026-07-29 09:28:17 | rank=0 | INFO | Round 04/10 | client 09/10 | epoch 1/1 | hard=0.336833 soft=0.395719 prox=0.026178 total=0.368894 | 73.16 s
+2026-07-29 09:28:19 | rank=0 | INFO | Round 04/10 | client 09 local validation | accuracy=0.989178 macro_f1=0.263033 | 2.09 s
+2026-07-29 09:29:26 | rank=0 | INFO | Round 04/10 | client 10/10 | epoch 1/1 | hard=0.233738 soft=0.206645 prox=0.024676 total=0.222659 | 67.09 s
+2026-07-29 09:29:28 | rank=0 | INFO | Round 04/10 | client 10 local validation | accuracy=0.996031 macro_f1=0.203651 | 1.92 s
+2026-07-29 09:29:46 | rank=0 | INFO | Saved best.pt at round 4 with validation macro-F1 0.247816
+2026-07-29 09:29:46 | rank=0 | INFO | Round 04/10 complete | val_loss=1.582025 val_acc=0.574974 val_macro_f1=0.247816 | 654.81 s | FL comm=11.086 MiB cumulative
+2026-07-29 09:29:47 | rank=0 | INFO | Round 05/10 | client 01/10 | epoch 1/1 | hard=2.155986 soft=0.215990 prox=0.011957 total=1.187184 | 0.65 s
+2026-07-29 09:29:47 | rank=0 | INFO | Round 05/10 | client 01 local validation | accuracy=0.949303 macro_f1=0.073457 | 0.13 s
+2026-07-29 09:30:24 | rank=0 | INFO | Round 05/10 | client 02/10 | epoch 1/1 | hard=0.357956 soft=0.257403 prox=0.042514 total=0.311931 | 36.88 s
+2026-07-29 09:30:25 | rank=0 | INFO | Round 05/10 | client 02 local validation | accuracy=0.969442 macro_f1=0.370613 | 1.13 s
+2026-07-29 09:31:27 | rank=0 | INFO | Round 05/10 | client 03/10 | epoch 1/1 | hard=0.377465 soft=0.372285 prox=0.032038 total=0.378079 | 61.79 s
+2026-07-29 09:31:29 | rank=0 | INFO | Round 05/10 | client 03 local validation | accuracy=0.976269 macro_f1=0.267104 | 1.82 s
+2026-07-29 09:32:02 | rank=0 | INFO | Round 05/10 | client 04/10 | epoch 1/1 | hard=0.229228 soft=0.159340 prox=0.022266 total=0.196510 | 32.22 s
+2026-07-29 09:32:03 | rank=0 | INFO | Round 05/10 | client 04 local validation | accuracy=0.992189 macro_f1=0.125234 | 1.01 s
+2026-07-29 09:32:46 | rank=0 | INFO | Round 05/10 | client 05/10 | epoch 1/1 | hard=0.306606 soft=0.335355 prox=0.015123 total=0.322493 | 42.86 s
+2026-07-29 09:32:47 | rank=0 | INFO | Round 05/10 | client 05 local validation | accuracy=0.990387 macro_f1=0.215287 | 1.45 s
+2026-07-29 09:33:34 | rank=0 | INFO | Round 05/10 | client 06/10 | epoch 1/1 | hard=0.205665 soft=0.154699 prox=0.011861 total=0.181368 | 46.69 s
+2026-07-29 09:33:35 | rank=0 | INFO | Round 05/10 | client 06 local validation | accuracy=0.999114 macro_f1=0.113597 | 1.35 s
+2026-07-29 09:34:08 | rank=0 | INFO | Round 05/10 | client 07/10 | epoch 1/1 | hard=0.281240 soft=0.262215 prox=0.021271 total=0.273855 | 32.11 s
+2026-07-29 09:34:09 | rank=0 | INFO | Round 05/10 | client 07 local validation | accuracy=0.995814 macro_f1=0.231867 | 0.97 s
+2026-07-29 09:37:46 | rank=0 | INFO | Round 05/10 | client 08/10 | epoch 1/1 | hard=0.463455 soft=0.146188 prox=0.017739 total=0.306595 | 217.00 s
+2026-07-29 09:37:52 | rank=0 | INFO | Round 05/10 | client 08 local validation | accuracy=0.889946 macro_f1=0.302276 | 6.23 s
+2026-07-29 09:39:07 | rank=0 | INFO | Round 05/10 | client 09/10 | epoch 1/1 | hard=0.328146 soft=0.377682 prox=0.022487 total=0.355163 | 75.09 s
+2026-07-29 09:39:09 | rank=0 | INFO | Round 05/10 | client 09 local validation | accuracy=0.989955 macro_f1=0.266352 | 2.22 s
+2026-07-29 09:40:17 | rank=0 | INFO | Round 05/10 | client 10/10 | epoch 1/1 | hard=0.217615 soft=0.183984 prox=0.021069 total=0.202906 | 67.71 s
+2026-07-29 09:40:19 | rank=0 | INFO | Round 05/10 | client 10 local validation | accuracy=0.996026 macro_f1=0.206008 | 1.94 s
+2026-07-29 09:40:39 | rank=0 | INFO | Saved best.pt at round 5 with validation macro-F1 0.259770
+2026-07-29 09:40:39 | rank=0 | INFO | Round 05/10 complete | val_loss=1.458402 val_acc=0.580469 val_macro_f1=0.259770 | 652.35 s | FL comm=13.858 MiB cumulative
+2026-07-29 09:40:39 | rank=0 | INFO | Round 06/10 | client 01/10 | epoch 1/1 | hard=2.124488 soft=0.250373 prox=0.012205 total=1.188651 | 0.67 s
+2026-07-29 09:40:40 | rank=0 | INFO | Round 06/10 | client 01 local validation | accuracy=0.965779 macro_f1=0.083415 | 0.12 s
+2026-07-29 09:41:17 | rank=0 | INFO | Round 06/10 | client 02/10 | epoch 1/1 | hard=0.342625 soft=0.238606 prox=0.037176 total=0.294333 | 37.66 s
+2026-07-29 09:41:19 | rank=0 | INFO | Round 06/10 | client 02 local validation | accuracy=0.970491 macro_f1=0.370789 | 1.15 s
+2026-07-29 09:42:22 | rank=0 | INFO | Round 06/10 | client 03/10 | epoch 1/1 | hard=0.370654 soft=0.364503 prox=0.028503 total=0.370429 | 62.89 s
+2026-07-29 09:42:24 | rank=0 | INFO | Round 06/10 | client 03 local validation | accuracy=0.975094 macro_f1=0.269432 | 1.86 s
+2026-07-29 09:42:56 | rank=0 | INFO | Round 06/10 | client 04/10 | epoch 1/1 | hard=0.212350 soft=0.139258 prox=0.021232 total=0.177927 | 32.73 s
+2026-07-29 09:42:57 | rank=0 | INFO | Round 06/10 | client 04 local validation | accuracy=0.992282 macro_f1=0.126350 | 1.01 s
+2026-07-29 09:43:40 | rank=0 | INFO | Round 06/10 | client 05/10 | epoch 1/1 | hard=0.298109 soft=0.320925 prox=0.013524 total=0.310869 | 42.32 s
+2026-07-29 09:43:41 | rank=0 | INFO | Round 06/10 | client 05 local validation | accuracy=0.990323 macro_f1=0.203439 | 1.25 s
+2026-07-29 09:44:26 | rank=0 | INFO | Round 06/10 | client 06/10 | epoch 1/1 | hard=0.188467 soft=0.128350 prox=0.011414 total=0.159549 | 44.85 s
+2026-07-29 09:44:28 | rank=0 | INFO | Round 06/10 | client 06 local validation | accuracy=0.999270 macro_f1=0.125100 | 1.48 s
+2026-07-29 09:45:00 | rank=0 | INFO | Round 06/10 | client 07/10 | epoch 1/1 | hard=0.271161 soft=0.244618 prox=0.019962 total=0.259886 | 31.84 s
+2026-07-29 09:45:01 | rank=0 | INFO | Round 06/10 | client 07 local validation | accuracy=0.996493 macro_f1=0.238693 | 0.99 s
+2026-07-29 09:48:38 | rank=0 | INFO | Round 06/10 | client 08/10 | epoch 1/1 | hard=0.446235 soft=0.126728 prox=0.014372 total=0.287919 | 217.21 s
+2026-07-29 09:48:45 | rank=0 | INFO | Round 06/10 | client 08 local validation | accuracy=0.891137 macro_f1=0.320704 | 6.45 s
+2026-07-29 09:49:59 | rank=0 | INFO | Round 06/10 | client 09/10 | epoch 1/1 | hard=0.320278 soft=0.362815 prox=0.019611 total=0.343507 | 74.28 s
+2026-07-29 09:50:01 | rank=0 | INFO | Round 06/10 | client 09 local validation | accuracy=0.989991 macro_f1=0.266584 | 2.21 s
+2026-07-29 09:51:09 | rank=0 | INFO | Round 06/10 | client 10/10 | epoch 1/1 | hard=0.203118 soft=0.165338 prox=0.018377 total=0.186066 | 67.54 s
+2026-07-29 09:51:11 | rank=0 | INFO | Round 06/10 | client 10 local validation | accuracy=0.996157 macro_f1=0.209709 | 2.10 s
+2026-07-29 09:51:30 | rank=0 | INFO | Saved best.pt at round 6 with validation macro-F1 0.267579
+2026-07-29 09:51:30 | rank=0 | INFO | Round 06/10 complete | val_loss=1.368103 val_acc=0.580139 val_macro_f1=0.267579 | 651.27 s | FL comm=16.630 MiB cumulative
+2026-07-29 09:51:31 | rank=0 | INFO | Round 07/10 | client 01/10 | epoch 1/1 | hard=2.139463 soft=0.287828 prox=0.012348 total=1.214880 | 0.65 s
+2026-07-29 09:51:31 | rank=0 | INFO | Round 07/10 | client 01 local validation | accuracy=0.969582 macro_f1=0.084507 | 0.13 s
+2026-07-29 09:52:08 | rank=0 | INFO | Round 07/10 | client 02/10 | epoch 1/1 | hard=0.331852 soft=0.224657 prox=0.033504 total=0.281605 | 37.27 s
+2026-07-29 09:52:10 | rank=0 | INFO | Round 07/10 | client 02 local validation | accuracy=0.970211 macro_f1=0.350253 | 1.19 s
+2026-07-29 09:53:12 | rank=0 | INFO | Round 07/10 | client 03/10 | epoch 1/1 | hard=0.361980 soft=0.347616 prox=0.025680 total=0.357366 | 62.60 s
+2026-07-29 09:53:14 | rank=0 | INFO | Round 07/10 | client 03 local validation | accuracy=0.974896 macro_f1=0.260895 | 1.85 s
+2026-07-29 09:53:47 | rank=0 | INFO | Round 07/10 | client 04/10 | epoch 1/1 | hard=0.204226 soft=0.130309 prox=0.020177 total=0.169285 | 32.90 s
+2026-07-29 09:53:48 | rank=0 | INFO | Round 07/10 | client 04 local validation | accuracy=0.992293 macro_f1=0.140409 | 1.13 s
+2026-07-29 09:54:32 | rank=0 | INFO | Round 07/10 | client 05/10 | epoch 1/1 | hard=0.289126 soft=0.303256 prox=0.012492 total=0.297440 | 43.85 s
+2026-07-29 09:54:34 | rank=0 | INFO | Round 07/10 | client 05 local validation | accuracy=0.989660 macro_f1=0.209352 | 1.43 s
+2026-07-29 09:55:21 | rank=0 | INFO | Round 07/10 | client 06/10 | epoch 1/1 | hard=0.176265 soft=0.111221 prox=0.011664 total=0.144909 | 46.94 s
+2026-07-29 09:55:22 | rank=0 | INFO | Round 07/10 | client 06 local validation | accuracy=0.999226 macro_f1=0.128531 | 1.43 s
+2026-07-29 09:55:54 | rank=0 | INFO | Round 07/10 | client 07/10 | epoch 1/1 | hard=0.268113 soft=0.241690 prox=0.018770 total=0.256779 | 31.91 s
+2026-07-29 09:55:55 | rank=0 | INFO | Round 07/10 | client 07 local validation | accuracy=0.996581 macro_f1=0.233986 | 1.02 s
+2026-07-29 09:59:36 | rank=0 | INFO | Round 07/10 | client 08/10 | epoch 1/1 | hard=0.435981 soft=0.116697 prox=0.012562 total=0.277595 | 220.42 s
+2026-07-29 09:59:43 | rank=0 | INFO | Round 07/10 | client 08 local validation | accuracy=0.890209 macro_f1=0.325351 | 6.76 s
+2026-07-29 10:00:57 | rank=0 | INFO | Round 07/10 | client 09/10 | epoch 1/1 | hard=0.313416 soft=0.348363 prox=0.017915 total=0.332681 | 73.57 s
+2026-07-29 10:00:59 | rank=0 | INFO | Round 07/10 | client 09 local validation | accuracy=0.989739 macro_f1=0.263804 | 2.12 s
+2026-07-29 10:02:06 | rank=0 | INFO | Round 07/10 | client 10/10 | epoch 1/1 | hard=0.194217 soft=0.153127 prox=0.016666 total=0.175338 | 67.04 s
+2026-07-29 10:02:08 | rank=0 | INFO | Round 07/10 | client 10 local validation | accuracy=0.996046 macro_f1=0.209092 | 1.96 s
+2026-07-29 10:02:27 | rank=0 | INFO | Saved best.pt at round 7 with validation macro-F1 0.275688
+2026-07-29 10:02:27 | rank=0 | INFO | Round 07/10 complete | val_loss=1.286952 val_acc=0.584235 val_macro_f1=0.275688 | 656.63 s | FL comm=19.401 MiB cumulative
+2026-07-29 10:02:27 | rank=0 | INFO | Round 08/10 | client 01/10 | epoch 1/1 | hard=2.104263 soft=0.312184 prox=0.012678 total=1.209491 | 0.68 s
+2026-07-29 10:02:28 | rank=0 | INFO | Round 08/10 | client 01 local validation | accuracy=0.967047 macro_f1=0.084017 | 0.13 s
+2026-07-29 10:03:06 | rank=0 | INFO | Round 08/10 | client 02/10 | epoch 1/1 | hard=0.321151 soft=0.214069 prox=0.031063 total=0.270716 | 38.13 s
+2026-07-29 10:03:07 | rank=0 | INFO | Round 08/10 | client 02 local validation | accuracy=0.971152 macro_f1=0.374148 | 1.25 s
+2026-07-29 10:04:12 | rank=0 | INFO | Round 08/10 | client 03/10 | epoch 1/1 | hard=0.358192 soft=0.343674 prox=0.023740 total=0.353307 | 64.67 s
+2026-07-29 10:04:14 | rank=0 | INFO | Round 08/10 | client 03 local validation | accuracy=0.976532 macro_f1=0.269489 | 2.11 s
+2026-07-29 10:04:49 | rank=0 | INFO | Round 08/10 | client 04/10 | epoch 1/1 | hard=0.190566 soft=0.117095 prox=0.020004 total=0.155831 | 34.34 s
+2026-07-29 10:04:50 | rank=0 | INFO | Round 08/10 | client 04 local validation | accuracy=0.992668 macro_f1=0.137880 | 1.05 s
+2026-07-29 10:05:34 | rank=0 | INFO | Round 08/10 | client 05/10 | epoch 1/1 | hard=0.282301 soft=0.291141 prox=0.011588 total=0.287880 | 43.79 s
+2026-07-29 10:05:35 | rank=0 | INFO | Round 08/10 | client 05 local validation | accuracy=0.990529 macro_f1=0.205851 | 1.33 s
+2026-07-29 10:06:21 | rank=0 | INFO | Round 08/10 | client 06/10 | epoch 1/1 | hard=0.164716 soft=0.095894 prox=0.011683 total=0.131473 | 45.96 s
+2026-07-29 10:06:22 | rank=0 | INFO | Round 08/10 | client 06 local validation | accuracy=0.999308 macro_f1=0.130882 | 1.38 s
+2026-07-29 10:06:54 | rank=0 | INFO | Round 08/10 | client 07/10 | epoch 1/1 | hard=0.253053 soft=0.214600 prox=0.018224 total=0.235649 | 31.70 s
+2026-07-29 10:06:55 | rank=0 | INFO | Round 08/10 | client 07 local validation | accuracy=0.996778 macro_f1=0.237031 | 0.97 s
+2026-07-29 10:10:33 | rank=0 | INFO | Round 08/10 | client 08/10 | epoch 1/1 | hard=0.423765 soft=0.105990 prox=0.011184 total=0.265996 | 217.77 s
+2026-07-29 10:10:40 | rank=0 | INFO | Round 08/10 | client 08 local validation | accuracy=0.890880 macro_f1=0.322754 | 6.37 s
+2026-07-29 10:11:55 | rank=0 | INFO | Round 08/10 | client 09/10 | epoch 1/1 | hard=0.307248 soft=0.334549 prox=0.016509 total=0.322550 | 74.94 s
+2026-07-29 10:11:57 | rank=0 | INFO | Round 08/10 | client 09 local validation | accuracy=0.989766 macro_f1=0.267897 | 2.10 s
+2026-07-29 10:13:03 | rank=0 | INFO | Round 08/10 | client 10/10 | epoch 1/1 | hard=0.185439 soft=0.142352 prox=0.015409 total=0.165437 | 66.48 s
+2026-07-29 10:13:05 | rank=0 | INFO | Round 08/10 | client 10 local validation | accuracy=0.996177 macro_f1=0.212769 | 1.90 s
+2026-07-29 10:13:24 | rank=0 | INFO | Saved best.pt at round 8 with validation macro-F1 0.277705
+2026-07-29 10:13:24 | rank=0 | INFO | Round 08/10 complete | val_loss=1.256740 val_acc=0.582881 val_macro_f1=0.277705 | 657.19 s | FL comm=22.173 MiB cumulative
+2026-07-29 10:13:25 | rank=0 | INFO | Round 09/10 | client 01/10 | epoch 1/1 | hard=2.058621 soft=0.307086 prox=0.012844 total=1.184138 | 0.64 s
+2026-07-29 10:13:25 | rank=0 | INFO | Round 09/10 | client 01 local validation | accuracy=0.968948 macro_f1=0.094262 | 0.13 s
+2026-07-29 10:14:02 | rank=0 | INFO | Round 09/10 | client 02/10 | epoch 1/1 | hard=0.317994 soft=0.212626 prox=0.029638 total=0.268274 | 37.56 s
+2026-07-29 10:14:04 | rank=0 | INFO | Round 09/10 | client 02 local validation | accuracy=0.970907 macro_f1=0.375516 | 1.23 s
+2026-07-29 10:15:07 | rank=0 | INFO | Round 09/10 | client 03/10 | epoch 1/1 | hard=0.354538 soft=0.336823 prox=0.022262 total=0.347907 | 62.82 s
+2026-07-29 10:15:09 | rank=0 | INFO | Round 09/10 | client 03 local validation | accuracy=0.976575 macro_f1=0.268871 | 1.87 s
+2026-07-29 10:15:41 | rank=0 | INFO | Round 09/10 | client 04/10 | epoch 1/1 | hard=0.184127 soft=0.111075 prox=0.019515 total=0.149553 | 32.25 s
+2026-07-29 10:15:42 | rank=0 | INFO | Round 09/10 | client 04 local validation | accuracy=0.992480 macro_f1=0.142774 | 1.07 s
+2026-07-29 10:16:24 | rank=0 | INFO | Round 09/10 | client 05/10 | epoch 1/1 | hard=0.279842 soft=0.286853 prox=0.011102 total=0.284457 | 42.24 s
+2026-07-29 10:16:26 | rank=0 | INFO | Round 09/10 | client 05 local validation | accuracy=0.990837 macro_f1=0.221111 | 1.22 s
+2026-07-29 10:17:11 | rank=0 | INFO | Round 09/10 | client 06/10 | epoch 1/1 | hard=0.164187 soft=0.095409 prox=0.011743 total=0.130972 | 44.69 s
+2026-07-29 10:17:12 | rank=0 | INFO | Round 09/10 | client 06 local validation | accuracy=0.999323 macro_f1=0.130014 | 1.36 s
+2026-07-29 10:17:43 | rank=0 | INFO | Round 09/10 | client 07/10 | epoch 1/1 | hard=0.254253 soft=0.219510 prox=0.017510 total=0.238632 | 30.58 s
+2026-07-29 10:17:44 | rank=0 | INFO | Round 09/10 | client 07 local validation | accuracy=0.996471 macro_f1=0.230988 | 0.98 s
+2026-07-29 10:21:17 | rank=0 | INFO | Round 09/10 | client 08/10 | epoch 1/1 | hard=0.419453 soft=0.101294 prox=0.010108 total=0.261384 | 213.47 s
+2026-07-29 10:21:24 | rank=0 | INFO | Round 09/10 | client 08 local validation | accuracy=0.863721 macro_f1=0.289638 | 6.28 s
+2026-07-29 10:22:39 | rank=0 | INFO | Round 09/10 | client 09/10 | epoch 1/1 | hard=0.305613 soft=0.331626 prox=0.015766 total=0.320196 | 75.72 s
+2026-07-29 10:22:42 | rank=0 | INFO | Round 09/10 | client 09 local validation | accuracy=0.990189 macro_f1=0.268092 | 2.06 s
+2026-07-29 10:23:48 | rank=0 | INFO | Round 09/10 | client 10/10 | epoch 1/1 | hard=0.182884 soft=0.137613 prox=0.014498 total=0.161698 | 66.47 s
+2026-07-29 10:23:50 | rank=0 | INFO | Round 09/10 | client 10 local validation | accuracy=0.996374 macro_f1=0.217478 | 1.89 s
+2026-07-29 10:24:09 | rank=0 | INFO | Saved best.pt at round 9 with validation macro-F1 0.286779
+2026-07-29 10:24:09 | rank=0 | INFO | Round 09/10 complete | val_loss=1.236091 val_acc=0.584023 val_macro_f1=0.286779 | 644.64 s | FL comm=24.944 MiB cumulative
+2026-07-29 10:24:09 | rank=0 | INFO | Round 10/10 | client 01/10 | epoch 1/1 | hard=2.083134 soft=0.329975 prox=0.013029 total=1.207858 | 0.65 s
+2026-07-29 10:24:09 | rank=0 | INFO | Round 10/10 | client 01 local validation | accuracy=0.970215 macro_f1=0.084778 | 0.13 s
+2026-07-29 10:24:47 | rank=0 | INFO | Round 10/10 | client 02/10 | epoch 1/1 | hard=0.318433 soft=0.217026 prox=0.028157 total=0.270545 | 37.72 s
+2026-07-29 10:24:48 | rank=0 | INFO | Round 10/10 | client 02 local validation | accuracy=0.970853 macro_f1=0.376794 | 1.14 s
+2026-07-29 10:25:51 | rank=0 | INFO | Round 10/10 | client 03/10 | epoch 1/1 | hard=0.351774 soft=0.333226 prox=0.021283 total=0.344628 | 62.35 s
+2026-07-29 10:25:53 | rank=0 | INFO | Round 10/10 | client 03 local validation | accuracy=0.976350 macro_f1=0.270439 | 1.85 s
+2026-07-29 10:26:25 | rank=0 | INFO | Round 10/10 | client 04/10 | epoch 1/1 | hard=0.184526 soft=0.110778 prox=0.019117 total=0.149564 | 32.30 s
+2026-07-29 10:26:26 | rank=0 | INFO | Round 10/10 | client 04 local validation | accuracy=0.992980 macro_f1=0.145526 | 1.00 s
+2026-07-29 10:27:09 | rank=0 | INFO | Round 10/10 | client 05/10 | epoch 1/1 | hard=0.278096 soft=0.284570 prox=0.010815 total=0.282414 | 42.28 s
+2026-07-29 10:27:10 | rank=0 | INFO | Round 10/10 | client 05 local validation | accuracy=0.990774 macro_f1=0.222039 | 1.29 s
+2026-07-29 10:27:55 | rank=0 | INFO | Round 10/10 | client 06/10 | epoch 1/1 | hard=0.160730 soft=0.091787 prox=0.011538 total=0.127412 | 44.79 s
+2026-07-29 10:27:56 | rank=0 | INFO | Round 10/10 | client 06 local validation | accuracy=0.999300 macro_f1=0.128273 | 1.37 s
+2026-07-29 10:28:27 | rank=0 | INFO | Round 10/10 | client 07/10 | epoch 1/1 | hard=0.254509 soft=0.220562 prox=0.017348 total=0.239270 | 30.52 s
+2026-07-29 10:28:28 | rank=0 | INFO | Round 10/10 | client 07 local validation | accuracy=0.996756 macro_f1=0.236764 | 0.93 s
+2026-07-29 10:32:02 | rank=0 | INFO | Round 10/10 | client 08/10 | epoch 1/1 | hard=0.414729 soft=0.098231 prox=0.009455 total=0.257426 | 214.13 s
+2026-07-29 10:32:09 | rank=0 | INFO | Round 10/10 | client 08 local validation | accuracy=0.891249 macro_f1=0.331091 | 6.50 s
+2026-07-29 10:33:22 | rank=0 | INFO | Round 10/10 | client 09/10 | epoch 1/1 | hard=0.302372 soft=0.325786 prox=0.015110 total=0.315590 | 73.19 s
+2026-07-29 10:33:24 | rank=0 | INFO | Round 10/10 | client 09 local validation | accuracy=0.990341 macro_f1=0.269418 | 2.15 s
+2026-07-29 10:34:31 | rank=0 | INFO | Round 10/10 | client 10/10 | epoch 1/1 | hard=0.178651 soft=0.133811 prox=0.013825 total=0.157614 | 66.60 s
+2026-07-29 10:34:33 | rank=0 | INFO | Round 10/10 | client 10 local validation | accuracy=0.996339 macro_f1=0.215957 | 1.99 s
+2026-07-29 10:34:52 | rank=0 | INFO | Saved best.pt at round 10 with validation macro-F1 0.299758
+2026-07-29 10:34:52 | rank=0 | INFO | Round 10/10 complete | val_loss=1.187077 val_acc=0.591884 val_macro_f1=0.299758 | 643.12 s | FL comm=27.716 MiB cumulative
+2026-07-29 10:34:52 | rank=0 | INFO | Reloaded best.pt from round 10
+2026-07-29 10:36:17 | rank=0 | INFO | Final test metrics: {"accuracy": 0.5918930202632289, "binary_attack_accuracy": 0.984903676276141, "binary_attack_f1": 0.9922371096337925, "binary_attack_fnr": 0.01213946482049122, "binary_attack_fpr": 0.13875479756305198, "binary_attack_precision": 0.9966526362311082, "binary_attack_recall": 0.9878605351795088, "loss": 1.1872688677222873, "macro_f1": 0.299829501571325, "macro_precision": 0.39657545014573603, "macro_recall": 0.33444480724011033, "multiclass_macro_fnr": 0.6655551927598897, "multiclass_macro_fpr": 0.012866511932990422, "weighted_f1": 0.5095194881380921, "weighted_precision": 0.6257126265599329, "weighted_recall": 0.5918930202632289}
+2026-07-29 10:36:17 | rank=0 | INFO | DDP training completed | best round=10 macro-F1=0.299758 | 6584.14 s
+2026-07-29 10:36:17 | rank=0 | INFO | OUTPUT artifacts/accuracy_f1_curves.png | 64,163 bytes
+2026-07-29 10:36:17 | rank=0 | INFO | OUTPUT artifacts/class_distribution.png | 145,620 bytes
+2026-07-29 10:36:17 | rank=0 | INFO | OUTPUT artifacts/communication_cumulative.png | 57,780 bytes
+2026-07-29 10:36:17 | rank=0 | INFO | OUTPUT artifacts/confusion_matrix.png | 294,070 bytes
+2026-07-29 10:36:17 | rank=0 | INFO | OUTPUT artifacts/loss_curves.png | 75,913 bytes
+2026-07-29 10:36:17 | rank=0 | INFO | OUTPUT artifacts/per_class_f1.png | 113,229 bytes
+2026-07-29 10:36:17 | rank=0 | INFO | OUTPUT artifacts/runtime_per_round.png | 35,614 bytes
+2026-07-29 10:36:17 | rank=0 | INFO | OUTPUT checkpoints/best.pt | 155,143 bytes
+2026-07-29 10:36:17 | rank=0 | INFO | OUTPUT checkpoints/last.pt | 155,143 bytes
+2026-07-29 10:36:17 | rank=0 | INFO | OUTPUT logs/rank_1.log | 93 bytes
+2026-07-29 10:36:17 | rank=0 | INFO | OUTPUT logs/run.log | 37,991 bytes
+2026-07-29 10:36:17 | rank=0 | INFO | OUTPUT metrics/classification_report.csv | 2,484 bytes
+2026-07-29 10:36:17 | rank=0 | INFO | OUTPUT metrics/classification_report.json | 6,725 bytes
+2026-07-29 10:36:17 | rank=0 | INFO | OUTPUT metrics/client_class_distribution.csv | 10,592 bytes
+2026-07-29 10:36:17 | rank=0 | INFO | OUTPUT metrics/communication_costs.csv | 907 bytes
+2026-07-29 10:36:17 | rank=0 | INFO | OUTPUT metrics/communication_costs.json | 822 bytes
+2026-07-29 10:36:17 | rank=0 | INFO | OUTPUT metrics/config.json | 1,787 bytes
+2026-07-29 10:36:17 | rank=0 | INFO | OUTPUT metrics/confusion_matrix.csv | 4,312 bytes
+2026-07-29 10:36:17 | rank=0 | INFO | OUTPUT metrics/confusion_matrix.npy | 9,376 bytes
+2026-07-29 10:36:17 | rank=0 | INFO | OUTPUT metrics/dataset_summary.json | 17,128 bytes
+2026-07-29 10:36:17 | rank=0 | INFO | OUTPUT metrics/history_client.csv | 71,730 bytes
+2026-07-29 10:36:17 | rank=0 | INFO | OUTPUT metrics/history_client.json | 237,133 bytes
+2026-07-29 10:36:17 | rank=0 | INFO | OUTPUT metrics/history_local_epoch.csv | 11,942 bytes
+2026-07-29 10:36:17 | rank=0 | INFO | OUTPUT metrics/history_local_epoch.json | 35,305 bytes
+2026-07-29 10:36:17 | rank=0 | INFO | OUTPUT metrics/history_round.csv | 8,492 bytes
+2026-07-29 10:36:17 | rank=0 | INFO | OUTPUT metrics/history_round.json | 24,348 bytes
+2026-07-29 10:36:17 | rank=0 | INFO | OUTPUT metrics/runtime_breakdown.json | 10,057 bytes
+2026-07-29 10:36:17 | rank=0 | INFO | OUTPUT metrics/summary.json | 37,685 bytes
+2026-07-29 10:36:21 | INFO | DDP subprocess completed in 6594.26 s; all required outputs validated under /kaggle/working/fd_ids_ciciot2023_10c_cnn1d

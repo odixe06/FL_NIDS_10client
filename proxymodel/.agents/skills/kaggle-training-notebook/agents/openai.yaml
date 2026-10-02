@@ -1,4 +1,0 @@
-interface:
-  display_name: "Kaggle FL Benchmark Notebook"
-  short_description: "Build two-T4 federated benchmark notebooks"
-  default_prompt: "Use $kaggle-training-notebook to build a client-parallel Kaggle federated benchmark with the locked local split, per-round checkpoints, and the standard ten metrics."

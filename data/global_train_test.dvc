@@ -1,0 +1,6 @@
+outs:
+- md5: d187484f9ec05c2b2cd1ded58325b7d7.dir
+  size: 12376506221
+  nfiles: 3
+  hash: md5
+  path: global_train_test

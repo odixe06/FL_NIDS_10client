@@ -1,0 +1,14 @@
+[
+  {
+    "phase": "not_applicable_pfedes_has_no_server_pretrain",
+    "enabled": false,
+    "epoch": 0,
+    "train_examples": 0,
+    "optimizer_steps": 0,
+    "cross_entropy_loss": 0.0,
+    "epoch_seconds": 0.0,
+    "gpu_id": -1,
+    "peak_allocated_bytes": 0,
+    "peak_reserved_bytes": 0
+  }
+]

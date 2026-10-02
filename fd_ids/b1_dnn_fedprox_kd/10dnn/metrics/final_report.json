@@ -1,0 +1,58 @@
+{
+  "run_id": "fdids_dnn_run1",
+  "test_loss": 0.9769010996818542,
+  "metrics": {
+    "accuracy": 0.6134475033400347,
+    "macro_precision": 0.3663444158851156,
+    "macro_recall": 0.3852008670968112,
+    "macro_f1": 0.3359587458187551,
+    "weighted_precision": 0.5403753777628489,
+    "weighted_recall": 0.6134475033400347,
+    "weighted_f1": 0.531649147086847
+  },
+  "attack_vs_benign": {
+    "benign_id": 1,
+    "TP": 8682187,
+    "FN": 111199,
+    "FP": 28770,
+    "TN": 181493,
+    "FPR": 0.13682863841950318,
+    "FNR": 0.012645754434071245,
+    "attack_detection_rate": 0.9873542455659288
+  },
+  "config": {
+    "num_clients": 10,
+    "input_dim": 25,
+    "num_classes": 34,
+    "hidden_dims": [
+      32,
+      64,
+      128,
+      64,
+      32
+    ],
+    "dropout": 0.0,
+    "local_epochs": 1,
+    "comm_rounds": 10,
+    "batch_size": 4096,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0,
+    "temperature": 3.0,
+    "lambda_hard": 0.5,
+    "mu_prox": 0.01,
+    "beta_prox": 0.1,
+    "quick_eval_size": 10000,
+    "eval_batch_size": 16384,
+    "log_every": 200,
+    "seed": 42,
+    "use_amp": false,
+    "use_multi_gpu": true,
+    "max_samples_per_client": null,
+    "max_debug_batches": null,
+    "best_metric": "weighted_f1",
+    "run_id": "fdids_dnn_run1",
+    "local_mirror": null,
+    "resume": false,
+    "resume_round": 0
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "run_name": "fd_ids_ciciot2023_10c_cnn1d",
+  "model_family": "cnn1d",
+  "execution_mode": "client_parallel",
+  "input_dir": "/kaggle/input/datasets/odixe0502/data-for-10clients",
+  "output_dir": "/kaggle/working/fd_ids_ciciot2023_10c_cnn1d",
+  "temp_dir": "/kaggle/temp/fd_ids_ciciot2023_10c_cnn1d_runtime",
+  "cache_dir": "/kaggle/temp/fd_ids_ciciot2023_10c_cnn1d_cache",
+  "manifest_path": "/kaggle/temp/fd_ids_ciciot2023_10c_cnn1d_manifest.json",
+  "num_clients": 10,
+  "num_features": 25,
+  "num_classes": 34,
+  "benign_label_id": 1,
+  "feature_columns": [
+    "ack_flag_number",
+    "AVG",
+    "Std",
+    "UDP",
+    "fin_count",
+    "Max",
+    "TCP",
+    "syn_count",
+    "Protocol Type",
+    "Rate",
+    "IAT",
+    "syn_flag_number",
+    "rst_flag_number",
+    "Tot sum",
+    "HTTPS",
+    "ack_count",
+    "fin_flag_number",
+    "HTTP",
+    "rst_count",
+    "Header_Length",
+    "psh_flag_number",
+    "ICMP",
+    "Time_To_Live",
+    "ARP",
+    "DNS"
+  ],
+  "label_column": "Label",
+  "communication_rounds": 10,
+  "local_epochs": 1,
+  "server_pretrain_epochs": 1,
+  "per_client_batch_size": 1024,
+  "evaluation_batch_size": 8192,
+  "pretrain_chunk_rows": 262144,
+  "optimizer": "SGD",
+  "learning_rate": 0.01,
+  "momentum": 0.0,
+  "weight_decay": 0.0,
+  "scheduler": null,
+  "gradient_accumulation_steps": 1,
+  "distillation": "forward_kl_historical_teacher_to_student",
+  "distillation_lambda": 1.0,
+  "distillation_temperature": 1.0,
+  "server_aggregation": "unweighted_mean_selected_clients",
+  "selection_rule": "local_accuracy_strictly_below_all_client_mean",
+  "validation_fraction": 0.05,
+  "seed": 42,
+  "initialization_seed": 42,
+  "gpu_cache_fraction": 0.7,
+  "stream_candidates": [
+    1,
+    2
+  ],
+  "stream_benchmark_steps": 3,
+  "worker_count": 2,
+  "worker_timeout_seconds": 21600,
+  "mixed_precision": "cuda_amp",
+  "expected_parameter_count": 35874,
+  "checkpoint_criterion": "global_validation_macro_f1",
+  "expected_history_rows": {
+    "pretrain": 1,
+    "round": 10,
+    "client": 100,
+    "local_epoch": 100
+  },
+  "client_assignment": {
+    "0": [
+      1,
+      2,
+      8,
+      10
+    ],
+    "1": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      9
+    ]
+  },
+  "selected_streams_by_gpu": {
+    "0": 1,
+    "1": 2
+  },
+  "stream_selection_reason_by_gpu": {
+    "0": "highest measured aggregate samples per second",
+    "1": "highest measured aggregate samples per second"
+  }
+}

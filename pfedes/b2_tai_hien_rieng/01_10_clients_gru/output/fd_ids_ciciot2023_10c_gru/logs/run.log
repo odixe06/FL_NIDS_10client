@@ -1,0 +1,27 @@
+2026-07-31 19:28:20,068 | INFO | Notebook initialized for fd_ids_ciciot2023_10c_gru
+2026-07-31 19:28:20,718 | INFO | Validated paths and CSV headers for all required inputs
+2026-07-31 19:28:25,874 | INFO | MainProcess | Starting fd_ids_ciciot2023_10c_gru
+2026-07-31 19:29:25,568 | INFO | MainProcess | Preparing client 1 memmaps
+2026-07-31 19:29:25,802 | INFO | MainProcess | Preparing client 2 memmaps
+2026-07-31 19:29:37,692 | INFO | MainProcess | Preparing client 3 memmaps
+2026-07-31 19:29:57,755 | INFO | MainProcess | Preparing client 4 memmaps
+2026-07-31 19:30:07,999 | INFO | MainProcess | Preparing client 5 memmaps
+2026-07-31 19:30:21,340 | INFO | MainProcess | Preparing client 6 memmaps
+2026-07-31 19:30:35,261 | INFO | MainProcess | Preparing client 7 memmaps
+2026-07-31 19:30:44,863 | INFO | MainProcess | Preparing client 8 memmaps
+2026-07-31 19:31:50,321 | INFO | MainProcess | Preparing client 9 memmaps
+2026-07-31 19:32:13,270 | INFO | MainProcess | Preparing client 10 memmaps
+2026-07-31 19:32:34,022 | INFO | MainProcess | Preparing global test memmap
+2026-07-31 19:33:28,112 | INFO | MainProcess | Client assignment: {'0': [1, 5, 6, 8], '1': [2, 3, 4, 7, 9, 10], 'predicted_load_seconds': {'0': 850.6050426101684, '1': 850.5032347056072}, 'client_workloads_seconds': {1: 1.5271185684204103, 2: 104.45491007995606, 3: 176.127674891154, 4: 90.71084296417237, 5: 119.57338390731812, 6: 126.9035530357361, 7: 86.2312951634725, 8: 602.6009870986938, 9: 205.65196721394858, 10: 187.32654439290366}, 'benchmarks': {'gru': {'local_step_seconds': 0.010689946492513022, 'proxy_step_seconds': 0.04021400578816732}}}
+2026-07-31 19:37:10,671 | INFO | MainProcess | Round 1 complete: mean accuracy 0.835091, mean macro-F1 0.063609
+2026-07-31 19:40:51,034 | INFO | MainProcess | Round 2 complete: mean accuracy 0.890294, mean macro-F1 0.086921
+2026-07-31 19:44:32,031 | INFO | MainProcess | Round 3 complete: mean accuracy 0.915723, mean macro-F1 0.101368
+2026-07-31 19:48:12,914 | INFO | MainProcess | Round 4 complete: mean accuracy 0.926368, mean macro-F1 0.115618
+2026-07-31 19:51:54,162 | INFO | MainProcess | Round 5 complete: mean accuracy 0.939756, mean macro-F1 0.127770
+2026-07-31 19:55:35,554 | INFO | MainProcess | Round 6 complete: mean accuracy 0.945173, mean macro-F1 0.133007
+2026-07-31 19:59:16,627 | INFO | MainProcess | Round 7 complete: mean accuracy 0.948770, mean macro-F1 0.136707
+2026-07-31 20:02:58,227 | INFO | MainProcess | Round 8 complete: mean accuracy 0.952107, mean macro-F1 0.142860
+2026-07-31 20:06:39,959 | INFO | MainProcess | Round 9 complete: mean accuracy 0.954690, mean macro-F1 0.146834
+2026-07-31 20:10:21,621 | INFO | MainProcess | Round 10 complete: mean accuracy 0.956039, mean macro-F1 0.151613
+2026-07-31 20:12:05,302 | INFO | MainProcess | Run completed successfully: fd_ids_ciciot2023_10c_gru
+2026-07-31 20:12:06,245 | INFO | Verified all required nonempty outputs and exact history row counts

@@ -1,0 +1,2 @@
+phase,enabled,epoch,train_examples,optimizer_steps,cross_entropy_loss,epoch_seconds,gpu_id,peak_allocated_bytes,peak_reserved_bytes
+not_applicable_pfedes_has_no_server_pretrain,False,0,0,0,0.0,0.0,-1,0,0

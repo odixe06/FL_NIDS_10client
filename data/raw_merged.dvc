@@ -1,0 +1,6 @@
+outs:
+- md5: 0191b2356bf08d0f8f7e01b694543bdc.dir
+  size: 9300139459
+  nfiles: 63
+  hash: md5
+  path: raw_merged

@@ -1,0 +1,163 @@
+2026-08-01 13:03:21,914 | fedcaps-coordinator | INFO | Starting fedcaps_ciciot2023_6cnn1d_3gru_1transformer scenario=6 CNN-1D + 3 GRU + 1 Transformer
+2026-08-01 13:03:21,914 | fedcaps-coordinator | INFO | Configuration clients=10 batch=1024 MARLFS_epochs=300 permutations=25 PPO_epochs=10 PPO_steps=1000 final_epochs=10
+2026-08-01 13:03:21,917 | fedcaps-coordinator | INFO | [STAGE data] Validating input contract under /kaggle/input/datasets/odixe0502/data-for-10clients
+2026-08-01 13:03:21,965 | fedcaps-coordinator | INFO | [STAGE data] Preparing client 1/10
+2026-08-01 13:03:22,221 | fedcaps-coordinator | INFO | Converted 31,520 rows from client_1_train.csv
+2026-08-01 13:03:22,250 | fedcaps-coordinator | INFO | [STAGE data] Client 1 ready rows=31,520 train=28,368 validation=3,152 search_train=28,368 search_validation=3,152 seconds=0.28
+2026-08-01 13:03:22,251 | fedcaps-coordinator | INFO | [STAGE data] Preparing client 2/10
+2026-08-01 13:03:35,272 | fedcaps-coordinator | INFO | Converted 2,211,589 rows from client_2_train.csv
+2026-08-01 13:03:35,507 | fedcaps-coordinator | INFO | [STAGE data] Client 2 ready rows=2,211,589 train=1,990,431 validation=221,158 search_train=90,000 search_validation=10,000 seconds=13.26
+2026-08-01 13:03:35,507 | fedcaps-coordinator | INFO | [STAGE data] Preparing client 3/10
+2026-08-01 13:03:54,311 | fedcaps-coordinator | INFO | Converted 3,728,450 rows from client_3_train.csv
+2026-08-01 13:03:54,692 | fedcaps-coordinator | INFO | [STAGE data] Client 3 ready rows=3,728,450 train=3,355,604 validation=372,846 search_train=90,000 search_validation=10,000 seconds=19.18
+2026-08-01 13:03:54,692 | fedcaps-coordinator | INFO | [STAGE data] Preparing client 4/10
+2026-08-01 13:04:04,283 | fedcaps-coordinator | INFO | Converted 1,920,254 rows from client_4_train.csv
+2026-08-01 13:04:04,471 | fedcaps-coordinator | INFO | [STAGE data] Client 4 ready rows=1,920,254 train=1,728,229 validation=192,025 search_train=90,000 search_validation=10,000 seconds=9.78
+2026-08-01 13:04:04,472 | fedcaps-coordinator | INFO | [STAGE data] Preparing client 5/10
+2026-08-01 13:04:17,455 | fedcaps-coordinator | INFO | Converted 2,531,881 rows from client_5_train.csv
+2026-08-01 13:04:17,712 | fedcaps-coordinator | INFO | [STAGE data] Client 5 ready rows=2,531,881 train=2,278,693 validation=253,188 search_train=90,000 search_validation=10,000 seconds=13.24
+2026-08-01 13:04:17,712 | fedcaps-coordinator | INFO | [STAGE data] Preparing client 6/10
+2026-08-01 13:04:31,010 | fedcaps-coordinator | INFO | Converted 2,686,617 rows from client_6_train.csv
+2026-08-01 13:04:31,270 | fedcaps-coordinator | INFO | [STAGE data] Client 6 ready rows=2,686,617 train=2,417,955 validation=268,662 search_train=90,000 search_validation=10,000 seconds=13.56
+2026-08-01 13:04:31,271 | fedcaps-coordinator | INFO | [STAGE data] Preparing client 7/10
+2026-08-01 13:04:40,529 | fedcaps-coordinator | INFO | Converted 1,824,975 rows from client_7_train.csv
+2026-08-01 13:04:40,720 | fedcaps-coordinator | INFO | [STAGE data] Client 7 ready rows=1,824,975 train=1,642,476 validation=182,499 search_train=90,000 search_validation=10,000 seconds=9.45
+2026-08-01 13:04:40,720 | fedcaps-coordinator | INFO | [STAGE data] Preparing client 8/10
+2026-08-01 13:05:41,090 | fedcaps-coordinator | INFO | Converted 12,759,509 rows from client_8_train.csv
+2026-08-01 13:05:42,585 | fedcaps-coordinator | INFO | [STAGE data] Client 8 ready rows=12,759,509 train=11,483,556 validation=1,275,953 search_train=90,000 search_validation=10,000 seconds=61.87
+2026-08-01 13:05:42,586 | fedcaps-coordinator | INFO | [STAGE data] Preparing client 9/10
+2026-08-01 13:06:04,517 | fedcaps-coordinator | INFO | Converted 4,354,192 rows from client_9_train.csv
+2026-08-01 13:06:04,958 | fedcaps-coordinator | INFO | [STAGE data] Client 9 ready rows=4,354,192 train=3,918,771 validation=435,421 search_train=90,000 search_validation=10,000 seconds=22.37
+2026-08-01 13:06:04,959 | fedcaps-coordinator | INFO | [STAGE data] Preparing client 10/10
+2026-08-01 13:06:25,472 | fedcaps-coordinator | INFO | Converted 3,965,607 rows from client_10_train.csv
+2026-08-01 13:06:25,886 | fedcaps-coordinator | INFO | [STAGE data] Client 10 ready rows=3,965,607 train=3,569,043 validation=396,564 search_train=90,000 search_validation=10,000 seconds=20.93
+2026-08-01 13:07:12,380 | fedcaps-coordinator | INFO | Converted 9,003,649 rows from global_test_data.csv
+2026-08-01 13:08:08,388 | fedcaps-coordinator | INFO | [STAGE data] Complete local_rows=36,014,594 global_test_rows=9,003,649 seconds=286.47
+2026-08-01 13:08:08,610 | fedcaps-coordinator | INFO | [STAGE benchmark] Start active_families=['cnn1d', 'gru', 'transformer'] stream_candidates=[1, 2]
+2026-08-01 13:08:17,110 | fedcaps-coordinator | INFO | [STAGE benchmark] Complete assignment_gpu0=[1, 2, 4, 5, 6, 8] assignment_gpu1=[3, 7, 9, 10] predicted_load_seconds={'0': 907.0951848745347, '1': 908.7915587949752} stream_runtime={'0': {'cnn1d': 1, 'gru': 1, 'transformer': 1}, '1': {'cnn1d': 1, 'gru': 1, 'transformer': 1}} stream_benchmark_recommendation={'0': {'cnn1d': 1, 'gru': 2, 'transformer': 2}, '1': {'cnn1d': 1, 'gru': 2, 'transformer': 2}}
+2026-08-01 13:08:29,520 | fedcaps-coordinator | INFO | [STAGE cache] Complete telemetry={'0': {'gpu_id': 0, 'cache_budget_bytes': 10945226342, 'planned_cache_bytes': 2572651080, 'actual_cache_bytes': 2572651080, 'cache_hits': 0, 'cache_misses': 0, 'evictions': 0, 'fallbacks': 0, 'allocated_bytes': 2743331328, 'reserved_bytes': 4238344192, 'max_allocated_bytes': 2744530944, 'max_reserved_bytes': 4238344192}, '1': {'gpu_id': 1, 'cache_budget_bytes': 10945226342, 'planned_cache_bytes': 1612493984, 'actual_cache_bytes': 1612493984, 'cache_hits': 0, 'cache_misses': 0, 'evictions': 0, 'fallbacks': 0, 'allocated_bytes': 1782723072, 'reserved_bytes': 3279945728, 'max_allocated_bytes': 1783973888, 'max_reserved_bytes': 3279945728}} seconds=20.91
+2026-08-01 13:08:29,520 | fedcaps-coordinator | INFO | [STAGE MARLFS] Dispatching collectors to both GPUs
+2026-08-01 13:18:46,459 | fedcaps-coordinator | INFO | [STAGE MARLFS] Collection complete records=3,000 worker_seconds={'0': 613.000506413, '1': 616.817140038}
+2026-08-01 13:18:46,460 | fedcaps-coordinator | INFO | [STAGE augmentation] Start permutations_per_record=25
+2026-08-01 13:18:56,206 | fedcaps-coordinator | INFO | [STAGE augmentation] Complete augmented_records=75,000 seconds=9.75
+2026-08-01 13:18:56,206 | fedcaps-coordinator | INFO | [STAGE encoder] Dispatching server encoder-decoder training to GPU 0
+2026-08-01 13:29:57,093 | fedcaps-coordinator | INFO | [STAGE encoder] Result best_epoch=13 best_validation_loss=0.000000 invariance_error=0.000005722 seconds=659.45
+2026-08-01 13:30:00,485 | fedcaps-coordinator | INFO | [STAGE PPO] Start seeds=25 epochs=10 steps_per_epoch=1000 feedback_interval=100 batch=512
+2026-08-01 13:30:02,553 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=1 epoch=1 step=100 subset=7 weighted_micro_f1=0.668005 weighted_macro_f1=0.047849 reward=0.625487 communication_bytes=180
+2026-08-01 13:30:04,531 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=2 epoch=1 step=200 subset=11 weighted_micro_f1=0.599356 weighted_macro_f1=0.037622 reward=0.480621 communication_bytes=260
+2026-08-01 13:30:06,455 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=3 epoch=1 step=300 subset=12 weighted_micro_f1=0.645575 weighted_macro_f1=0.043494 reward=0.451490 communication_bytes=280
+2026-08-01 13:30:08,439 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=4 epoch=1 step=400 subset=12 weighted_micro_f1=0.603542 weighted_macro_f1=0.037247 reward=0.439020 communication_bytes=280
+2026-08-01 13:30:10,408 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=5 epoch=1 step=500 subset=12 weighted_micro_f1=0.609902 weighted_macro_f1=0.037765 reward=0.439077 communication_bytes=280
+2026-08-01 13:30:12,422 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=6 epoch=1 step=600 subset=13 weighted_micro_f1=0.665616 weighted_macro_f1=0.044230 reward=0.415762 communication_bytes=300
+2026-08-01 13:30:14,412 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=7 epoch=1 step=700 subset=13 weighted_micro_f1=0.681685 weighted_macro_f1=0.048733 reward=0.400168 communication_bytes=300
+2026-08-01 13:30:16,385 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=8 epoch=1 step=800 subset=13 weighted_micro_f1=0.597911 weighted_macro_f1=0.036923 reward=0.391791 communication_bytes=300
+2026-08-01 13:30:18,397 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=9 epoch=1 step=900 subset=14 weighted_micro_f1=0.612579 weighted_macro_f1=0.036753 reward=0.413149 communication_bytes=320
+2026-08-01 13:30:20,391 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=10 epoch=1 step=1000 subset=14 weighted_micro_f1=0.576246 weighted_macro_f1=0.035089 reward=0.397060 communication_bytes=320
+2026-08-01 13:30:20,451 | fedcaps-coordinator | INFO | PPO epoch 1 best reward 0.625487 weighted Micro-F1 0.668005 subset 7
+2026-08-01 13:30:22,488 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=11 epoch=2 step=1100 subset=15 weighted_micro_f1=0.595248 weighted_macro_f1=0.035582 reward=0.364257 communication_bytes=340
+2026-08-01 13:30:24,470 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=12 epoch=2 step=1200 subset=15 weighted_micro_f1=0.594679 weighted_macro_f1=0.036115 reward=0.352703 communication_bytes=340
+2026-08-01 13:30:26,495 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=13 epoch=2 step=1300 subset=15 weighted_micro_f1=0.667086 weighted_macro_f1=0.046295 reward=0.384937 communication_bytes=340
+2026-08-01 13:30:28,529 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=14 epoch=2 step=1400 subset=15 weighted_micro_f1=0.603859 weighted_macro_f1=0.035234 reward=0.347218 communication_bytes=340
+2026-08-01 13:30:30,560 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=15 epoch=2 step=1500 subset=15 weighted_micro_f1=0.599948 weighted_macro_f1=0.034750 reward=0.368249 communication_bytes=340
+2026-08-01 13:30:32,617 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=16 epoch=2 step=1600 subset=15 weighted_micro_f1=0.596326 weighted_macro_f1=0.036409 reward=0.375144 communication_bytes=340
+2026-08-01 13:30:34,592 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=17 epoch=2 step=1700 subset=15 weighted_micro_f1=0.573789 weighted_macro_f1=0.033320 reward=0.363359 communication_bytes=340
+2026-08-01 13:30:36,580 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=18 epoch=2 step=1800 subset=15 weighted_micro_f1=0.609900 weighted_macro_f1=0.037427 reward=0.381907 communication_bytes=340
+2026-08-01 13:30:38,598 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=19 epoch=2 step=1900 subset=15 weighted_micro_f1=0.607880 weighted_macro_f1=0.036141 reward=0.361348 communication_bytes=340
+2026-08-01 13:30:40,594 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=20 epoch=2 step=2000 subset=16 weighted_micro_f1=0.579876 weighted_macro_f1=0.035472 reward=0.337516 communication_bytes=360
+2026-08-01 13:30:40,650 | fedcaps-coordinator | INFO | PPO epoch 2 best reward 0.384937 weighted Micro-F1 0.667086 subset 15
+2026-08-01 13:30:42,639 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=21 epoch=3 step=2100 subset=16 weighted_micro_f1=0.605169 weighted_macro_f1=0.035719 reward=0.337702 communication_bytes=360
+2026-08-01 13:30:44,628 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=22 epoch=3 step=2200 subset=17 weighted_micro_f1=0.609795 weighted_macro_f1=0.037668 reward=0.300198 communication_bytes=380
+2026-08-01 13:30:46,663 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=23 epoch=3 step=2300 subset=17 weighted_micro_f1=0.587470 weighted_macro_f1=0.033333 reward=0.289088 communication_bytes=380
+2026-08-01 13:30:48,715 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=24 epoch=3 step=2400 subset=17 weighted_micro_f1=0.661786 weighted_macro_f1=0.044960 reward=0.296477 communication_bytes=380
+2026-08-01 13:30:50,787 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=25 epoch=3 step=2500 subset=18 weighted_micro_f1=0.606139 weighted_macro_f1=0.035904 reward=0.281683 communication_bytes=400
+2026-08-01 13:30:52,707 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=26 epoch=3 step=2600 subset=7 weighted_micro_f1=0.668703 weighted_macro_f1=0.048252 reward=0.632073 communication_bytes=180
+2026-08-01 13:30:54,606 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=27 epoch=3 step=2700 subset=7 weighted_micro_f1=0.668681 weighted_macro_f1=0.048200 reward=0.652063 communication_bytes=180
+2026-08-01 13:30:56,504 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=28 epoch=3 step=2800 subset=7 weighted_micro_f1=0.668545 weighted_macro_f1=0.048149 reward=0.649153 communication_bytes=180
+2026-08-01 13:30:58,404 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=29 epoch=3 step=2900 subset=7 weighted_micro_f1=0.668712 weighted_macro_f1=0.048218 reward=0.645621 communication_bytes=180
+2026-08-01 13:31:00,351 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=30 epoch=3 step=3000 subset=7 weighted_micro_f1=0.668674 weighted_macro_f1=0.048188 reward=0.649959 communication_bytes=180
+2026-08-01 13:31:00,414 | fedcaps-coordinator | INFO | PPO epoch 3 best reward 0.652063 weighted Micro-F1 0.668681 subset 7
+2026-08-01 13:31:02,320 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=31 epoch=4 step=3100 subset=7 weighted_micro_f1=0.668616 weighted_macro_f1=0.048187 reward=0.646965 communication_bytes=180
+2026-08-01 13:31:04,324 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=32 epoch=4 step=3200 subset=7 weighted_micro_f1=0.668714 weighted_macro_f1=0.048205 reward=0.648272 communication_bytes=180
+2026-08-01 13:31:06,225 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=33 epoch=4 step=3300 subset=7 weighted_micro_f1=0.668635 weighted_macro_f1=0.048197 reward=0.648127 communication_bytes=180
+2026-08-01 13:31:08,106 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=34 epoch=4 step=3400 subset=7 weighted_micro_f1=0.668667 weighted_macro_f1=0.048205 reward=0.647787 communication_bytes=180
+2026-08-01 13:31:09,972 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=35 epoch=4 step=3500 subset=7 weighted_micro_f1=0.668680 weighted_macro_f1=0.048265 reward=0.648140 communication_bytes=180
+2026-08-01 13:31:11,910 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=36 epoch=4 step=3600 subset=7 weighted_micro_f1=0.668597 weighted_macro_f1=0.048177 reward=0.647954 communication_bytes=180
+2026-08-01 13:31:13,816 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=37 epoch=4 step=3700 subset=7 weighted_micro_f1=0.668591 weighted_macro_f1=0.048223 reward=0.647982 communication_bytes=180
+2026-08-01 13:31:15,817 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=38 epoch=4 step=3800 subset=7 weighted_micro_f1=0.668639 weighted_macro_f1=0.048229 reward=0.648035 communication_bytes=180
+2026-08-01 13:31:17,744 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=39 epoch=4 step=3900 subset=7 weighted_micro_f1=0.668686 weighted_macro_f1=0.048231 reward=0.647988 communication_bytes=180
+2026-08-01 13:31:19,675 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=40 epoch=4 step=4000 subset=7 weighted_micro_f1=0.668618 weighted_macro_f1=0.048158 reward=0.647991 communication_bytes=180
+2026-08-01 13:31:19,735 | fedcaps-coordinator | INFO | PPO epoch 4 best reward 0.648272 weighted Micro-F1 0.668714 subset 7
+2026-08-01 13:31:21,715 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=41 epoch=5 step=4100 subset=7 weighted_micro_f1=0.668523 weighted_macro_f1=0.048177 reward=0.647998 communication_bytes=180
+2026-08-01 13:31:23,632 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=42 epoch=5 step=4200 subset=7 weighted_micro_f1=0.668708 weighted_macro_f1=0.048223 reward=0.648019 communication_bytes=180
+2026-08-01 13:31:25,602 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=43 epoch=5 step=4300 subset=7 weighted_micro_f1=0.668671 weighted_macro_f1=0.048256 reward=0.647992 communication_bytes=180
+2026-08-01 13:31:27,633 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=44 epoch=5 step=4400 subset=11 weighted_micro_f1=0.599243 weighted_macro_f1=0.037612 reward=0.494432 communication_bytes=260
+2026-08-01 13:31:29,635 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=45 epoch=5 step=4500 subset=7 weighted_micro_f1=0.668548 weighted_macro_f1=0.048191 reward=0.648642 communication_bytes=180
+2026-08-01 13:31:31,615 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=46 epoch=5 step=4600 subset=7 weighted_micro_f1=0.668628 weighted_macro_f1=0.048216 reward=0.648511 communication_bytes=180
+2026-08-01 13:31:33,472 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=47 epoch=5 step=4700 subset=7 weighted_micro_f1=0.667665 weighted_macro_f1=0.047676 reward=0.647438 communication_bytes=180
+2026-08-01 13:31:35,390 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=48 epoch=5 step=4800 subset=7 weighted_micro_f1=0.668539 weighted_macro_f1=0.048179 reward=0.648123 communication_bytes=180
+2026-08-01 13:31:37,396 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=49 epoch=5 step=4900 subset=7 weighted_micro_f1=0.668751 weighted_macro_f1=0.048288 reward=0.648195 communication_bytes=180
+2026-08-01 13:31:39,296 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=50 epoch=5 step=5000 subset=7 weighted_micro_f1=0.668682 weighted_macro_f1=0.048239 reward=0.647884 communication_bytes=180
+2026-08-01 13:31:39,354 | fedcaps-coordinator | INFO | PPO epoch 5 best reward 0.648642 weighted Micro-F1 0.668548 subset 7
+2026-08-01 13:31:41,358 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=51 epoch=6 step=5100 subset=7 weighted_micro_f1=0.668714 weighted_macro_f1=0.048228 reward=0.647971 communication_bytes=180
+2026-08-01 13:31:43,243 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=52 epoch=6 step=5200 subset=7 weighted_micro_f1=0.668671 weighted_macro_f1=0.048199 reward=0.648046 communication_bytes=180
+2026-08-01 13:31:45,248 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=53 epoch=6 step=5300 subset=7 weighted_micro_f1=0.668664 weighted_macro_f1=0.048219 reward=0.647997 communication_bytes=180
+2026-08-01 13:31:47,181 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=54 epoch=6 step=5400 subset=7 weighted_micro_f1=0.668622 weighted_macro_f1=0.048201 reward=0.647980 communication_bytes=180
+2026-08-01 13:31:49,089 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=55 epoch=6 step=5500 subset=7 weighted_micro_f1=0.668732 weighted_macro_f1=0.048262 reward=0.648015 communication_bytes=180
+2026-08-01 13:31:51,081 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=56 epoch=6 step=5600 subset=7 weighted_micro_f1=0.668715 weighted_macro_f1=0.048224 reward=0.648005 communication_bytes=180
+2026-08-01 13:31:52,969 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=57 epoch=6 step=5700 subset=7 weighted_micro_f1=0.668609 weighted_macro_f1=0.048223 reward=0.647983 communication_bytes=180
+2026-08-01 13:31:54,867 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=58 epoch=6 step=5800 subset=7 weighted_micro_f1=0.668754 weighted_macro_f1=0.048286 reward=0.648013 communication_bytes=180
+2026-08-01 13:31:56,735 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=59 epoch=6 step=5900 subset=7 weighted_micro_f1=0.668582 weighted_macro_f1=0.048192 reward=0.647990 communication_bytes=180
+2026-08-01 13:31:58,635 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=60 epoch=6 step=6000 subset=7 weighted_micro_f1=0.668621 weighted_macro_f1=0.048195 reward=0.647998 communication_bytes=180
+2026-08-01 13:31:58,695 | fedcaps-coordinator | INFO | PPO epoch 6 best reward 0.648046 weighted Micro-F1 0.668671 subset 7
+2026-08-01 13:32:00,694 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=61 epoch=7 step=6100 subset=7 weighted_micro_f1=0.668669 weighted_macro_f1=0.048193 reward=0.648009 communication_bytes=180
+2026-08-01 13:32:02,628 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=62 epoch=7 step=6200 subset=7 weighted_micro_f1=0.668614 weighted_macro_f1=0.048199 reward=0.647996 communication_bytes=180
+2026-08-01 13:32:04,506 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=63 epoch=7 step=6300 subset=7 weighted_micro_f1=0.668716 weighted_macro_f1=0.048189 reward=0.648007 communication_bytes=180
+2026-08-01 13:32:06,472 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=64 epoch=7 step=6400 subset=7 weighted_micro_f1=0.668660 weighted_macro_f1=0.048238 reward=0.647997 communication_bytes=180
+2026-08-01 13:32:08,450 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=65 epoch=7 step=6500 subset=7 weighted_micro_f1=0.668658 weighted_macro_f1=0.048247 reward=0.647997 communication_bytes=180
+2026-08-01 13:32:10,295 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=66 epoch=7 step=6600 subset=7 weighted_micro_f1=0.668615 weighted_macro_f1=0.048208 reward=0.647996 communication_bytes=180
+2026-08-01 13:32:12,191 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=67 epoch=7 step=6700 subset=7 weighted_micro_f1=0.668671 weighted_macro_f1=0.048235 reward=0.648006 communication_bytes=180
+2026-08-01 13:32:14,126 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=68 epoch=7 step=6800 subset=7 weighted_micro_f1=0.668652 weighted_macro_f1=0.048240 reward=0.648001 communication_bytes=180
+2026-08-01 13:32:16,059 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=69 epoch=7 step=6900 subset=7 weighted_micro_f1=0.668213 weighted_macro_f1=0.047978 reward=0.647954 communication_bytes=180
+2026-08-01 13:32:18,024 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=70 epoch=7 step=7000 subset=7 weighted_micro_f1=0.668273 weighted_macro_f1=0.048056 reward=0.647995 communication_bytes=180
+2026-08-01 13:32:18,084 | fedcaps-coordinator | INFO | PPO epoch 7 best reward 0.648009 weighted Micro-F1 0.668669 subset 7
+2026-08-01 13:32:19,960 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=71 epoch=8 step=7100 subset=7 weighted_micro_f1=0.668653 weighted_macro_f1=0.048222 reward=0.648052 communication_bytes=180
+2026-08-01 13:32:21,884 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=72 epoch=8 step=7200 subset=7 weighted_micro_f1=0.668592 weighted_macro_f1=0.048241 reward=0.648010 communication_bytes=180
+2026-08-01 13:32:23,797 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=73 epoch=8 step=7300 subset=7 weighted_micro_f1=0.668638 weighted_macro_f1=0.048221 reward=0.647991 communication_bytes=180
+2026-08-01 13:32:25,709 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=74 epoch=8 step=7400 subset=7 weighted_micro_f1=0.668664 weighted_macro_f1=0.048206 reward=0.647995 communication_bytes=180
+2026-08-01 13:32:27,651 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=75 epoch=8 step=7500 subset=7 weighted_micro_f1=0.668673 weighted_macro_f1=0.048226 reward=0.648002 communication_bytes=180
+2026-08-01 13:32:29,597 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=76 epoch=8 step=7600 subset=7 weighted_micro_f1=0.668545 weighted_macro_f1=0.048235 reward=0.647990 communication_bytes=180
+2026-08-01 13:32:31,524 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=77 epoch=8 step=7700 subset=7 weighted_micro_f1=0.668613 weighted_macro_f1=0.048197 reward=0.648003 communication_bytes=180
+2026-08-01 13:32:33,426 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=78 epoch=8 step=7800 subset=7 weighted_micro_f1=0.668633 weighted_macro_f1=0.048266 reward=0.648006 communication_bytes=180
+2026-08-01 13:32:35,284 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=79 epoch=8 step=7900 subset=7 weighted_micro_f1=0.668715 weighted_macro_f1=0.048216 reward=0.648010 communication_bytes=180
+2026-08-01 13:32:37,197 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=80 epoch=8 step=8000 subset=7 weighted_micro_f1=0.668712 weighted_macro_f1=0.048236 reward=0.648002 communication_bytes=180
+2026-08-01 13:32:37,258 | fedcaps-coordinator | INFO | PPO epoch 8 best reward 0.648052 weighted Micro-F1 0.668653 subset 7
+2026-08-01 13:32:39,199 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=81 epoch=9 step=8100 subset=7 weighted_micro_f1=0.668507 weighted_macro_f1=0.048204 reward=0.647977 communication_bytes=180
+2026-08-01 13:32:41,159 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=82 epoch=9 step=8200 subset=7 weighted_micro_f1=0.668661 weighted_macro_f1=0.048205 reward=0.648005 communication_bytes=180
+2026-08-01 13:32:43,147 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=83 epoch=9 step=8300 subset=7 weighted_micro_f1=0.668801 weighted_macro_f1=0.048213 reward=0.648022 communication_bytes=180
+2026-08-01 13:32:45,005 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=84 epoch=9 step=8400 subset=7 weighted_micro_f1=0.668513 weighted_macro_f1=0.048110 reward=0.647980 communication_bytes=180
+2026-08-01 13:32:46,883 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=85 epoch=9 step=8500 subset=7 weighted_micro_f1=0.668667 weighted_macro_f1=0.048174 reward=0.648002 communication_bytes=180
+2026-08-01 13:32:48,800 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=86 epoch=9 step=8600 subset=7 weighted_micro_f1=0.668677 weighted_macro_f1=0.048232 reward=0.648005 communication_bytes=180
+2026-08-01 13:32:50,701 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=87 epoch=9 step=8700 subset=7 weighted_micro_f1=0.668680 weighted_macro_f1=0.048272 reward=0.648003 communication_bytes=180
+2026-08-01 13:32:52,630 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=88 epoch=9 step=8800 subset=7 weighted_micro_f1=0.668699 weighted_macro_f1=0.048223 reward=0.648002 communication_bytes=180
+2026-08-01 13:32:54,571 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=89 epoch=9 step=8900 subset=7 weighted_micro_f1=0.668782 weighted_macro_f1=0.048246 reward=0.648009 communication_bytes=180
+2026-08-01 13:32:56,524 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=90 epoch=9 step=9000 subset=7 weighted_micro_f1=0.668655 weighted_macro_f1=0.048186 reward=0.647991 communication_bytes=180
+2026-08-01 13:32:56,584 | fedcaps-coordinator | INFO | PPO epoch 9 best reward 0.648022 weighted Micro-F1 0.668801 subset 7
+2026-08-01 13:32:58,526 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=91 epoch=10 step=9100 subset=7 weighted_micro_f1=0.668677 weighted_macro_f1=0.048197 reward=0.647996 communication_bytes=180
+2026-08-01 13:33:00,423 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=92 epoch=10 step=9200 subset=7 weighted_micro_f1=0.668377 weighted_macro_f1=0.048145 reward=0.647969 communication_bytes=180
+2026-08-01 13:33:02,279 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=93 epoch=10 step=9300 subset=7 weighted_micro_f1=0.668664 weighted_macro_f1=0.048229 reward=0.648014 communication_bytes=180
+2026-08-01 13:33:04,266 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=94 epoch=10 step=9400 subset=7 weighted_micro_f1=0.668716 weighted_macro_f1=0.048239 reward=0.648018 communication_bytes=180
+2026-08-01 13:33:06,198 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=95 epoch=10 step=9500 subset=7 weighted_micro_f1=0.668764 weighted_macro_f1=0.048230 reward=0.648014 communication_bytes=180
+2026-08-01 13:33:08,152 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=96 epoch=10 step=9600 subset=7 weighted_micro_f1=0.668459 weighted_macro_f1=0.048146 reward=0.647974 communication_bytes=180
+2026-08-01 13:33:10,027 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=97 epoch=10 step=9700 subset=7 weighted_micro_f1=0.668636 weighted_macro_f1=0.048251 reward=0.648001 communication_bytes=180
+2026-08-01 13:33:11,993 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=98 epoch=10 step=9800 subset=7 weighted_micro_f1=0.668525 weighted_macro_f1=0.048174 reward=0.647992 communication_bytes=180
+2026-08-01 13:33:13,927 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=99 epoch=10 step=9900 subset=7 weighted_micro_f1=0.668686 weighted_macro_f1=0.048204 reward=0.648012 communication_bytes=180
+2026-08-01 13:33:15,870 | fedcaps-coordinator | INFO | [STAGE PPO] calibration candidate=100 epoch=10 step=10000 subset=7 weighted_micro_f1=0.668693 weighted_macro_f1=0.048216 reward=0.648009 communication_bytes=180
+2026-08-01 13:33:15,937 | fedcaps-coordinator | INFO | PPO epoch 10 best reward 0.648018 weighted Micro-F1 0.668716 subset 7
+2026-08-01 13:33:15,938 | fedcaps-coordinator | INFO | [STAGE PPO] Complete selected_subset=7 best_reward=0.652063 weighted_micro_f1=0.668681 candidates=100 seconds=195.45
+2026-08-01 13:33:15,966 | fedcaps-coordinator | INFO | [STAGE selection] Selected feature_count=7 ids=[3, 4, 7, 9, 10, 21, 24] names=['UDP', 'fin_count', 'syn_count', 'Rate', 'IAT', 'ICMP', 'DNS'] reward=0.652063 weighted_micro_f1=0.668681
+2026-08-01 13:33:15,966 | fedcaps-coordinator | INFO | [STAGE final-train] Dispatching full-data personalized training to both GPUs
+2026-08-01 13:45:25,844 | fedcaps-coordinator | INFO | [STAGE final-train] Complete clients=10 history_rows=100 worker_seconds={'0': 729.775097191, '1': 608.7167603460002} wall_seconds=729.88
+2026-08-01 13:45:25,844 | fedcaps-coordinator | INFO | [STAGE final-test] Dispatching global-test evaluation for 10 personalized models
+2026-08-01 13:46:32,284 | fedcaps-coordinator | INFO | [STAGE final-test] Complete personalized_results=10 wall_seconds=66.44
+2026-08-01 13:46:32,299 | fedcaps-coordinator | INFO | [RESULT] weighted_accuracy=0.354991 weighted_macro_f1=0.104478 weighted_f1=0.255629 unweighted_accuracy=0.279071
+2026-08-01 13:46:34,425 | fedcaps-coordinator | INFO | Completed fedcaps_ciciot2023_6cnn1d_3gru_1transformer selected_features=7 total_pipeline_seconds=2592.51 output_dir=/kaggle/working/fedcaps_ciciot2023_6cnn1d_3gru_1transformer

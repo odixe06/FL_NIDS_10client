@@ -1,0 +1,20 @@
+{
+  "preprocessing_seconds": 332.754915014,
+  "benchmark_and_cache_seconds": 27.188397769000062,
+  "marlfs_seconds": 1018.029009719,
+  "marlfs_worker_seconds": {
+    "0": 557.636152624,
+    "1": 1007.105030956
+  },
+  "permutation_augmentation_seconds": 10.801547944999811,
+  "encoder_decoder_seconds": 721.713518671,
+  "ppo_search_and_feedback_seconds": 328.6935494590002,
+  "final_training_seconds": 875.8559674979997,
+  "final_training_worker_seconds": {
+    "0": 864.580260706,
+    "1": 875.7335586590002
+  },
+  "final_test_seconds": 97.66345280800033,
+  "plotting_seconds": 2.6443878420000146,
+  "entry_point_seconds": 3410.697862825
+}

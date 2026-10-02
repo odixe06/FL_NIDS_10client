@@ -1,0 +1,103 @@
+{
+  "model_state_bytes": 145312,
+  "formula": "2 * selected_clients * model_state_bytes",
+  "total_bytes": 10462464,
+  "total_mib": 9.977783203125,
+  "rounds": [
+    {
+      "round": 1,
+      "selected_clients": 10,
+      "model_state_bytes": 145312,
+      "bytes_round": 2906240,
+      "mib_round": 2.7716064453125,
+      "bytes_cumulative": 2906240,
+      "mib_cumulative": 2.7716064453125
+    },
+    {
+      "round": 2,
+      "selected_clients": 3,
+      "model_state_bytes": 145312,
+      "bytes_round": 871872,
+      "mib_round": 0.83148193359375,
+      "bytes_cumulative": 3778112,
+      "mib_cumulative": 3.60308837890625
+    },
+    {
+      "round": 3,
+      "selected_clients": 3,
+      "model_state_bytes": 145312,
+      "bytes_round": 871872,
+      "mib_round": 0.83148193359375,
+      "bytes_cumulative": 4649984,
+      "mib_cumulative": 4.4345703125
+    },
+    {
+      "round": 4,
+      "selected_clients": 2,
+      "model_state_bytes": 145312,
+      "bytes_round": 581248,
+      "mib_round": 0.5543212890625,
+      "bytes_cumulative": 5231232,
+      "mib_cumulative": 4.9888916015625
+    },
+    {
+      "round": 5,
+      "selected_clients": 2,
+      "model_state_bytes": 145312,
+      "bytes_round": 581248,
+      "mib_round": 0.5543212890625,
+      "bytes_cumulative": 5812480,
+      "mib_cumulative": 5.543212890625
+    },
+    {
+      "round": 6,
+      "selected_clients": 2,
+      "model_state_bytes": 145312,
+      "bytes_round": 581248,
+      "mib_round": 0.5543212890625,
+      "bytes_cumulative": 6393728,
+      "mib_cumulative": 6.0975341796875
+    },
+    {
+      "round": 7,
+      "selected_clients": 2,
+      "model_state_bytes": 145312,
+      "bytes_round": 581248,
+      "mib_round": 0.5543212890625,
+      "bytes_cumulative": 6974976,
+      "mib_cumulative": 6.65185546875
+    },
+    {
+      "round": 8,
+      "selected_clients": 4,
+      "model_state_bytes": 145312,
+      "bytes_round": 1162496,
+      "mib_round": 1.108642578125,
+      "bytes_cumulative": 8137472,
+      "mib_cumulative": 7.760498046875
+    },
+    {
+      "round": 9,
+      "selected_clients": 4,
+      "model_state_bytes": 145312,
+      "bytes_round": 1162496,
+      "mib_round": 1.108642578125,
+      "bytes_cumulative": 9299968,
+      "mib_cumulative": 8.869140625
+    },
+    {
+      "round": 10,
+      "selected_clients": 4,
+      "model_state_bytes": 145312,
+      "bytes_round": 1162496,
+      "mib_round": 1.108642578125,
+      "bytes_cumulative": 10462464,
+      "mib_cumulative": 9.977783203125
+    }
+  ],
+  "ddp_gradient_allreduce_estimate": {
+    "enabled": false,
+    "bytes": 0,
+    "mib": 0.0
+  }
+}

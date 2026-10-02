@@ -1,0 +1,15 @@
+Preprocessing complete: 36,014,594 client rows, 9,003,649 test rows, 647.32 seconds
+2026-07-31 06:17:45,825 | INFO | MainProcess | Initial gru state has 40,034 parameters and hash 3d5882a0096379533bca7534c4339a1ef27816c468bec97264e2d60d0484a5c6
+2026-07-31 06:19:47,761 | INFO | MainProcess | Server pretrain complete in 115.85 seconds; state hash bb41ccc5ef4a17edc76f46a00e33460dc754a0b7beec628a59593edc06a301ae
+2026-07-31 06:19:49,396 | INFO | MainProcess | Client assignment: {0: [1, 2, 4, 8], 1: [3, 5, 6, 7, 9, 10]}
+2026-07-31 06:21:35,747 | INFO | MainProcess | Round 1 complete: threshold=0.953678 selected_next=[1, 2, 3, 8] global_macro_f1=0.364049
+2026-07-31 06:23:04,808 | INFO | MainProcess | Round 2 complete: threshold=0.967037 selected_next=[1, 2, 3, 8] global_macro_f1=0.350473
+2026-07-31 06:24:34,392 | INFO | MainProcess | Round 3 complete: threshold=0.968609 selected_next=[1, 2, 3, 8] global_macro_f1=0.323327
+2026-07-31 06:26:03,134 | INFO | MainProcess | Round 4 complete: threshold=0.968852 selected_next=[1, 2, 3, 8] global_macro_f1=0.319807
+2026-07-31 06:27:32,733 | INFO | MainProcess | Round 5 complete: threshold=0.969386 selected_next=[1, 2, 3, 8] global_macro_f1=0.321061
+2026-07-31 06:29:02,032 | INFO | MainProcess | Round 6 complete: threshold=0.969620 selected_next=[1, 2, 3, 8] global_macro_f1=0.322066
+2026-07-31 06:30:31,195 | INFO | MainProcess | Round 7 complete: threshold=0.969842 selected_next=[1, 2, 3, 8] global_macro_f1=0.324427
+2026-07-31 06:32:00,532 | INFO | MainProcess | Round 8 complete: threshold=0.970076 selected_next=[1, 2, 3, 8] global_macro_f1=0.324567
+2026-07-31 06:33:29,766 | INFO | MainProcess | Round 9 complete: threshold=0.970687 selected_next=[1, 2, 3, 8] global_macro_f1=0.328058
+2026-07-31 06:34:59,472 | INFO | MainProcess | Round 10 complete: threshold=0.971235 selected_next=[1, 2, 3, 8] global_macro_f1=0.332452
+2026-07-31 06:35:41,941 | INFO | MainProcess | Run completed: best round 1, global test accuracy 0.725690

@@ -1,0 +1,24 @@
+{
+  "logical_federated": {
+    "proxy_model_state_bytes": 145312,
+    "clients_per_round": 10,
+    "rounds": 10,
+    "bytes_per_round": 2906240,
+    "mib_per_round": 2.7716064453125,
+    "total_bytes": 29062400,
+    "total_mib": 27.716064453125,
+    "formula": "2 * clients * proxy_model_state_bytes",
+    "excludes_personalized_models": true
+  },
+  "ddp_gradient_allreduce_estimate": {
+    "enabled": false,
+    "total_bytes": 0,
+    "total_mib": 0.0,
+    "reason": "client_parallel execution has no gradient collective"
+  },
+  "client_parallel_interprocess_payload": {
+    "total_bytes": 35231172,
+    "total_mib": 33.599063873291016,
+    "excluded_from_logical_federated_cost": true
+  }
+}

@@ -1,0 +1,5 @@
+outs:
+- md5: ad57cb29255a5a49582bdc402b62487e
+  size: 6719498
+  hash: md5
+  path: report.docx

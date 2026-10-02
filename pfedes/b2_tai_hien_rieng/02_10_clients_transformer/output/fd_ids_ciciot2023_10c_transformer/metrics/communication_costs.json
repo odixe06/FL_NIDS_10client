@@ -1,0 +1,104 @@
+{
+  "method": "pFedES",
+  "logical_scope": "global proxy download plus local proxy upload only",
+  "model_state_bytes": 228,
+  "total_bytes": 45600,
+  "total_mib": 0.043487548828125,
+  "ddp_gradient_allreduce_estimate": {
+    "enabled": false,
+    "bytes": 0,
+    "mib": 0.0
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "selected_clients": 10,
+      "proxy_state_bytes": 228,
+      "round_bytes": 4560,
+      "round_mib": 0.0043487548828125,
+      "cumulative_bytes": 4560,
+      "cumulative_mib": 0.0043487548828125
+    },
+    {
+      "round": 2,
+      "selected_clients": 10,
+      "proxy_state_bytes": 228,
+      "round_bytes": 4560,
+      "round_mib": 0.0043487548828125,
+      "cumulative_bytes": 9120,
+      "cumulative_mib": 0.008697509765625
+    },
+    {
+      "round": 3,
+      "selected_clients": 10,
+      "proxy_state_bytes": 228,
+      "round_bytes": 4560,
+      "round_mib": 0.0043487548828125,
+      "cumulative_bytes": 13680,
+      "cumulative_mib": 0.0130462646484375
+    },
+    {
+      "round": 4,
+      "selected_clients": 10,
+      "proxy_state_bytes": 228,
+      "round_bytes": 4560,
+      "round_mib": 0.0043487548828125,
+      "cumulative_bytes": 18240,
+      "cumulative_mib": 0.01739501953125
+    },
+    {
+      "round": 5,
+      "selected_clients": 10,
+      "proxy_state_bytes": 228,
+      "round_bytes": 4560,
+      "round_mib": 0.0043487548828125,
+      "cumulative_bytes": 22800,
+      "cumulative_mib": 0.0217437744140625
+    },
+    {
+      "round": 6,
+      "selected_clients": 10,
+      "proxy_state_bytes": 228,
+      "round_bytes": 4560,
+      "round_mib": 0.0043487548828125,
+      "cumulative_bytes": 27360,
+      "cumulative_mib": 0.026092529296875
+    },
+    {
+      "round": 7,
+      "selected_clients": 10,
+      "proxy_state_bytes": 228,
+      "round_bytes": 4560,
+      "round_mib": 0.0043487548828125,
+      "cumulative_bytes": 31920,
+      "cumulative_mib": 0.0304412841796875
+    },
+    {
+      "round": 8,
+      "selected_clients": 10,
+      "proxy_state_bytes": 228,
+      "round_bytes": 4560,
+      "round_mib": 0.0043487548828125,
+      "cumulative_bytes": 36480,
+      "cumulative_mib": 0.0347900390625
+    },
+    {
+      "round": 9,
+      "selected_clients": 10,
+      "proxy_state_bytes": 228,
+      "round_bytes": 4560,
+      "round_mib": 0.0043487548828125,
+      "cumulative_bytes": 41040,
+      "cumulative_mib": 0.0391387939453125
+    },
+    {
+      "round": 10,
+      "selected_clients": 10,
+      "proxy_state_bytes": 228,
+      "round_bytes": 4560,
+      "round_mib": 0.0043487548828125,
+      "cumulative_bytes": 45600,
+      "cumulative_mib": 0.043487548828125
+    }
+  ]
+}

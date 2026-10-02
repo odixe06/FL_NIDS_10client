@@ -1,0 +1,29 @@
+{
+  "logical_fedcaps": {
+    "rows": [
+      {
+        "phase": "feature_record_upload",
+        "bytes": 125978,
+        "mib": 0.12014198303222656
+      },
+      {
+        "phase": "server_permutation_augmentation",
+        "bytes": 0,
+        "mib": 0.0
+      },
+      {
+        "phase": "ppo_candidate_feedback",
+        "bytes": 21720,
+        "mib": 0.02071380615234375
+      }
+    ],
+    "total_bytes": 147698,
+    "total_mib": 0.1408557891845703
+  },
+  "ddp_gradient_allreduce_estimate": {
+    "enabled": false,
+    "bytes": 0,
+    "mib": 0.0
+  },
+  "classifier_parameter_communication_bytes": 0
+}

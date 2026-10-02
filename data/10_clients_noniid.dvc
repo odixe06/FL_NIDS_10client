@@ -1,0 +1,6 @@
+outs:
+- md5: 9dbc33193065f4ff5ba57fa500f2411c.dir
+  size: 9901207560
+  nfiles: 10
+  hash: md5
+  path: 10_clients_noniid

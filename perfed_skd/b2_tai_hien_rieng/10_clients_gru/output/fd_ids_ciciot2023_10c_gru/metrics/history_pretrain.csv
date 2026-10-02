@@ -1,0 +1,2 @@
+epoch,train_examples,optimizer_steps,cross_entropy_loss,epoch_seconds,gpu_id,peak_allocated_bytes,peak_reserved_bytes
+1,36014594,35171,1.0051288199639266,115.84780739199994,0,186320384,266338304

@@ -1,0 +1,7 @@
+2026-07-30 17:42:41 | INFO | Worker 1 started on Tesla T4
+2026-07-30 17:42:47 | INFO | Cached client 3 on GPU 1: 412.46 MiB
+2026-07-30 17:42:48 | INFO | Cached client 4 on GPU 1: 212.43 MiB
+2026-07-30 17:42:48 | INFO | Cached client 5 on GPU 1: 280.09 MiB
+2026-07-30 17:42:48 | INFO | Cached client 6 on GPU 1: 297.21 MiB
+2026-07-30 17:42:48 | INFO | Cached client 9 on GPU 1: 481.69 MiB
+2026-07-30 17:42:49 | INFO | Cached client 10 on GPU 1: 438.70 MiB
